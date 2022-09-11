@@ -1,0 +1,1149 @@
+scons: Reading SConscript files ...
+INFO: SCons 4.4.0 is using the following Python interpreter:
+/data/data/com.termux/files/usr/bin/python3.9 (Python 3.9)
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+INFO: Configuration variables read from 'cantera.conf' and command line:
+    prefix = '/data/data/com.termux/files/usr/'
+    python_prefix = '/data/data/com.termux/files/usr/lib/python3.9'
+
+Checking for C++ header file cmath... (cached) yes
+Checking for C++ header file fmt/ostream.h... (cached) yes
+INFO: Using system installation of fmt library.
+INFO: Found fmt version 8.1.1
+Checking for YAML::Node().Mark()... (cached) yes
+INFO: Using system installation of yaml-cpp library.
+Checking for C++ header file gtest/gtest.h... (cached) yes
+Checking for C++ header file gmock/gmock.h... (cached) yes
+INFO: Using system installation of Googletest
+Checking for C++ header file eigen3/Eigen/Dense... (cached) yes
+INFO: Using system installation of Eigen.
+INFO: Found Eigen version 3.4.0
+Checking whether __GLIBCXX__ is declared... (cached) no
+Checking whether _LIBCPP_VERSION is declared... (cached) yes
+Checking whether __clang__ is declared... (cached) yes
+Checking for C++ library iomp5... (cached) no
+Checking for C++ library omp... (cached) yes
+INFO: Found Boost version 1.78
+Checking whether boost::core::demangle is declared... (cached) yes
+Checking for CVodeCreate(CV_BDF, CV_NEWTON) in C++ library sundials_cvodes... (cached) no
+Checking for CVodeCreate(CV_BDF) in C++ library sundials_cvodes... (cached) yes
+Checking for double x; log(x) in C library None... (cached) yes
+INFO: Using system installation of Sundials version 5.6.1.
+Checking whether SUNDIALS_SUNLINSOL_LAPACKBAND is declared... (cached) no
+Checking whether SUNDIALS_SUNLINSOL_LAPACKDENSE is declared... (cached) no
+INFO: Skipping compilation of the Fortran 90 interface.
+INFO: Using NumPy version 1.20.3
+INFO: Using Cython version 0.29.21
+INFO: Building the full Python package for Python 3.9
+scons: done reading SConscript files.
+scons: Building targets ...
+Install file: "include/cantera/base/AnyMap.h" as "/data/data/com.termux/files/usr/include/cantera/base/AnyMap.h"
+Install file: "include/cantera/base/AnyMap.inl.h" as "/data/data/com.termux/files/usr/include/cantera/base/AnyMap.inl.h"
+Install file: "include/cantera/base/Array.h" as "/data/data/com.termux/files/usr/include/cantera/base/Array.h"
+Install file: "include/cantera/base/Delegator.h" as "/data/data/com.termux/files/usr/include/cantera/base/Delegator.h"
+Install file: "include/cantera/base/FactoryBase.h" as "/data/data/com.termux/files/usr/include/cantera/base/FactoryBase.h"
+Install file: "include/cantera/base/Interface.h" as "/data/data/com.termux/files/usr/include/cantera/base/Interface.h"
+Install file: "include/cantera/base/NoExitLogger.h" as "/data/data/com.termux/files/usr/include/cantera/base/NoExitLogger.h"
+Install file: "include/cantera/base/Solution.h" as "/data/data/com.termux/files/usr/include/cantera/base/Solution.h"
+Install file: "include/cantera/base/Units.h" as "/data/data/com.termux/files/usr/include/cantera/base/Units.h"
+Install file: "include/cantera/base/ValueCache.h" as "/data/data/com.termux/files/usr/include/cantera/base/ValueCache.h"
+Install file: "include/cantera/base/YamlWriter.h" as "/data/data/com.termux/files/usr/include/cantera/base/YamlWriter.h"
+Install file: "include/cantera/base/clockWC.h" as "/data/data/com.termux/files/usr/include/cantera/base/clockWC.h"
+ConfigBuilder(["build/src/config.h.build"], ["include/cantera/base/config.h.in"])
+INFO: Generating build/src/config.h.build with the following settings:
+    CANTERA_SHORT_VERSION               "2.6"
+    CANTERA_VERSION                     "2.6.0"
+    CT_LEGACY_RATE_CONSTANTS            1
+    CT_SUNDIALS_USE_LAPACK              0
+    CT_SUNDIALS_VERSION                 56
+    CT_USE_DEMANGLE                     1
+    CT_USE_SYSTEM_EIGEN                 1
+    CT_USE_SYSTEM_EIGEN_PREFIXED        1
+    CT_USE_SYSTEM_FMT                   1
+    CT_USE_SYSTEM_YAMLCPP               1
+    FTN_TRAILING_UNDERSCORE             1
+    LAPACK_FTN_STRING_LEN_AT_END        1
+    LAPACK_FTN_TRAILING_UNDERSCORE      1
+    LAPACK_NAMES_LOWERCASE              1
+    CT_NO_LEGACY_REACTIONS_26           *undefined*
+    CT_USE_LAPACK                       *undefined*
+    DARWIN                              *undefined*
+    SOLARIS                             *undefined*
+Install file: "include/cantera/base/config.h" as "/data/data/com.termux/files/usr/include/cantera/base/config.h"
+Install file: "include/cantera/base/config.h.in" as "/data/data/com.termux/files/usr/include/cantera/base/config.h.in"
+Install file: "include/cantera/base/ct_defs.h" as "/data/data/com.termux/files/usr/include/cantera/base/ct_defs.h"
+Install file: "include/cantera/base/ctexceptions.h" as "/data/data/com.termux/files/usr/include/cantera/base/ctexceptions.h"
+Install file: "include/cantera/base/ctml.h" as "/data/data/com.termux/files/usr/include/cantera/base/ctml.h"
+Install file: "include/cantera/base/fmt.h" as "/data/data/com.termux/files/usr/include/cantera/base/fmt.h"
+Install file: "include/cantera/base/global.h" as "/data/data/com.termux/files/usr/include/cantera/base/global.h"
+Install file: "include/cantera/base/logger.h" as "/data/data/com.termux/files/usr/include/cantera/base/logger.h"
+Install file: "include/cantera/base/plots.h" as "/data/data/com.termux/files/usr/include/cantera/base/plots.h"
+Install file: "include/cantera/base/stringUtils.h" as "/data/data/com.termux/files/usr/include/cantera/base/stringUtils.h"
+Install file: "include/cantera/base/utilities.h" as "/data/data/com.termux/files/usr/include/cantera/base/utilities.h"
+Install file: "include/cantera/base/xml.h" as "/data/data/com.termux/files/usr/include/cantera/base/xml.h"
+Install file: "include/cantera/base/yaml.h" as "/data/data/com.termux/files/usr/include/cantera/base/yaml.h"
+Install file: "include/cantera/clib/clib_defs.h" as "/data/data/com.termux/files/usr/include/cantera/clib/clib_defs.h"
+Install file: "include/cantera/clib/ct.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ct.h"
+Install file: "include/cantera/clib/ctfunc.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ctfunc.h"
+Install file: "include/cantera/clib/ctmatlab.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ctmatlab.h"
+Install file: "include/cantera/clib/ctmultiphase.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ctmultiphase.h"
+Install file: "include/cantera/clib/ctonedim.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ctonedim.h"
+Install file: "include/cantera/clib/ctreactor.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ctreactor.h"
+Install file: "include/cantera/clib/ctrpath.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ctrpath.h"
+Install file: "include/cantera/clib/ctsurf.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ctsurf.h"
+Install file: "include/cantera/clib/ctxml.h" as "/data/data/com.termux/files/usr/include/cantera/clib/ctxml.h"
+Install file: "include/cantera/cython/funcWrapper.h" as "/data/data/com.termux/files/usr/include/cantera/cython/funcWrapper.h"
+Install file: "include/cantera/cython/wrappers.h" as "/data/data/com.termux/files/usr/include/cantera/cython/wrappers.h"
+Install file: "include/cantera/equil/ChemEquil.h" as "/data/data/com.termux/files/usr/include/cantera/equil/ChemEquil.h"
+Install file: "include/cantera/equil/MultiPhase.h" as "/data/data/com.termux/files/usr/include/cantera/equil/MultiPhase.h"
+Install file: "include/cantera/equil/MultiPhaseEquil.h" as "/data/data/com.termux/files/usr/include/cantera/equil/MultiPhaseEquil.h"
+Install file: "include/cantera/equil/vcs_MultiPhaseEquil.h" as "/data/data/com.termux/files/usr/include/cantera/equil/vcs_MultiPhaseEquil.h"
+Install file: "include/cantera/equil/vcs_SpeciesProperties.h" as "/data/data/com.termux/files/usr/include/cantera/equil/vcs_SpeciesProperties.h"
+Install file: "include/cantera/equil/vcs_VolPhase.h" as "/data/data/com.termux/files/usr/include/cantera/equil/vcs_VolPhase.h"
+Install file: "include/cantera/equil/vcs_defs.h" as "/data/data/com.termux/files/usr/include/cantera/equil/vcs_defs.h"
+Install file: "include/cantera/equil/vcs_internal.h" as "/data/data/com.termux/files/usr/include/cantera/equil/vcs_internal.h"
+Install file: "include/cantera/equil/vcs_solve.h" as "/data/data/com.termux/files/usr/include/cantera/equil/vcs_solve.h"
+Install file: "include/cantera/equil/vcs_species_thermo.h" as "/data/data/com.termux/files/usr/include/cantera/equil/vcs_species_thermo.h"
+Install file: "include/cantera/kinetics/Arrhenius.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/Arrhenius.h"
+Install file: "include/cantera/kinetics/BlowersMaselRate.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/BlowersMaselRate.h"
+Install file: "include/cantera/kinetics/BulkKinetics.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/BulkKinetics.h"
+Install file: "include/cantera/kinetics/ChebyshevRate.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/ChebyshevRate.h"
+Install file: "include/cantera/kinetics/Custom.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/Custom.h"
+Install file: "include/cantera/kinetics/EdgeKinetics.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/EdgeKinetics.h"
+Install file: "include/cantera/kinetics/Falloff.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/Falloff.h"
+Install file: "include/cantera/kinetics/FalloffFactory.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/FalloffFactory.h"
+Install file: "include/cantera/kinetics/FalloffMgr.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/FalloffMgr.h"
+Install file: "include/cantera/kinetics/GasKinetics.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/GasKinetics.h"
+Install file: "include/cantera/kinetics/Group.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/Group.h"
+Install file: "include/cantera/kinetics/ImplicitSurfChem.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/ImplicitSurfChem.h"
+Install file: "include/cantera/kinetics/InterfaceKinetics.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/InterfaceKinetics.h"
+Install file: "include/cantera/kinetics/InterfaceRate.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/InterfaceRate.h"
+Install file: "include/cantera/kinetics/Kinetics.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/Kinetics.h"
+Install file: "include/cantera/kinetics/KineticsFactory.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/KineticsFactory.h"
+Install file: "include/cantera/kinetics/MultiRate.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/MultiRate.h"
+Install file: "include/cantera/kinetics/MultiRateBase.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/MultiRateBase.h"
+Install file: "include/cantera/kinetics/PlogRate.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/PlogRate.h"
+Install file: "include/cantera/kinetics/RateCoeffMgr.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/RateCoeffMgr.h"
+Install file: "include/cantera/kinetics/Reaction.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/Reaction.h"
+Install file: "include/cantera/kinetics/ReactionData.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/ReactionData.h"
+Install file: "include/cantera/kinetics/ReactionPath.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/ReactionPath.h"
+Install file: "include/cantera/kinetics/ReactionRate.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/ReactionRate.h"
+Install file: "include/cantera/kinetics/ReactionRateFactory.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/ReactionRateFactory.h"
+Install file: "include/cantera/kinetics/RxnRates.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/RxnRates.h"
+Install file: "include/cantera/kinetics/StoichManager.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/StoichManager.h"
+Install file: "include/cantera/kinetics/ThirdBodyCalc.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/ThirdBodyCalc.h"
+Install file: "include/cantera/kinetics/TwoTempPlasmaRate.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/TwoTempPlasmaRate.h"
+Install file: "include/cantera/kinetics/importKinetics.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/importKinetics.h"
+Install file: "include/cantera/kinetics/reaction_defs.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/reaction_defs.h"
+Install file: "include/cantera/kinetics/solveSP.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics/solveSP.h"
+Install file: "include/cantera/kinetics.h" as "/data/data/com.termux/files/usr/include/cantera/kinetics.h"
+Install file: "include/cantera/numerics/BandMatrix.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/BandMatrix.h"
+Install file: "include/cantera/numerics/CVodesIntegrator.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/CVodesIntegrator.h"
+Install file: "include/cantera/numerics/DAE_Solver.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/DAE_Solver.h"
+Install file: "include/cantera/numerics/DenseMatrix.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/DenseMatrix.h"
+Install file: "include/cantera/numerics/Func1.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/Func1.h"
+Install file: "include/cantera/numerics/FuncEval.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/FuncEval.h"
+Install file: "include/cantera/numerics/GeneralMatrix.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/GeneralMatrix.h"
+Install file: "include/cantera/numerics/IDA_Solver.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/IDA_Solver.h"
+Install file: "include/cantera/numerics/Integrator.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/Integrator.h"
+Install file: "include/cantera/numerics/ResidEval.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/ResidEval.h"
+Install file: "include/cantera/numerics/ResidJacEval.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/ResidJacEval.h"
+Install file: "include/cantera/numerics/SundialsContext.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/SundialsContext.h"
+Install file: "include/cantera/numerics/ctlapack.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/ctlapack.h"
+Install file: "include/cantera/numerics/eigen_dense.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/eigen_dense.h"
+Install file: "include/cantera/numerics/eigen_sparse.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/eigen_sparse.h"
+Install file: "include/cantera/numerics/funcs.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/funcs.h"
+Install file: "include/cantera/numerics/polyfit.h" as "/data/data/com.termux/files/usr/include/cantera/numerics/polyfit.h"
+Install file: "include/cantera/oneD/Boundary1D.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/Boundary1D.h"
+Install file: "include/cantera/oneD/Domain1D.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/Domain1D.h"
+Install file: "include/cantera/oneD/Inlet1D.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/Inlet1D.h"
+Install file: "include/cantera/oneD/IonFlow.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/IonFlow.h"
+Install file: "include/cantera/oneD/MultiJac.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/MultiJac.h"
+Install file: "include/cantera/oneD/MultiNewton.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/MultiNewton.h"
+Install file: "include/cantera/oneD/OneDim.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/OneDim.h"
+Install file: "include/cantera/oneD/Sim1D.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/Sim1D.h"
+Install file: "include/cantera/oneD/StFlow.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/StFlow.h"
+Install file: "include/cantera/oneD/refine.h" as "/data/data/com.termux/files/usr/include/cantera/oneD/refine.h"
+Install file: "include/cantera/onedim.h" as "/data/data/com.termux/files/usr/include/cantera/onedim.h"
+Install file: "include/cantera/reactionpaths.h" as "/data/data/com.termux/files/usr/include/cantera/reactionpaths.h"
+Install file: "include/cantera/test/gtest_utils.h" as "/data/data/com.termux/files/usr/include/cantera/test/gtest_utils.h"
+Install file: "include/cantera/thermo/BinarySolutionTabulatedThermo.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/BinarySolutionTabulatedThermo.h"
+Install file: "include/cantera/thermo/ConstCpPoly.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/ConstCpPoly.h"
+Install file: "include/cantera/thermo/DebyeHuckel.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/DebyeHuckel.h"
+Install file: "include/cantera/thermo/EdgePhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/EdgePhase.h"
+Install file: "include/cantera/thermo/Elements.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/Elements.h"
+Install file: "include/cantera/thermo/GibbsExcessVPSSTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/GibbsExcessVPSSTP.h"
+Install file: "include/cantera/thermo/HMWSoln.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/HMWSoln.h"
+Install file: "include/cantera/thermo/IdealGasPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/IdealGasPhase.h"
+Install file: "include/cantera/thermo/IdealMolalSoln.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/IdealMolalSoln.h"
+Install file: "include/cantera/thermo/IdealSolidSolnPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/IdealSolidSolnPhase.h"
+Install file: "include/cantera/thermo/IdealSolnGasVPSS.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/IdealSolnGasVPSS.h"
+Install file: "include/cantera/thermo/IonsFromNeutralVPSSTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/IonsFromNeutralVPSSTP.h"
+Install file: "include/cantera/thermo/LatticePhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/LatticePhase.h"
+Install file: "include/cantera/thermo/LatticeSolidPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/LatticeSolidPhase.h"
+Install file: "include/cantera/thermo/MargulesVPSSTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/MargulesVPSSTP.h"
+Install file: "include/cantera/thermo/MaskellSolidSolnPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/MaskellSolidSolnPhase.h"
+Install file: "include/cantera/thermo/MetalPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/MetalPhase.h"
+Install file: "include/cantera/thermo/MixtureFugacityTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/MixtureFugacityTP.h"
+Install file: "include/cantera/thermo/MolalityVPSSTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/MolalityVPSSTP.h"
+Install file: "include/cantera/thermo/Mu0Poly.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/Mu0Poly.h"
+Install file: "include/cantera/thermo/MultiSpeciesThermo.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/MultiSpeciesThermo.h"
+Install file: "include/cantera/thermo/Nasa9Poly1.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/Nasa9Poly1.h"
+Install file: "include/cantera/thermo/Nasa9PolyMultiTempRegion.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/Nasa9PolyMultiTempRegion.h"
+Install file: "include/cantera/thermo/NasaPoly1.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/NasaPoly1.h"
+Install file: "include/cantera/thermo/NasaPoly2.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/NasaPoly2.h"
+Install file: "include/cantera/thermo/PDSS.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PDSS.h"
+Install file: "include/cantera/thermo/PDSSFactory.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PDSSFactory.h"
+Install file: "include/cantera/thermo/PDSS_ConstVol.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PDSS_ConstVol.h"
+Install file: "include/cantera/thermo/PDSS_HKFT.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PDSS_HKFT.h"
+Install file: "include/cantera/thermo/PDSS_IdealGas.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PDSS_IdealGas.h"
+Install file: "include/cantera/thermo/PDSS_IonsFromNeutral.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PDSS_IonsFromNeutral.h"
+Install file: "include/cantera/thermo/PDSS_SSVol.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PDSS_SSVol.h"
+Install file: "include/cantera/thermo/PDSS_Water.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PDSS_Water.h"
+Install file: "include/cantera/thermo/PengRobinson.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PengRobinson.h"
+Install file: "include/cantera/thermo/Phase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/Phase.h"
+Install file: "include/cantera/thermo/PlasmaPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PlasmaPhase.h"
+Install file: "include/cantera/thermo/PureFluidPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/PureFluidPhase.h"
+Install file: "include/cantera/thermo/RedlichKisterVPSSTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/RedlichKisterVPSSTP.h"
+Install file: "include/cantera/thermo/RedlichKwongMFTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/RedlichKwongMFTP.h"
+Install file: "include/cantera/thermo/ShomatePoly.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/ShomatePoly.h"
+Install file: "include/cantera/thermo/SingleSpeciesTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/SingleSpeciesTP.h"
+Install file: "include/cantera/thermo/Species.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/Species.h"
+Install file: "include/cantera/thermo/SpeciesThermoFactory.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/SpeciesThermoFactory.h"
+Install file: "include/cantera/thermo/SpeciesThermoInterpType.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/SpeciesThermoInterpType.h"
+Install file: "include/cantera/thermo/StoichSubstance.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/StoichSubstance.h"
+Install file: "include/cantera/thermo/SurfPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/SurfPhase.h"
+Install file: "include/cantera/thermo/ThermoFactory.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/ThermoFactory.h"
+Install file: "include/cantera/thermo/ThermoPhase.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/ThermoPhase.h"
+Install file: "include/cantera/thermo/VPStandardStateTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/VPStandardStateTP.h"
+Install file: "include/cantera/thermo/WaterProps.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/WaterProps.h"
+Install file: "include/cantera/thermo/WaterPropsIAPWS.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/WaterPropsIAPWS.h"
+Install file: "include/cantera/thermo/WaterPropsIAPWSphi.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/WaterPropsIAPWSphi.h"
+Install file: "include/cantera/thermo/WaterSSTP.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/WaterSSTP.h"
+Install file: "include/cantera/thermo/electrolytes.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/electrolytes.h"
+Install file: "include/cantera/thermo/speciesThermoTypes.h" as "/data/data/com.termux/files/usr/include/cantera/thermo/speciesThermoTypes.h"
+Install file: "include/cantera/thermo.h" as "/data/data/com.termux/files/usr/include/cantera/thermo.h"
+Install file: "include/cantera/tpx/Sub.h" as "/data/data/com.termux/files/usr/include/cantera/tpx/Sub.h"
+Install file: "include/cantera/tpx/utils.h" as "/data/data/com.termux/files/usr/include/cantera/tpx/utils.h"
+Install file: "include/cantera/transport/DustyGasTransport.h" as "/data/data/com.termux/files/usr/include/cantera/transport/DustyGasTransport.h"
+Install file: "include/cantera/transport/GasTransport.h" as "/data/data/com.termux/files/usr/include/cantera/transport/GasTransport.h"
+Install file: "include/cantera/transport/HighPressureGasTransport.h" as "/data/data/com.termux/files/usr/include/cantera/transport/HighPressureGasTransport.h"
+Install file: "include/cantera/transport/IonGasTransport.h" as "/data/data/com.termux/files/usr/include/cantera/transport/IonGasTransport.h"
+Install file: "include/cantera/transport/MixTransport.h" as "/data/data/com.termux/files/usr/include/cantera/transport/MixTransport.h"
+Install file: "include/cantera/transport/MultiTransport.h" as "/data/data/com.termux/files/usr/include/cantera/transport/MultiTransport.h"
+Install file: "include/cantera/transport/TransportBase.h" as "/data/data/com.termux/files/usr/include/cantera/transport/TransportBase.h"
+Install file: "include/cantera/transport/TransportData.h" as "/data/data/com.termux/files/usr/include/cantera/transport/TransportData.h"
+Install file: "include/cantera/transport/TransportFactory.h" as "/data/data/com.termux/files/usr/include/cantera/transport/TransportFactory.h"
+Install file: "include/cantera/transport/UnityLewisTransport.h" as "/data/data/com.termux/files/usr/include/cantera/transport/UnityLewisTransport.h"
+Install file: "include/cantera/transport/WaterTransport.h" as "/data/data/com.termux/files/usr/include/cantera/transport/WaterTransport.h"
+Install file: "include/cantera/transport.h" as "/data/data/com.termux/files/usr/include/cantera/transport.h"
+Install file: "include/cantera/zeroD/ConstPressureReactor.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/ConstPressureReactor.h"
+Install file: "include/cantera/zeroD/FlowDevice.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/FlowDevice.h"
+Install file: "include/cantera/zeroD/FlowDeviceFactory.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/FlowDeviceFactory.h"
+Install file: "include/cantera/zeroD/FlowReactor.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/FlowReactor.h"
+Install file: "include/cantera/zeroD/IdealGasConstPressureReactor.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/IdealGasConstPressureReactor.h"
+Install file: "include/cantera/zeroD/IdealGasReactor.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/IdealGasReactor.h"
+Install file: "include/cantera/zeroD/Reactor.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/Reactor.h"
+Install file: "include/cantera/zeroD/ReactorBase.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/ReactorBase.h"
+Install file: "include/cantera/zeroD/ReactorDelegator.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/ReactorDelegator.h"
+Install file: "include/cantera/zeroD/ReactorFactory.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/ReactorFactory.h"
+Install file: "include/cantera/zeroD/ReactorNet.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/ReactorNet.h"
+Install file: "include/cantera/zeroD/ReactorSurface.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/ReactorSurface.h"
+Install file: "include/cantera/zeroD/Reservoir.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/Reservoir.h"
+Install file: "include/cantera/zeroD/Wall.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/Wall.h"
+Install file: "include/cantera/zeroD/WallFactory.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/WallFactory.h"
+Install file: "include/cantera/zeroD/flowControllers.h" as "/data/data/com.termux/files/usr/include/cantera/zeroD/flowControllers.h"
+Install file: "include/cantera/zerodim.h" as "/data/data/com.termux/files/usr/include/cantera/zerodim.h"
+Install file: "build/data/KOH.cti" as "/data/data/com.termux/files/usr/share/cantera/data/KOH.cti"
+Install file: "build/data/KOH.xml" as "/data/data/com.termux/files/usr/share/cantera/data/KOH.xml"
+Install file: "build/data/KOH.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/KOH.yaml"
+Install file: "build/data/air.cti" as "/data/data/com.termux/files/usr/share/cantera/data/air.cti"
+Install file: "build/data/air.xml" as "/data/data/com.termux/files/usr/share/cantera/data/air.xml"
+Install file: "build/data/air.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/air.yaml"
+Install file: "build/data/airNASA9.cti" as "/data/data/com.termux/files/usr/share/cantera/data/airNASA9.cti"
+Install file: "build/data/airNASA9.xml" as "/data/data/com.termux/files/usr/share/cantera/data/airNASA9.xml"
+Install file: "build/data/airNASA9.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/airNASA9.yaml"
+Install file: "build/data/argon.cti" as "/data/data/com.termux/files/usr/share/cantera/data/argon.cti"
+Install file: "build/data/argon.xml" as "/data/data/com.termux/files/usr/share/cantera/data/argon.xml"
+Install file: "build/data/critical-properties.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/critical-properties.yaml"
+Install file: "build/data/diamond.cti" as "/data/data/com.termux/files/usr/share/cantera/data/diamond.cti"
+Install file: "build/data/diamond.xml" as "/data/data/com.termux/files/usr/share/cantera/data/diamond.xml"
+Install file: "build/data/diamond.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/diamond.yaml"
+Install file: "build/data/element-standard-entropies.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/element-standard-entropies.yaml"
+Install file: "build/data/elements.xml" as "/data/data/com.termux/files/usr/share/cantera/data/elements.xml"
+Install file: "build/data/graphite.cti" as "/data/data/com.termux/files/usr/share/cantera/data/graphite.cti"
+Install file: "build/data/graphite.xml" as "/data/data/com.termux/files/usr/share/cantera/data/graphite.xml"
+Install file: "build/data/graphite.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/graphite.yaml"
+Install file: "build/data/gri30.cti" as "/data/data/com.termux/files/usr/share/cantera/data/gri30.cti"
+Install file: "build/data/gri30.xml" as "/data/data/com.termux/files/usr/share/cantera/data/gri30.xml"
+Install file: "build/data/gri30.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/gri30.yaml"
+Install file: "build/data/gri30_highT.cti" as "/data/data/com.termux/files/usr/share/cantera/data/gri30_highT.cti"
+Install file: "build/data/gri30_highT.xml" as "/data/data/com.termux/files/usr/share/cantera/data/gri30_highT.xml"
+Install file: "build/data/gri30_highT.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/gri30_highT.yaml"
+Install file: "build/data/gri30_ion.cti" as "/data/data/com.termux/files/usr/share/cantera/data/gri30_ion.cti"
+Install file: "build/data/gri30_ion.xml" as "/data/data/com.termux/files/usr/share/cantera/data/gri30_ion.xml"
+Install file: "build/data/gri30_ion.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/gri30_ion.yaml"
+Install file: "build/data/h2o2.cti" as "/data/data/com.termux/files/usr/share/cantera/data/h2o2.cti"
+Install file: "build/data/h2o2.xml" as "/data/data/com.termux/files/usr/share/cantera/data/h2o2.xml"
+Install file: "build/data/h2o2.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/h2o2.yaml"
+Install file: "build/data/liquidvapor.cti" as "/data/data/com.termux/files/usr/share/cantera/data/liquidvapor.cti"
+Install file: "build/data/liquidvapor.xml" as "/data/data/com.termux/files/usr/share/cantera/data/liquidvapor.xml"
+Install file: "build/data/liquidvapor.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/liquidvapor.yaml"
+Install file: "build/data/lithium_ion_battery.cti" as "/data/data/com.termux/files/usr/share/cantera/data/lithium_ion_battery.cti"
+Install file: "build/data/lithium_ion_battery.xml" as "/data/data/com.termux/files/usr/share/cantera/data/lithium_ion_battery.xml"
+Install file: "build/data/lithium_ion_battery.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/lithium_ion_battery.yaml"
+Install file: "build/data/methane_pox_on_pt.cti" as "/data/data/com.termux/files/usr/share/cantera/data/methane_pox_on_pt.cti"
+Install file: "build/data/methane_pox_on_pt.xml" as "/data/data/com.termux/files/usr/share/cantera/data/methane_pox_on_pt.xml"
+Install file: "build/data/methane_pox_on_pt.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/methane_pox_on_pt.yaml"
+Install file: "build/data/nDodecane_Reitz.cti" as "/data/data/com.termux/files/usr/share/cantera/data/nDodecane_Reitz.cti"
+Install file: "build/data/nDodecane_Reitz.xml" as "/data/data/com.termux/files/usr/share/cantera/data/nDodecane_Reitz.xml"
+Install file: "build/data/nDodecane_Reitz.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/nDodecane_Reitz.yaml"
+Install file: "build/data/nasa.cti" as "/data/data/com.termux/files/usr/share/cantera/data/nasa.cti"
+Install file: "build/data/nasa.xml" as "/data/data/com.termux/files/usr/share/cantera/data/nasa.xml"
+Install file: "build/data/nasa_condensed.cti" as "/data/data/com.termux/files/usr/share/cantera/data/nasa_condensed.cti"
+Install file: "build/data/nasa_condensed.xml" as "/data/data/com.termux/files/usr/share/cantera/data/nasa_condensed.xml"
+Install file: "build/data/nasa_condensed.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/nasa_condensed.yaml"
+Install file: "build/data/nasa_gas.cti" as "/data/data/com.termux/files/usr/share/cantera/data/nasa_gas.cti"
+Install file: "build/data/nasa_gas.xml" as "/data/data/com.termux/files/usr/share/cantera/data/nasa_gas.xml"
+Install file: "build/data/nasa_gas.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/nasa_gas.yaml"
+Install file: "build/data/ohn.cti" as "/data/data/com.termux/files/usr/share/cantera/data/ohn.cti"
+Install file: "build/data/ohn.xml" as "/data/data/com.termux/files/usr/share/cantera/data/ohn.xml"
+Install file: "build/data/ohn.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/ohn.yaml"
+Install file: "build/data/ptcombust.cti" as "/data/data/com.termux/files/usr/share/cantera/data/ptcombust.cti"
+Install file: "build/data/ptcombust.xml" as "/data/data/com.termux/files/usr/share/cantera/data/ptcombust.xml"
+Install file: "build/data/ptcombust.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/ptcombust.yaml"
+Install file: "build/data/silane.cti" as "/data/data/com.termux/files/usr/share/cantera/data/silane.cti"
+Install file: "build/data/silane.xml" as "/data/data/com.termux/files/usr/share/cantera/data/silane.xml"
+Install file: "build/data/silane.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/silane.yaml"
+Install file: "build/data/silicon.cti" as "/data/data/com.termux/files/usr/share/cantera/data/silicon.cti"
+Install file: "build/data/silicon.xml" as "/data/data/com.termux/files/usr/share/cantera/data/silicon.xml"
+Install file: "build/data/silicon.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/silicon.yaml"
+Install file: "build/data/silicon_carbide.cti" as "/data/data/com.termux/files/usr/share/cantera/data/silicon_carbide.cti"
+Install file: "build/data/silicon_carbide.xml" as "/data/data/com.termux/files/usr/share/cantera/data/silicon_carbide.xml"
+Install file: "build/data/silicon_carbide.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/silicon_carbide.yaml"
+Install file: "build/data/sofc.cti" as "/data/data/com.termux/files/usr/share/cantera/data/sofc.cti"
+Install file: "build/data/sofc.xml" as "/data/data/com.termux/files/usr/share/cantera/data/sofc.xml"
+Install file: "build/data/sofc.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/sofc.yaml"
+Install file: "build/data/water.cti" as "/data/data/com.termux/files/usr/share/cantera/data/water.cti"
+Install file: "build/data/water.xml" as "/data/data/com.termux/files/usr/share/cantera/data/water.xml"
+Install file: "build/data/water.yaml" as "/data/data/com.termux/files/usr/share/cantera/data/water.yaml"
+Install file: "build/ext/LICENSE.txt" as "/data/data/com.termux/files/usr/share/cantera/doc/LICENSE.txt"
+Install file: "build/lib/libcantera.a" as "/data/data/com.termux/files/usr/lib/libcantera.a"
+Install file: "build/lib/libcantera_shared.so.2.6.0" as "/data/data/com.termux/files/usr/lib/libcantera_shared.so.2.6.0"
+"/data/data/com.termux/files/usr/bin/python3.9" -m pip install --prefix=/data/data/com.termux/files/usr/lib/python3.9 --no-build-isolation --no-deps -v --force-reinstall build/python
+Using pip 22.2.2 from /data/data/com.termux/files/usr/lib/python3.9/site-packages/pip (python 3.9)
+Processing ./build/python
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info
+  writing /data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info/PKG-INFO
+  writing dependency_links to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info/dependency_links.txt
+  writing entry points to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info/entry_points.txt
+  writing requirements to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info/requires.txt
+  writing top-level names to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info/top_level.txt
+  writing manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info/SOURCES.txt'
+  reading manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info/SOURCES.txt'
+  adding license file 'LICENSE.txt'
+  writing manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.egg-info/SOURCES.txt'
+  creating '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-alk_si6m/Cantera.dist-info'
+  adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: Cantera
+  Building wheel for Cantera (pyproject.toml): started
+  Running command Building wheel for Cantera (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  running egg_info
+  writing Cantera.egg-info/PKG-INFO
+  writing dependency_links to Cantera.egg-info/dependency_links.txt
+  writing entry points to Cantera.egg-info/entry_points.txt
+  writing requirements to Cantera.egg-info/requires.txt
+  writing top-level names to Cantera.egg-info/top_level.txt
+  reading manifest file 'Cantera.egg-info/SOURCES.txt'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'Cantera.egg-info/SOURCES.txt'
+  running build_ext
+  installing to build/bdist.linux-aarch64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-aarch64/wheel
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/ck2cti.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/ck2yaml.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/composite.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/cti2yaml.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/ctml2yaml.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/ctml_writer.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/interrupts.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/liquidvapor.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/onedim.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/utils.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/KOH.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/KOH.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/KOH.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/air.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/air.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/air.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/airNASA9.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/airNASA9.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/airNASA9.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/argon.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/argon.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/critical-properties.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/diamond.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/diamond.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/diamond.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/element-standard-entropies.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/elements.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/graphite.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/graphite.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/graphite.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_highT.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_highT.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_highT.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_ion.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_ion.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_ion.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/h2o2.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/h2o2.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/h2o2.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/liquidvapor.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/liquidvapor.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/liquidvapor.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/lithium_ion_battery.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/lithium_ion_battery.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/lithium_ion_battery.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/methane_pox_on_pt.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/methane_pox_on_pt.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/methane_pox_on_pt.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nDodecane_Reitz.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nDodecane_Reitz.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nDodecane_Reitz.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_condensed.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_condensed.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_condensed.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_gas.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_gas.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_gas.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ohn.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ohn.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ohn.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ptcombust.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ptcombust.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ptcombust.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silane.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silane.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silane.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon_carbide.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon_carbide.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon_carbide.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/sofc.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/sofc.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/sofc.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/water.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/water.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/water.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_composite.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_convert.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_equilibrium.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_func1.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_jacobian.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_kinetics.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_mixture.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_onedim.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_purefluid.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_reaction.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_reactor.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_thermo.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_transport.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_utils.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/utilities.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/BinarySolutionTabulatedThermo.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/CombustorTest-integrateWithAdvance.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/CounterflowPremixedFlame-h2-mix.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/DiffusionFlameTest-h2-auto.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/DiffusionFlameTest-h2-mix-rad.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/DiffusionFlameTest-h2-mix.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ET_test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/HMW_NaCl.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/HMW_NaCl_sp1977_alt.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/HMW_NaCl_sp1977_alt.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/IdealMolalSolnPhaseExample.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/IdealMolalSolnPhaseExample.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/IdealSolidSolnPhaseExample.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/IdealSolidSolnPhaseExample.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/Li7Si3_ls.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/Li7Si3_ls.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/LiKCl_liquid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/LiKCl_liquid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/Li_Liquid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/Li_Liquid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/MaskellSolidSolnPhase_nohmix.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/MaskellSolidSolnPhase_valid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/MaskellSolidSolnPhase_valid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/NaCl_Solid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/NaCl_Solid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/RedlichKisterVPSSTP_valid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/RedlichKisterVPSSTP_valid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/WallKinetics-coverages-regression1.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/WallKinetics-coverages-regression2.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/WallTest-integrateWithAdvance.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/addReactions_err_test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/air-no-reactions.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/air-no-reactions.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/air-no-reactions.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/bad-troe.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/big_element_num_err.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/blank_line_in_header.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/blowers-masel.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ch4_ion.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ch4_ion.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ch4_ion.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/chemically-activated-reaction.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/chemically-activated-reaction.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/chemically-activated-reaction.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_PR_example.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_RK_example.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_RK_example.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_RK_example.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_RK_lookup.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/custom-elements.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/debye-huckel-all.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/debye-huckel-all.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/diamond_cvd.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/dummy-thermo.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-reactionData-ids.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-reactions.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-species.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-speciesData-ids.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-thermo.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/equilibrium.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-forward-order.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-forward-order.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/extra.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-forward-order.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-reverse-rate.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-reverse-rate.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-reverse-rate.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-third-bodies.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-third-bodies.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-third-bodies.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/float-stoich.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/frac.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/frac.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/frac.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gas-carbon-equil.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gasNASA9.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gri30.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gri30_thermo.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gri30_tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-bad-geometry-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-duplicate-species-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-extra-column-entries-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-float-geometry-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-missing-species-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-plus.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2_emptyReactions.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2_missingElement.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2_missingThermo.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2_unbalancedReaction.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/haca2.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/haca2.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ideal-gas.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/invalid-equation.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/invalid.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/jacobian-tests.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/kineticsfromscratch.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/koh-equil-HP.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/koh-equil-TP.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/liquid-water.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/liquid-water.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/lithium-ion-battery-test.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/mock_ion.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/mock_ion.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test-subset.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test-subset.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test-subset.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test-therm.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/negative-order.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/negative-order.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/negative-rate.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/noninteger-atomicity.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/noxNeg.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/noxNeg.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/noxNeg.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/oxygen-plasma.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdep-test.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdep-test.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdep-test.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdep-test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdss_hkft.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdss_hkft.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/phase-reaction-spec1.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/phase-reaction-spec2.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/photo-reaction.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/photo-reaction.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ptcombust-motzwise.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ptcombust-motzwise.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ptcombust-motzwise.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ptcombust-simple.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/reaction-orders.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/reaction-orders.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/reaction-orders.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/simplephases.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sofc-test.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sofc2.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/soot-therm.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/soot.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/soot.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/species-names.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/surface1-gas.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/surface1.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/thermo-models.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/thermo_single_Tint.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/third_body_plus_falloff_reaction.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/unterminated-sections.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/with-transport.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/species-names.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/surface-phases.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/surface1-gas-noreac.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/undeclared-duplicate-reactions.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/unrecognized-section.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/species-names.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sri-falloff.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/transport_models_test.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/transport_models_test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/tsang-falloff.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/units-custom.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/units-default.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sri-falloff.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sri-falloff.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sri_convert_test.txt -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/steam-reforming.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sticking_coeff_check.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/unterminated-sections2.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data/test_subdir
+  copying build/lib/cantera/test/data/test_subdir/species-elements.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data/test_subdir
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples
+  copying build/lib/cantera/examples/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/blowers_masel.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/custom_reactions.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/extract_submechanism.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/mechanism_reduction.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/reaction_path.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/multiphase
+  copying build/lib/cantera/examples/multiphase/adiabatic.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/multiphase
+  copying build/lib/cantera/examples/multiphase/plasma_equilibrium.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/multiphase
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/adiabatic_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/burner_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/diffusion_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/diffusion_flame_batch.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/diffusion_flame_extinction.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/flame_fixed_T.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/flamespeed_sensitivity.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/ion_burner_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/ion_free_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/premixed_counterflow_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/premixed_counterflow_twin_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/stagnation_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/NonIdealShockTube.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/combustor.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/custom.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/custom2.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/fuel_injection.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/ic_engine.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/mix1.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/periodic_cstr.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/pfr.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/piston.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/reactor1.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/reactor2.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/sensitivity1.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/surf_pfr.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  copying build/lib/cantera/examples/surface_chemistry/catalytic_combustion.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  copying build/lib/cantera/examples/surface_chemistry/diamond_cvd.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  copying build/lib/cantera/examples/surface_chemistry/lithium_ion_battery.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  copying build/lib/cantera/examples/surface_chemistry/sofc.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/critical_properties.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/equivalenceRatio.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/isentropic.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/mixing.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/rankine.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/sound_speed.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/vapordome.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/transport
+  copying build/lib/cantera/examples/transport/dusty_gas.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/transport
+  copying build/lib/cantera/examples/transport/multiprocessing_viscosity.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/transport
+  copying build/lib/cantera/__init__.pxd -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/_cantera.pxd -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/_cantera.cpython-39.so -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  running install_egg_info
+  Copying Cantera.egg-info to build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/Cantera-2.6.0-py3.9.egg-info
+  running install_scripts
+  adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.dist-info/WHEEL
+  creating '/data/data/com.termux/files/usr/tmp/pip-wheel-d5xxe8ml/tmppu_u3kjv/Cantera-2.6.0-cp39-cp39-linux_aarch64.whl' and adding 'build/bdist.linux-aarch64/wheel' to it
+  adding 'Cantera-2.6.0.data/purelib/cantera/__init__.pxd'
+  adding 'Cantera-2.6.0.data/purelib/cantera/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/_cantera.cpython-39.so'
+  adding 'Cantera-2.6.0.data/purelib/cantera/_cantera.pxd'
+  adding 'Cantera-2.6.0.data/purelib/cantera/ck2cti.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/ck2yaml.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/composite.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/cti2yaml.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/ctml2yaml.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/ctml_writer.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/interrupts.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/liquidvapor.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/onedim.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/utils.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/KOH.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/KOH.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/KOH.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/air.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/air.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/air.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/airNASA9.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/airNASA9.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/airNASA9.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/argon.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/argon.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/critical-properties.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/diamond.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/diamond.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/diamond.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/element-standard-entropies.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/elements.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/graphite.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/graphite.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/graphite.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_highT.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_highT.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_highT.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_ion.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_ion.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_ion.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/h2o2.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/h2o2.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/h2o2.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/liquidvapor.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/liquidvapor.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/liquidvapor.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/lithium_ion_battery.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/lithium_ion_battery.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/lithium_ion_battery.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/methane_pox_on_pt.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/methane_pox_on_pt.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/methane_pox_on_pt.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nDodecane_Reitz.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nDodecane_Reitz.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nDodecane_Reitz.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_condensed.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_condensed.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_condensed.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_gas.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_gas.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_gas.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ohn.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ohn.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ohn.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ptcombust.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ptcombust.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ptcombust.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silane.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silane.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silane.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon_carbide.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon_carbide.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon_carbide.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/sofc.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/sofc.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/sofc.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/water.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/water.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/water.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/blowers_masel.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/custom_reactions.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/extract_submechanism.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/mechanism_reduction.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/reaction_path.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/multiphase/adiabatic.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/multiphase/plasma_equilibrium.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/adiabatic_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/burner_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/diffusion_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/diffusion_flame_batch.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/diffusion_flame_extinction.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/flame_fixed_T.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/flamespeed_sensitivity.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/ion_burner_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/ion_free_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/premixed_counterflow_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/premixed_counterflow_twin_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/stagnation_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/NonIdealShockTube.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/combustor.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/custom.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/custom2.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/fuel_injection.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/ic_engine.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/mix1.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/periodic_cstr.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/pfr.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/piston.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/reactor1.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/reactor2.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/sensitivity1.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/surf_pfr.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry/catalytic_combustion.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry/diamond_cvd.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry/lithium_ion_battery.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry/sofc.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/critical_properties.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/equivalenceRatio.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/isentropic.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/mixing.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/rankine.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/sound_speed.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/vapordome.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/transport/dusty_gas.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/transport/multiprocessing_viscosity.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_composite.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_convert.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_equilibrium.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_func1.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_jacobian.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_kinetics.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_mixture.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_onedim.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_purefluid.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_reaction.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_reactor.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_thermo.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_transport.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_utils.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/utilities.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/BinarySolutionTabulatedThermo.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/CombustorTest-integrateWithAdvance.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/CounterflowPremixedFlame-h2-mix.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/DiffusionFlameTest-h2-auto.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/DiffusionFlameTest-h2-mix-rad.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/DiffusionFlameTest-h2-mix.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ET_test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/HMW_NaCl.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/HMW_NaCl_sp1977_alt.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/HMW_NaCl_sp1977_alt.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/IdealMolalSolnPhaseExample.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/IdealMolalSolnPhaseExample.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/IdealSolidSolnPhaseExample.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/IdealSolidSolnPhaseExample.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/Li7Si3_ls.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/Li7Si3_ls.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/LiKCl_liquid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/LiKCl_liquid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/Li_Liquid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/Li_Liquid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/MaskellSolidSolnPhase_nohmix.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/MaskellSolidSolnPhase_valid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/MaskellSolidSolnPhase_valid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/NaCl_Solid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/NaCl_Solid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/RedlichKisterVPSSTP_valid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/RedlichKisterVPSSTP_valid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/WallKinetics-coverages-regression1.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/WallKinetics-coverages-regression2.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/WallTest-integrateWithAdvance.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/addReactions_err_test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/air-no-reactions.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/air-no-reactions.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/air-no-reactions.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/bad-troe.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/big_element_num_err.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/blank_line_in_header.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/blowers-masel.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ch4_ion.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ch4_ion.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ch4_ion.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/chemically-activated-reaction.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/chemically-activated-reaction.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/chemically-activated-reaction.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_PR_example.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_RK_example.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_RK_example.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_RK_example.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_RK_lookup.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/custom-elements.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/debye-huckel-all.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/debye-huckel-all.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/diamond_cvd.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/dummy-thermo.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-reactionData-ids.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-reactions.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-species.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-speciesData-ids.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-thermo.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/equilibrium.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-forward-order.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-forward-order.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-forward-order.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-reverse-rate.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-reverse-rate.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-reverse-rate.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-third-bodies.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-third-bodies.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-third-bodies.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/extra.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/float-stoich.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/frac.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/frac.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/frac.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gas-carbon-equil.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gasNASA9.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gri30.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gri30_thermo.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gri30_tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-bad-geometry-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-duplicate-species-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-extra-column-entries-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-float-geometry-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-missing-species-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-plus.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2_emptyReactions.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2_missingElement.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2_missingThermo.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2_unbalancedReaction.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/haca2.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/haca2.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ideal-gas.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/invalid-equation.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/invalid.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/jacobian-tests.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/kineticsfromscratch.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/koh-equil-HP.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/koh-equil-TP.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/liquid-water.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/liquid-water.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/lithium-ion-battery-test.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/mock_ion.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/mock_ion.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test-subset.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test-subset.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test-subset.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test-therm.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/negative-order.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/negative-order.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/negative-rate.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/noninteger-atomicity.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/noxNeg.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/noxNeg.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/noxNeg.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/oxygen-plasma.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdep-test.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdep-test.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdep-test.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdep-test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdss_hkft.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdss_hkft.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/phase-reaction-spec1.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/phase-reaction-spec2.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/photo-reaction.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/photo-reaction.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ptcombust-motzwise.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ptcombust-motzwise.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ptcombust-motzwise.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ptcombust-simple.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/reaction-orders.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/reaction-orders.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/reaction-orders.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/simplephases.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sofc-test.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sofc2.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/soot-therm.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/soot.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/soot.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/species-names.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/species-names.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/species-names.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sri-falloff.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sri-falloff.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sri-falloff.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sri_convert_test.txt'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/steam-reforming.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sticking_coeff_check.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/surface-phases.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/surface1-gas-noreac.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/surface1-gas.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/surface1.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/thermo-models.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/thermo_single_Tint.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/third_body_plus_falloff_reaction.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/transport_models_test.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/transport_models_test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/tsang-falloff.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/undeclared-duplicate-reactions.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/units-custom.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/units-default.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/unrecognized-section.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/unterminated-sections.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/unterminated-sections2.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/with-transport.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/test_subdir/species-elements.yaml'
+  adding 'Cantera-2.6.0.dist-info/LICENSE.txt'
+  adding 'Cantera-2.6.0.dist-info/METADATA'
+  adding 'Cantera-2.6.0.dist-info/WHEEL'
+  adding 'Cantera-2.6.0.dist-info/entry_points.txt'
+  adding 'Cantera-2.6.0.dist-info/top_level.txt'
+  adding 'Cantera-2.6.0.dist-info/RECORD'
+  removing build/bdist.linux-aarch64/wheel
+  Building wheel for Cantera (pyproject.toml): finished with status 'done'
+  Created wheel for Cantera: filename=Cantera-2.6.0-cp39-cp39-linux_aarch64.whl size=26770961 sha256=86554800336ae8eede2ed41732949ecf88d2ee09f0efadc20971151853df101a
+  Stored in directory: /data/data/com.termux/files/usr/tmp/pip-ephem-wheel-cache-_6lg9h0g/wheels/14/96/bb/67d233589c1c44529c7112b06fd070ff72c0f89c280c44aa71
+Successfully built Cantera
+Installing collected packages: Cantera
+  Creating /data/data/com.termux/files/usr/lib/python3.9/bin
+  changing mode of /data/data/com.termux/files/usr/lib/python3.9/bin/ck2cti to 755
+  changing mode of /data/data/com.termux/files/usr/lib/python3.9/bin/ck2yaml to 755
+  changing mode of /data/data/com.termux/files/usr/lib/python3.9/bin/cti2yaml to 755
+  changing mode of /data/data/com.termux/files/usr/lib/python3.9/bin/ctml2yaml to 755
+  changing mode of /data/data/com.termux/files/usr/lib/python3.9/bin/ctml_writer to 755
+Successfully installed Cantera-2.6.0
+Install file: "platform/posix/man/ck2cti.1" as "/data/data/com.termux/files/usr/share/man/man1/ck2cti.1"
+Install file: "platform/posix/man/ck2yaml.1" as "/data/data/com.termux/files/usr/share/man/man1/ck2yaml.1"
+Install file: "platform/posix/man/cti2yaml.1" as "/data/data/com.termux/files/usr/share/man/man1/cti2yaml.1"
+Install file: "platform/posix/man/ctml2yaml.1" as "/data/data/com.termux/files/usr/share/man/man1/ctml2yaml.1"
+Install file: "platform/posix/man/ctml_writer.1" as "/data/data/com.termux/files/usr/share/man/man1/ctml_writer.1"
+copy_var(["build/platform/setup_cantera"], ["platform/posix/setup_cantera.in"])
+Substituting vars from platform/posix/setup_cantera.in to build/platform/setup_cantera
+Install file: "build/platform/setup_cantera" as "/data/data/com.termux/files/usr/bin/setup_cantera"
+copy_var(["build/platform/setup_cantera.csh"], ["platform/posix/setup_cantera.csh.in"])
+Substituting vars from platform/posix/setup_cantera.csh.in to build/platform/setup_cantera.csh
+Install file: "build/platform/setup_cantera.csh" as "/data/data/com.termux/files/usr/bin/setup_cantera.csh"
+Install file: "build/platform/Cantera.mak" as "/data/data/com.termux/files/usr/include/cantera/Cantera.mak"
+Install file: "build/platform/cantera.pc" as "/data/data/com.termux/files/usr/lib/pkgconfig/cantera.pc"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/combustor/SConstruct
+Install file: "build/samples/cxx/combustor/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/combustor/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/combustor/CMakeLists.txt
+Install file: "build/samples/cxx/combustor/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/combustor/CMakeLists.txt"
+Install file: "build/samples/cxx/combustor/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/combustor/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/custom/SConstruct
+Install file: "build/samples/cxx/custom/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/custom/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/custom/CMakeLists.txt
+Install file: "build/samples/cxx/custom/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/custom/CMakeLists.txt"
+Install file: "build/samples/cxx/custom/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/custom/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/demo/SConstruct
+Install file: "build/samples/cxx/demo/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/demo/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/demo/CMakeLists.txt
+Install file: "build/samples/cxx/demo/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/demo/CMakeLists.txt"
+Install file: "build/samples/cxx/demo/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/demo/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/flamespeed/SConstruct
+Install file: "build/samples/cxx/flamespeed/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/flamespeed/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/flamespeed/CMakeLists.txt
+Install file: "build/samples/cxx/flamespeed/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/flamespeed/CMakeLists.txt"
+Install file: "build/samples/cxx/flamespeed/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/flamespeed/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/kinetics1/SConstruct
+Install file: "build/samples/cxx/kinetics1/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/kinetics1/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/kinetics1/CMakeLists.txt
+Install file: "build/samples/cxx/kinetics1/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/kinetics1/CMakeLists.txt"
+Install file: "build/samples/cxx/kinetics1/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/kinetics1/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/jacobian/SConstruct
+Install file: "build/samples/cxx/jacobian/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/jacobian/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/jacobian/CMakeLists.txt
+Install file: "build/samples/cxx/jacobian/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/jacobian/CMakeLists.txt"
+Install file: "build/samples/cxx/jacobian/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/jacobian/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/gas_transport/SConstruct
+Install file: "build/samples/cxx/gas_transport/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/gas_transport/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/gas_transport/CMakeLists.txt
+Install file: "build/samples/cxx/gas_transport/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/gas_transport/CMakeLists.txt"
+Install file: "build/samples/cxx/gas_transport/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/gas_transport/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/rankine/SConstruct
+Install file: "build/samples/cxx/rankine/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/rankine/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/rankine/CMakeLists.txt
+Install file: "build/samples/cxx/rankine/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/rankine/CMakeLists.txt"
+Install file: "build/samples/cxx/rankine/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/rankine/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/LiC6_electrode/SConstruct
+Install file: "build/samples/cxx/LiC6_electrode/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/LiC6_electrode/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/LiC6_electrode/CMakeLists.txt
+Install file: "build/samples/cxx/LiC6_electrode/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/LiC6_electrode/CMakeLists.txt"
+Install file: "build/samples/cxx/LiC6_electrode/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/LiC6_electrode/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/openmp_ignition/SConstruct
+Install file: "build/samples/cxx/openmp_ignition/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/openmp_ignition/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/openmp_ignition/CMakeLists.txt
+Install file: "build/samples/cxx/openmp_ignition/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/openmp_ignition/CMakeLists.txt"
+Install file: "build/samples/cxx/openmp_ignition/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/openmp_ignition/Makefile"
+Substituting vars from samples/cxx/SConstruct.in to build/samples/cxx/bvp/SConstruct
+Install file: "build/samples/cxx/bvp/SConstruct" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/bvp/SConstruct"
+Substituting vars from samples/cxx/CMakeLists.txt.in to build/samples/cxx/bvp/CMakeLists.txt
+Install file: "build/samples/cxx/bvp/CMakeLists.txt" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/bvp/CMakeLists.txt"
+Install file: "build/samples/cxx/bvp/Makefile" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/bvp/Makefile"
+Install file: "samples/cxx/LiC6_electrode/LiC6_electrode.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/LiC6_electrode/LiC6_electrode.cpp"
+Install file: "samples/cxx/bvp/BoundaryValueProblem.h" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/bvp/BoundaryValueProblem.h"
+Install file: "samples/cxx/bvp/blasius.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/bvp/blasius.cpp"
+Install file: "samples/cxx/combustor/combustor.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/combustor/combustor.cpp"
+Install file: "samples/cxx/custom/custom.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/custom/custom.cpp"
+Install file: "samples/cxx/demo/demo.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/demo/demo.cpp"
+Install file: "samples/cxx/flamespeed/flamespeed.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/flamespeed/flamespeed.cpp"
+Install file: "samples/cxx/gas_transport/gas_transport.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/gas_transport/gas_transport.cpp"
+Install file: "samples/cxx/jacobian/derivative_speed.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/jacobian/derivative_speed.cpp"
+Install file: "samples/cxx/kinetics1/example_utils.h" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/kinetics1/example_utils.h"
+Install file: "samples/cxx/kinetics1/kinetics1.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/kinetics1/kinetics1.cpp"
+Install file: "samples/cxx/openmp_ignition/openmp_ignition.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/openmp_ignition/openmp_ignition.cpp"
+Install file: "samples/cxx/rankine/rankine.cpp" as "/data/data/com.termux/files/usr/share/cantera/samples/cxx/rankine/rankine.cpp"
+postInstallMessage(["finish_install"], [])
+
+    Cantera has been successfully installed.
+
+    File locations:
+      library files               /data/data/com.termux/files/usr/lib
+      C++ headers                 /data/data/com.termux/files/usr/include
+      samples                     /data/data/com.termux/files/usr/share/cantera/samples
+      data files                  /data/data/com.termux/files/usr/share/cantera/data
+      input file converters       /data/data/com.termux/files/usr/lib/python3.9/bin
+      Python package              /data/data/com.termux/files/usr/lib/python3.9/lib/python3.9/site-packages
+      Python examples             /data/data/com.termux/files/usr/lib/python3.9/lib/python3.9/site-packages/cantera/examples
+
+scons: done building targets.

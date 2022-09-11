@@ -1,0 +1,1645 @@
+scons: Reading SConscript files ...
+INFO: SCons 4.4.0 is using the following Python interpreter:
+/data/data/com.termux/files/usr/bin/python3.9 (Python 3.9)
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+INFO: Configuration variables read from 'cantera.conf' and command line:
+    prefix = '/data/data/com.termux/files/usr/'
+    python_prefix = '/data/data/com.termux/files/usr/lib/python3.9'
+
+Checking for C++ header file cmath... (cached) yes
+Checking for C++ header file fmt/ostream.h... (cached) yes
+INFO: Using system installation of fmt library.
+INFO: Found fmt version 8.1.1
+Checking for YAML::Node().Mark()... (cached) yes
+INFO: Using system installation of yaml-cpp library.
+Checking for C++ header file gtest/gtest.h... (cached) yes
+Checking for C++ header file gmock/gmock.h... (cached) yes
+INFO: Using system installation of Googletest
+Checking for C++ header file eigen3/Eigen/Dense... (cached) yes
+INFO: Using system installation of Eigen.
+INFO: Found Eigen version 3.4.0
+Checking whether __GLIBCXX__ is declared... (cached) no
+Checking whether _LIBCPP_VERSION is declared... (cached) yes
+Checking whether __clang__ is declared... (cached) yes
+Checking for C++ library iomp5... (cached) no
+Checking for C++ library omp... (cached) yes
+INFO: Found Boost version 1.78
+Checking whether boost::core::demangle is declared... (cached) yes
+Checking for CVodeCreate(CV_BDF, CV_NEWTON) in C++ library sundials_cvodes... (cached) no
+Checking for CVodeCreate(CV_BDF) in C++ library sundials_cvodes... (cached) yes
+Checking for double x; log(x) in C library None... (cached) yes
+INFO: Using system installation of Sundials version 5.6.1.
+Checking whether SUNDIALS_SUNLINSOL_LAPACKBAND is declared... (cached) no
+Checking whether SUNDIALS_SUNLINSOL_LAPACKDENSE is declared... (cached) no
+INFO: Skipping compilation of the Fortran 90 interface.
+INFO: Using NumPy version 1.20.3
+INFO: Using Cython version 0.29.21
+INFO: Building the full Python package for Python 3.9
+scons: done reading SConscript files.
+scons: Building targets ...
+Copy("build/data/KOH.cti", "data/inputs/KOH.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/KOH.cti build/data/KOH.xml
+Copy("build/data/air.cti", "data/inputs/air.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/air.cti build/data/air.xml
+Copy("build/data/airNASA9.cti", "data/inputs/airNASA9.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/airNASA9.cti build/data/airNASA9.xml
+Copy("build/data/argon.cti", "data/inputs/argon.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/argon.cti build/data/argon.xml
+Copy("build/data/diamond.cti", "data/inputs/diamond.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/diamond.cti build/data/diamond.xml
+Copy("build/data/graphite.cti", "data/inputs/graphite.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/graphite.cti build/data/graphite.xml
+Copy("build/data/gri30.cti", "data/inputs/gri30.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/gri30.cti build/data/gri30.xml
+Copy("build/data/gri30_highT.cti", "data/inputs/gri30_highT.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/gri30_highT.cti build/data/gri30_highT.xml
+Copy("build/data/gri30_ion.cti", "data/inputs/gri30_ion.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/gri30_ion.cti build/data/gri30_ion.xml
+Copy("build/data/h2o2.cti", "data/inputs/h2o2.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/h2o2.cti build/data/h2o2.xml
+Copy("build/data/liquidvapor.cti", "data/inputs/liquidvapor.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/liquidvapor.cti build/data/liquidvapor.xml
+Copy("build/data/lithium_ion_battery.cti", "data/inputs/lithium_ion_battery.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/lithium_ion_battery.cti build/data/lithium_ion_battery.xml
+Copy("build/data/methane_pox_on_pt.cti", "data/inputs/methane_pox_on_pt.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/methane_pox_on_pt.cti build/data/methane_pox_on_pt.xml
+Copy("build/data/nDodecane_Reitz.cti", "data/inputs/nDodecane_Reitz.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/nDodecane_Reitz.cti build/data/nDodecane_Reitz.xml
+Copy("build/data/nasa.cti", "data/inputs/nasa.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/nasa.cti build/data/nasa.xml
+Copy("build/data/nasa_condensed.cti", "data/inputs/nasa_condensed.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/nasa_condensed.cti build/data/nasa_condensed.xml
+Copy("build/data/nasa_gas.cti", "data/inputs/nasa_gas.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/nasa_gas.cti build/data/nasa_gas.xml
+Copy("build/data/ohn.cti", "data/inputs/ohn.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/ohn.cti build/data/ohn.xml
+Copy("build/data/ptcombust.cti", "data/inputs/ptcombust.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/ptcombust.cti build/data/ptcombust.xml
+Copy("build/data/silane.cti", "data/inputs/silane.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/silane.cti build/data/silane.xml
+Copy("build/data/silicon.cti", "data/inputs/silicon.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/silicon.cti build/data/silicon.xml
+Copy("build/data/silicon_carbide.cti", "data/inputs/silicon_carbide.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/silicon_carbide.cti build/data/silicon_carbide.xml
+Copy("build/data/sofc.cti", "data/inputs/sofc.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/sofc.cti build/data/sofc.xml
+Copy("build/data/water.cti", "data/inputs/water.cti")
+"/data/data/com.termux/files/usr/bin/python3.9" interfaces/cython/cantera/ctml_writer.py data/inputs/water.cti build/data/water.xml
+Copy("build/data/elements.xml", "data/inputs/elements.xml")
+Copy("build/data/KOH.yaml", "data/KOH.yaml")
+Copy("build/data/air.yaml", "data/air.yaml")
+Copy("build/data/airNASA9.yaml", "data/airNASA9.yaml")
+Copy("build/data/critical-properties.yaml", "data/critical-properties.yaml")
+Copy("build/data/diamond.yaml", "data/diamond.yaml")
+Copy("build/data/element-standard-entropies.yaml", "data/element-standard-entropies.yaml")
+Copy("build/data/graphite.yaml", "data/graphite.yaml")
+Copy("build/data/gri30.yaml", "data/gri30.yaml")
+Copy("build/data/gri30_highT.yaml", "data/gri30_highT.yaml")
+Copy("build/data/gri30_ion.yaml", "data/gri30_ion.yaml")
+Copy("build/data/h2o2.yaml", "data/h2o2.yaml")
+Copy("build/data/liquidvapor.yaml", "data/liquidvapor.yaml")
+Copy("build/data/lithium_ion_battery.yaml", "data/lithium_ion_battery.yaml")
+Copy("build/data/methane_pox_on_pt.yaml", "data/methane_pox_on_pt.yaml")
+Copy("build/data/nDodecane_Reitz.yaml", "data/nDodecane_Reitz.yaml")
+Copy("build/data/nasa_condensed.yaml", "data/nasa_condensed.yaml")
+Copy("build/data/nasa_gas.yaml", "data/nasa_gas.yaml")
+Copy("build/data/ohn.yaml", "data/ohn.yaml")
+Copy("build/data/ptcombust.yaml", "data/ptcombust.yaml")
+Copy("build/data/silane.yaml", "data/silane.yaml")
+Copy("build/data/silicon.yaml", "data/silicon.yaml")
+Copy("build/data/silicon_carbide.yaml", "data/silicon_carbide.yaml")
+Copy("build/data/sofc.yaml", "data/sofc.yaml")
+Copy("build/data/water.yaml", "data/water.yaml")
+generate_license(["build/ext/LICENSE.txt"], ["License.txt", "ext/libexecstream/doc/license.txt"])
+g++ -o build/ext/libexecstream/exec-stream.os -c -std=c++11 -pthread -O3 -Wno-inline -g -w -fPIC -DNDEBUG ext/libexecstream/exec-stream.cpp
+ConfigBuilder(["build/src/config.h.build"], ["include/cantera/base/config.h.in"])
+INFO: Generating build/src/config.h.build with the following settings:
+    CANTERA_SHORT_VERSION               "2.6"
+    CANTERA_VERSION                     "2.6.0"
+    CT_LEGACY_RATE_CONSTANTS            1
+    CT_SUNDIALS_USE_LAPACK              0
+    CT_SUNDIALS_VERSION                 56
+    CT_USE_DEMANGLE                     1
+    CT_USE_SYSTEM_EIGEN                 1
+    CT_USE_SYSTEM_EIGEN_PREFIXED        1
+    CT_USE_SYSTEM_FMT                   1
+    CT_USE_SYSTEM_YAMLCPP               1
+    FTN_TRAILING_UNDERSCORE             1
+    LAPACK_FTN_STRING_LEN_AT_END        1
+    LAPACK_FTN_TRAILING_UNDERSCORE      1
+    LAPACK_NAMES_LOWERCASE              1
+    CT_NO_LEGACY_REACTIONS_26           *undefined*
+    CT_USE_LAPACK                       *undefined*
+    DARWIN                              *undefined*
+    SOLARIS                             *undefined*
+g++ -o build/src/base/AnyMap.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/AnyMap.cpp
+g++ -o build/src/base/Array.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/Array.cpp
+g++ -o build/src/base/Interface.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/Interface.cpp
+g++ -o build/src/base/Solution.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/Solution.cpp
+g++ -o build/src/base/Units.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/Units.cpp
+g++ -o build/src/base/ValueCache.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/ValueCache.cpp
+g++ -o build/src/base/YamlWriter.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/YamlWriter.cpp
+g++ -o build/src/base/checkFinite.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/checkFinite.cpp
+g++ -o build/src/base/clockWC.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/clockWC.cpp
+g++ -o build/src/base/ct2ctml.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/ct2ctml.cpp
+g++ -o build/src/base/ctexceptions.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/ctexceptions.cpp
+g++ -o build/src/base/ctml.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/ctml.cpp
+g++ -o build/src/base/plots.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/plots.cpp
+g++ -o build/src/base/stringUtils.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/stringUtils.cpp
+g++ -o build/src/base/xml.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/xml.cpp
+g++ -o build/src/base/application.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -DCANTERA_DATA=\"/data/data/com.termux/files/usr/share/cantera/data\" -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/application.cpp
+g++ -o build/src/base/global.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -DGIT_COMMIT=\"unknown\" -Iinclude -Iinclude/cantera/ext -Ibuild/src src/base/global.cpp
+g++ -o build/src/thermo/BinarySolutionTabulatedThermo.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/BinarySolutionTabulatedThermo.cpp
+g++ -o build/src/thermo/ConstCpPoly.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/ConstCpPoly.cpp
+g++ -o build/src/thermo/DebyeHuckel.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/DebyeHuckel.cpp
+g++ -o build/src/thermo/Elements.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/Elements.cpp
+g++ -o build/src/thermo/GibbsExcessVPSSTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/GibbsExcessVPSSTP.cpp
+g++ -o build/src/thermo/HMWSoln.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/HMWSoln.cpp
+g++ -o build/src/thermo/IdealGasPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/IdealGasPhase.cpp
+g++ -o build/src/thermo/IdealMolalSoln.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/IdealMolalSoln.cpp
+g++ -o build/src/thermo/IdealSolidSolnPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/IdealSolidSolnPhase.cpp
+g++ -o build/src/thermo/IdealSolnGasVPSS.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/IdealSolnGasVPSS.cpp
+g++ -o build/src/thermo/IonsFromNeutralVPSSTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/IonsFromNeutralVPSSTP.cpp
+g++ -o build/src/thermo/LatticePhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/LatticePhase.cpp
+g++ -o build/src/thermo/LatticeSolidPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/LatticeSolidPhase.cpp
+g++ -o build/src/thermo/MargulesVPSSTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/MargulesVPSSTP.cpp
+g++ -o build/src/thermo/MaskellSolidSolnPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/MaskellSolidSolnPhase.cpp
+g++ -o build/src/thermo/MixtureFugacityTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/MixtureFugacityTP.cpp
+g++ -o build/src/thermo/MolalityVPSSTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/MolalityVPSSTP.cpp
+g++ -o build/src/thermo/Mu0Poly.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/Mu0Poly.cpp
+g++ -o build/src/thermo/MultiSpeciesThermo.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/MultiSpeciesThermo.cpp
+g++ -o build/src/thermo/Nasa9Poly1.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/Nasa9Poly1.cpp
+g++ -o build/src/thermo/Nasa9PolyMultiTempRegion.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/Nasa9PolyMultiTempRegion.cpp
+g++ -o build/src/thermo/NasaPoly2.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/NasaPoly2.cpp
+g++ -o build/src/thermo/PDSS.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PDSS.cpp
+g++ -o build/src/thermo/PDSSFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PDSSFactory.cpp
+g++ -o build/src/thermo/PDSS_ConstVol.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PDSS_ConstVol.cpp
+g++ -o build/src/thermo/PDSS_HKFT.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PDSS_HKFT.cpp
+g++ -o build/src/thermo/PDSS_IdealGas.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PDSS_IdealGas.cpp
+g++ -o build/src/thermo/PDSS_IonsFromNeutral.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PDSS_IonsFromNeutral.cpp
+g++ -o build/src/thermo/PDSS_SSVol.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PDSS_SSVol.cpp
+g++ -o build/src/thermo/PDSS_Water.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PDSS_Water.cpp
+g++ -o build/src/thermo/PengRobinson.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PengRobinson.cpp
+g++ -o build/src/thermo/Phase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/Phase.cpp
+g++ -o build/src/thermo/PlasmaPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PlasmaPhase.cpp
+g++ -o build/src/thermo/PureFluidPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/PureFluidPhase.cpp
+g++ -o build/src/thermo/RedlichKisterVPSSTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/RedlichKisterVPSSTP.cpp
+g++ -o build/src/thermo/RedlichKwongMFTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/RedlichKwongMFTP.cpp
+g++ -o build/src/thermo/SingleSpeciesTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/SingleSpeciesTP.cpp
+g++ -o build/src/thermo/Species.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/Species.cpp
+g++ -o build/src/thermo/SpeciesThermoFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/SpeciesThermoFactory.cpp
+g++ -o build/src/thermo/SpeciesThermoInterpType.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/SpeciesThermoInterpType.cpp
+g++ -o build/src/thermo/StoichSubstance.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/StoichSubstance.cpp
+g++ -o build/src/thermo/SurfPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/SurfPhase.cpp
+g++ -o build/src/thermo/ThermoFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/ThermoFactory.cpp
+g++ -o build/src/thermo/ThermoPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/ThermoPhase.cpp
+g++ -o build/src/thermo/VPStandardStateTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/VPStandardStateTP.cpp
+g++ -o build/src/thermo/WaterProps.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/WaterProps.cpp
+g++ -o build/src/thermo/WaterPropsIAPWS.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/WaterPropsIAPWS.cpp
+g++ -o build/src/thermo/WaterPropsIAPWSphi.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/WaterPropsIAPWSphi.cpp
+g++ -o build/src/thermo/WaterSSTP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/thermo/WaterSSTP.cpp
+g++ -o build/src/tpx/CarbonDioxide.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/CarbonDioxide.cpp
+g++ -o build/src/tpx/HFC134a.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/HFC134a.cpp
+g++ -o build/src/tpx/Heptane.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/Heptane.cpp
+g++ -o build/src/tpx/Hydrogen.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/Hydrogen.cpp
+g++ -o build/src/tpx/Methane.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/Methane.cpp
+g++ -o build/src/tpx/Nitrogen.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/Nitrogen.cpp
+g++ -o build/src/tpx/Oxygen.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/Oxygen.cpp
+g++ -o build/src/tpx/Sub.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/Sub.cpp
+g++ -o build/src/tpx/Water.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/Water.cpp
+g++ -o build/src/tpx/utils.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/tpx/utils.cpp
+g++ -o build/src/equil/BasisOptimize.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/BasisOptimize.cpp
+g++ -o build/src/equil/ChemEquil.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/ChemEquil.cpp
+g++ -o build/src/equil/MultiPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/MultiPhase.cpp
+g++ -o build/src/equil/MultiPhaseEquil.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/MultiPhaseEquil.cpp
+g++ -o build/src/equil/vcs_MultiPhaseEquil.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/vcs_MultiPhaseEquil.cpp
+g++ -o build/src/equil/vcs_VolPhase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/vcs_VolPhase.cpp
+g++ -o build/src/equil/vcs_solve.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/vcs_solve.cpp
+src/equil/vcs_solve.cpp:1329:20: warning: variable 'sumADel' set but not used [-Wunused-but-set-variable]
+            double sumADel = 0.0;
+                   ^
+1 warning generated.
+g++ -o build/src/equil/vcs_solve_TP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/vcs_solve_TP.cpp
+src/equil/vcs_solve_TP.cpp:2965:12: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+    double sum = 0.0;
+           ^
+1 warning generated.
+g++ -o build/src/equil/vcs_util.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/equil/vcs_util.cpp
+g++ -o build/src/numerics/BandMatrix.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/BandMatrix.cpp
+g++ -o build/src/numerics/CVodesIntegrator.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/CVodesIntegrator.cpp
+g++ -o build/src/numerics/DAE_solvers.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/DAE_solvers.cpp
+g++ -o build/src/numerics/DenseMatrix.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/DenseMatrix.cpp
+g++ -o build/src/numerics/Func1.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/Func1.cpp
+g++ -o build/src/numerics/FuncEval.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/FuncEval.cpp
+g++ -o build/src/numerics/IDA_Solver.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/IDA_Solver.cpp
+g++ -o build/src/numerics/ODE_integrators.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/ODE_integrators.cpp
+g++ -o build/src/numerics/ResidJacEval.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/ResidJacEval.cpp
+g++ -o build/src/numerics/funcs.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/funcs.cpp
+g++ -o build/src/numerics/polyfit.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/numerics/polyfit.cpp
+g++ -o build/src/kinetics/Arrhenius.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/Arrhenius.cpp
+g++ -o build/src/kinetics/BlowersMaselRate.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/BlowersMaselRate.cpp
+g++ -o build/src/kinetics/BulkKinetics.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/BulkKinetics.cpp
+g++ -o build/src/kinetics/ChebyshevRate.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/ChebyshevRate.cpp
+g++ -o build/src/kinetics/Custom.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/Custom.cpp
+g++ -o build/src/kinetics/Falloff.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/Falloff.cpp
+g++ -o build/src/kinetics/FalloffFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/FalloffFactory.cpp
+g++ -o build/src/kinetics/GasKinetics.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/GasKinetics.cpp
+g++ -o build/src/kinetics/Group.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/Group.cpp
+g++ -o build/src/kinetics/ImplicitSurfChem.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/ImplicitSurfChem.cpp
+g++ -o build/src/kinetics/InterfaceKinetics.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/InterfaceKinetics.cpp
+g++ -o build/src/kinetics/InterfaceRate.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/InterfaceRate.cpp
+g++ -o build/src/kinetics/Kinetics.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/Kinetics.cpp
+g++ -o build/src/kinetics/KineticsFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/KineticsFactory.cpp
+g++ -o build/src/kinetics/PlogRate.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/PlogRate.cpp
+g++ -o build/src/kinetics/Reaction.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/Reaction.cpp
+g++ -o build/src/kinetics/ReactionFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/ReactionFactory.cpp
+g++ -o build/src/kinetics/ReactionPath.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/ReactionPath.cpp
+g++ -o build/src/kinetics/ReactionRateFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/ReactionRateFactory.cpp
+g++ -o build/src/kinetics/RxnRates.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/RxnRates.cpp
+g++ -o build/src/kinetics/TwoTempPlasmaRate.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/TwoTempPlasmaRate.cpp
+g++ -o build/src/kinetics/importKinetics.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/importKinetics.cpp
+g++ -o build/src/kinetics/solveSP.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/kinetics/solveSP.cpp
+g++ -o build/src/transport/DustyGasTransport.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/DustyGasTransport.cpp
+g++ -o build/src/transport/GasTransport.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/GasTransport.cpp
+g++ -o build/src/transport/HighPressureGasTransport.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/HighPressureGasTransport.cpp
+g++ -o build/src/transport/IonGasTransport.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/IonGasTransport.cpp
+g++ -o build/src/transport/MMCollisionInt.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/MMCollisionInt.cpp
+g++ -o build/src/transport/MixTransport.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/MixTransport.cpp
+g++ -o build/src/transport/MultiTransport.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/MultiTransport.cpp
+g++ -o build/src/transport/TransportBase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/TransportBase.cpp
+g++ -o build/src/transport/TransportData.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/TransportData.cpp
+g++ -o build/src/transport/TransportFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/TransportFactory.cpp
+g++ -o build/src/transport/WaterTransport.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/transport/WaterTransport.cpp
+g++ -o build/src/oneD/Boundary1D.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/Boundary1D.cpp
+g++ -o build/src/oneD/Domain1D.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/Domain1D.cpp
+g++ -o build/src/oneD/IonFlow.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/IonFlow.cpp
+src/oneD/IonFlow.cpp:137:16: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+        double sum = 0.0;
+               ^
+1 warning generated.
+g++ -o build/src/oneD/MultiJac.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/MultiJac.cpp
+g++ -o build/src/oneD/MultiNewton.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/MultiNewton.cpp
+g++ -o build/src/oneD/OneDim.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/OneDim.cpp
+g++ -o build/src/oneD/Sim1D.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/Sim1D.cpp
+g++ -o build/src/oneD/StFlow.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/StFlow.cpp
+g++ -o build/src/oneD/refine.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/oneD/refine.cpp
+g++ -o build/src/zeroD/ConstPressureReactor.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/ConstPressureReactor.cpp
+g++ -o build/src/zeroD/FlowDevice.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/FlowDevice.cpp
+g++ -o build/src/zeroD/FlowDeviceFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/FlowDeviceFactory.cpp
+g++ -o build/src/zeroD/FlowReactor.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/FlowReactor.cpp
+g++ -o build/src/zeroD/IdealGasConstPressureReactor.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/IdealGasConstPressureReactor.cpp
+g++ -o build/src/zeroD/IdealGasReactor.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/IdealGasReactor.cpp
+g++ -o build/src/zeroD/Reactor.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/Reactor.cpp
+g++ -o build/src/zeroD/ReactorBase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/ReactorBase.cpp
+g++ -o build/src/zeroD/ReactorFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/ReactorFactory.cpp
+g++ -o build/src/zeroD/ReactorNet.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/ReactorNet.cpp
+g++ -o build/src/zeroD/ReactorSurface.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/ReactorSurface.cpp
+g++ -o build/src/zeroD/Wall.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/Wall.cpp
+g++ -o build/src/zeroD/WallFactory.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/WallFactory.cpp
+g++ -o build/src/zeroD/flowControllers.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/zeroD/flowControllers.cpp
+g++ -o build/src/clib/ct.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/clib/ct.cpp
+g++ -o build/src/clib/ctfunc.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/clib/ctfunc.cpp
+g++ -o build/src/clib/ctmultiphase.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/clib/ctmultiphase.cpp
+g++ -o build/src/clib/ctonedim.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/clib/ctonedim.cpp
+g++ -o build/src/clib/ctreactor.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/clib/ctreactor.cpp
+g++ -o build/src/clib/ctrpath.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/clib/ctrpath.cpp
+g++ -o build/src/clib/ctsurf.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/clib/ctsurf.cpp
+g++ -o build/src/clib/ctxml.os -c -std=c++11 -pthread -O3 -Wno-inline -g -Wall -include src/pch/system.h -fPIC -DNDEBUG -Iinclude -Iinclude/cantera/ext -Ibuild/src src/clib/ctxml.cpp
+ar rc build/lib/libcantera.a build/ext/libexecstream/exec-stream.os build/src/base/AnyMap.os build/src/base/Array.os build/src/base/Interface.os build/src/base/Solution.os build/src/base/Units.os build/src/base/ValueCache.os build/src/base/YamlWriter.os build/src/base/checkFinite.os build/src/base/clockWC.os build/src/base/ct2ctml.os build/src/base/ctexceptions.os build/src/base/ctml.os build/src/base/plots.os build/src/base/stringUtils.os build/src/base/xml.os build/src/base/application.os build/src/base/global.os build/src/thermo/BinarySolutionTabulatedThermo.os build/src/thermo/ConstCpPoly.os build/src/thermo/DebyeHuckel.os build/src/thermo/Elements.os build/src/thermo/GibbsExcessVPSSTP.os build/src/thermo/HMWSoln.os build/src/thermo/IdealGasPhase.os build/src/thermo/IdealMolalSoln.os build/src/thermo/IdealSolidSolnPhase.os build/src/thermo/IdealSolnGasVPSS.os build/src/thermo/IonsFromNeutralVPSSTP.os build/src/thermo/LatticePhase.os build/src/thermo/LatticeSolidPhase.os build/src/thermo/MargulesVPSSTP.os build/src/thermo/MaskellSolidSolnPhase.os build/src/thermo/MixtureFugacityTP.os build/src/thermo/MolalityVPSSTP.os build/src/thermo/Mu0Poly.os build/src/thermo/MultiSpeciesThermo.os build/src/thermo/Nasa9Poly1.os build/src/thermo/Nasa9PolyMultiTempRegion.os build/src/thermo/NasaPoly2.os build/src/thermo/PDSS.os build/src/thermo/PDSSFactory.os build/src/thermo/PDSS_ConstVol.os build/src/thermo/PDSS_HKFT.os build/src/thermo/PDSS_IdealGas.os build/src/thermo/PDSS_IonsFromNeutral.os build/src/thermo/PDSS_SSVol.os build/src/thermo/PDSS_Water.os build/src/thermo/PengRobinson.os build/src/thermo/Phase.os build/src/thermo/PlasmaPhase.os build/src/thermo/PureFluidPhase.os build/src/thermo/RedlichKisterVPSSTP.os build/src/thermo/RedlichKwongMFTP.os build/src/thermo/SingleSpeciesTP.os build/src/thermo/Species.os build/src/thermo/SpeciesThermoFactory.os build/src/thermo/SpeciesThermoInterpType.os build/src/thermo/StoichSubstance.os build/src/thermo/SurfPhase.os build/src/thermo/ThermoFactory.os build/src/thermo/ThermoPhase.os build/src/thermo/VPStandardStateTP.os build/src/thermo/WaterProps.os build/src/thermo/WaterPropsIAPWS.os build/src/thermo/WaterPropsIAPWSphi.os build/src/thermo/WaterSSTP.os build/src/tpx/CarbonDioxide.os build/src/tpx/HFC134a.os build/src/tpx/Heptane.os build/src/tpx/Hydrogen.os build/src/tpx/Methane.os build/src/tpx/Nitrogen.os build/src/tpx/Oxygen.os build/src/tpx/Sub.os build/src/tpx/Water.os build/src/tpx/utils.os build/src/equil/BasisOptimize.os build/src/equil/ChemEquil.os build/src/equil/MultiPhase.os build/src/equil/MultiPhaseEquil.os build/src/equil/vcs_MultiPhaseEquil.os build/src/equil/vcs_VolPhase.os build/src/equil/vcs_solve.os build/src/equil/vcs_solve_TP.os build/src/equil/vcs_util.os build/src/numerics/BandMatrix.os build/src/numerics/CVodesIntegrator.os build/src/numerics/DAE_solvers.os build/src/numerics/DenseMatrix.os build/src/numerics/Func1.os build/src/numerics/FuncEval.os build/src/numerics/IDA_Solver.os build/src/numerics/ODE_integrators.os build/src/numerics/ResidJacEval.os build/src/numerics/funcs.os build/src/numerics/polyfit.os build/src/kinetics/Arrhenius.os build/src/kinetics/BlowersMaselRate.os build/src/kinetics/BulkKinetics.os build/src/kinetics/ChebyshevRate.os build/src/kinetics/Custom.os build/src/kinetics/Falloff.os build/src/kinetics/FalloffFactory.os build/src/kinetics/GasKinetics.os build/src/kinetics/Group.os build/src/kinetics/ImplicitSurfChem.os build/src/kinetics/InterfaceKinetics.os build/src/kinetics/InterfaceRate.os build/src/kinetics/Kinetics.os build/src/kinetics/KineticsFactory.os build/src/kinetics/PlogRate.os build/src/kinetics/Reaction.os build/src/kinetics/ReactionFactory.os build/src/kinetics/ReactionPath.os build/src/kinetics/ReactionRateFactory.os build/src/kinetics/RxnRates.os build/src/kinetics/TwoTempPlasmaRate.os build/src/kinetics/importKinetics.os build/src/kinetics/solveSP.os build/src/transport/DustyGasTransport.os build/src/transport/GasTransport.os build/src/transport/HighPressureGasTransport.os build/src/transport/IonGasTransport.os build/src/transport/MMCollisionInt.os build/src/transport/MixTransport.os build/src/transport/MultiTransport.os build/src/transport/TransportBase.os build/src/transport/TransportData.os build/src/transport/TransportFactory.os build/src/transport/WaterTransport.os build/src/oneD/Boundary1D.os build/src/oneD/Domain1D.os build/src/oneD/IonFlow.os build/src/oneD/MultiJac.os build/src/oneD/MultiNewton.os build/src/oneD/OneDim.os build/src/oneD/Sim1D.os build/src/oneD/StFlow.os build/src/oneD/refine.os build/src/zeroD/ConstPressureReactor.os build/src/zeroD/FlowDevice.os build/src/zeroD/FlowDeviceFactory.os build/src/zeroD/FlowReactor.os build/src/zeroD/IdealGasConstPressureReactor.os build/src/zeroD/IdealGasReactor.os build/src/zeroD/Reactor.os build/src/zeroD/ReactorBase.os build/src/zeroD/ReactorFactory.os build/src/zeroD/ReactorNet.os build/src/zeroD/ReactorSurface.os build/src/zeroD/Wall.os build/src/zeroD/WallFactory.os build/src/zeroD/flowControllers.os build/src/clib/ct.os build/src/clib/ctfunc.os build/src/clib/ctmultiphase.os build/src/clib/ctonedim.os build/src/clib/ctreactor.os build/src/clib/ctrpath.os build/src/clib/ctsurf.os build/src/clib/ctxml.os
+ranlib build/lib/libcantera.a
+g++ -o build/lib/libcantera_shared.so.2.6.0 -pthread -shared -Wl,-soname=libcantera_shared.so.2 build/ext/libexecstream/exec-stream.os build/src/base/AnyMap.os build/src/base/Array.os build/src/base/Interface.os build/src/base/Solution.os build/src/base/Units.os build/src/base/ValueCache.os build/src/base/YamlWriter.os build/src/base/checkFinite.os build/src/base/clockWC.os build/src/base/ct2ctml.os build/src/base/ctexceptions.os build/src/base/ctml.os build/src/base/plots.os build/src/base/stringUtils.os build/src/base/xml.os build/src/base/application.os build/src/base/global.os build/src/thermo/BinarySolutionTabulatedThermo.os build/src/thermo/ConstCpPoly.os build/src/thermo/DebyeHuckel.os build/src/thermo/Elements.os build/src/thermo/GibbsExcessVPSSTP.os build/src/thermo/HMWSoln.os build/src/thermo/IdealGasPhase.os build/src/thermo/IdealMolalSoln.os build/src/thermo/IdealSolidSolnPhase.os build/src/thermo/IdealSolnGasVPSS.os build/src/thermo/IonsFromNeutralVPSSTP.os build/src/thermo/LatticePhase.os build/src/thermo/LatticeSolidPhase.os build/src/thermo/MargulesVPSSTP.os build/src/thermo/MaskellSolidSolnPhase.os build/src/thermo/MixtureFugacityTP.os build/src/thermo/MolalityVPSSTP.os build/src/thermo/Mu0Poly.os build/src/thermo/MultiSpeciesThermo.os build/src/thermo/Nasa9Poly1.os build/src/thermo/Nasa9PolyMultiTempRegion.os build/src/thermo/NasaPoly2.os build/src/thermo/PDSS.os build/src/thermo/PDSSFactory.os build/src/thermo/PDSS_ConstVol.os build/src/thermo/PDSS_HKFT.os build/src/thermo/PDSS_IdealGas.os build/src/thermo/PDSS_IonsFromNeutral.os build/src/thermo/PDSS_SSVol.os build/src/thermo/PDSS_Water.os build/src/thermo/PengRobinson.os build/src/thermo/Phase.os build/src/thermo/PlasmaPhase.os build/src/thermo/PureFluidPhase.os build/src/thermo/RedlichKisterVPSSTP.os build/src/thermo/RedlichKwongMFTP.os build/src/thermo/SingleSpeciesTP.os build/src/thermo/Species.os build/src/thermo/SpeciesThermoFactory.os build/src/thermo/SpeciesThermoInterpType.os build/src/thermo/StoichSubstance.os build/src/thermo/SurfPhase.os build/src/thermo/ThermoFactory.os build/src/thermo/ThermoPhase.os build/src/thermo/VPStandardStateTP.os build/src/thermo/WaterProps.os build/src/thermo/WaterPropsIAPWS.os build/src/thermo/WaterPropsIAPWSphi.os build/src/thermo/WaterSSTP.os build/src/tpx/CarbonDioxide.os build/src/tpx/HFC134a.os build/src/tpx/Heptane.os build/src/tpx/Hydrogen.os build/src/tpx/Methane.os build/src/tpx/Nitrogen.os build/src/tpx/Oxygen.os build/src/tpx/Sub.os build/src/tpx/Water.os build/src/tpx/utils.os build/src/equil/BasisOptimize.os build/src/equil/ChemEquil.os build/src/equil/MultiPhase.os build/src/equil/MultiPhaseEquil.os build/src/equil/vcs_MultiPhaseEquil.os build/src/equil/vcs_VolPhase.os build/src/equil/vcs_solve.os build/src/equil/vcs_solve_TP.os build/src/equil/vcs_util.os build/src/numerics/BandMatrix.os build/src/numerics/CVodesIntegrator.os build/src/numerics/DAE_solvers.os build/src/numerics/DenseMatrix.os build/src/numerics/Func1.os build/src/numerics/FuncEval.os build/src/numerics/IDA_Solver.os build/src/numerics/ODE_integrators.os build/src/numerics/ResidJacEval.os build/src/numerics/funcs.os build/src/numerics/polyfit.os build/src/kinetics/Arrhenius.os build/src/kinetics/BlowersMaselRate.os build/src/kinetics/BulkKinetics.os build/src/kinetics/ChebyshevRate.os build/src/kinetics/Custom.os build/src/kinetics/Falloff.os build/src/kinetics/FalloffFactory.os build/src/kinetics/GasKinetics.os build/src/kinetics/Group.os build/src/kinetics/ImplicitSurfChem.os build/src/kinetics/InterfaceKinetics.os build/src/kinetics/InterfaceRate.os build/src/kinetics/Kinetics.os build/src/kinetics/KineticsFactory.os build/src/kinetics/PlogRate.os build/src/kinetics/Reaction.os build/src/kinetics/ReactionFactory.os build/src/kinetics/ReactionPath.os build/src/kinetics/ReactionRateFactory.os build/src/kinetics/RxnRates.os build/src/kinetics/TwoTempPlasmaRate.os build/src/kinetics/importKinetics.os build/src/kinetics/solveSP.os build/src/transport/DustyGasTransport.os build/src/transport/GasTransport.os build/src/transport/HighPressureGasTransport.os build/src/transport/IonGasTransport.os build/src/transport/MMCollisionInt.os build/src/transport/MixTransport.os build/src/transport/MultiTransport.os build/src/transport/TransportBase.os build/src/transport/TransportData.os build/src/transport/TransportFactory.os build/src/transport/WaterTransport.os build/src/oneD/Boundary1D.os build/src/oneD/Domain1D.os build/src/oneD/IonFlow.os build/src/oneD/MultiJac.os build/src/oneD/MultiNewton.os build/src/oneD/OneDim.os build/src/oneD/Sim1D.os build/src/oneD/StFlow.os build/src/oneD/refine.os build/src/zeroD/ConstPressureReactor.os build/src/zeroD/FlowDevice.os build/src/zeroD/FlowDeviceFactory.os build/src/zeroD/FlowReactor.os build/src/zeroD/IdealGasConstPressureReactor.os build/src/zeroD/IdealGasReactor.os build/src/zeroD/Reactor.os build/src/zeroD/ReactorBase.os build/src/zeroD/ReactorFactory.os build/src/zeroD/ReactorNet.os build/src/zeroD/ReactorSurface.os build/src/zeroD/Wall.os build/src/zeroD/WallFactory.os build/src/zeroD/flowControllers.os build/src/clib/ct.os build/src/clib/ctfunc.os build/src/clib/ctmultiphase.os build/src/clib/ctonedim.os build/src/clib/ctreactor.os build/src/clib/ctrpath.os build/src/clib/ctsurf.os build/src/clib/ctxml.os -Lbuild/lib -lomp -lsundials_cvodes -lsundials_ida -lsundials_nvecserial -lfmt -lyaml-cpp
+Create symlinks for: 'build/lib/libcantera_shared.so.2.6.0'
+    'build/lib/libcantera_shared.so.2'->'build/lib/libcantera_shared.so.2.6.0'
+    'build/lib/libcantera_shared.so'->'build/lib/libcantera_shared.so.2.6.0'
+Install file: "build/data/KOH.cti" as "build/python/cantera/data/KOH.cti"
+Install file: "build/data/KOH.xml" as "build/python/cantera/data/KOH.xml"
+Install file: "build/data/KOH.yaml" as "build/python/cantera/data/KOH.yaml"
+Install file: "build/data/air.cti" as "build/python/cantera/data/air.cti"
+Install file: "build/data/air.xml" as "build/python/cantera/data/air.xml"
+Install file: "build/data/air.yaml" as "build/python/cantera/data/air.yaml"
+Install file: "build/data/airNASA9.cti" as "build/python/cantera/data/airNASA9.cti"
+Install file: "build/data/airNASA9.xml" as "build/python/cantera/data/airNASA9.xml"
+Install file: "build/data/airNASA9.yaml" as "build/python/cantera/data/airNASA9.yaml"
+Install file: "build/data/argon.cti" as "build/python/cantera/data/argon.cti"
+Install file: "build/data/argon.xml" as "build/python/cantera/data/argon.xml"
+Install file: "build/data/critical-properties.yaml" as "build/python/cantera/data/critical-properties.yaml"
+Install file: "build/data/diamond.cti" as "build/python/cantera/data/diamond.cti"
+Install file: "build/data/diamond.xml" as "build/python/cantera/data/diamond.xml"
+Install file: "build/data/diamond.yaml" as "build/python/cantera/data/diamond.yaml"
+Install file: "build/data/element-standard-entropies.yaml" as "build/python/cantera/data/element-standard-entropies.yaml"
+Install file: "build/data/elements.xml" as "build/python/cantera/data/elements.xml"
+Install file: "build/data/graphite.cti" as "build/python/cantera/data/graphite.cti"
+Install file: "build/data/graphite.xml" as "build/python/cantera/data/graphite.xml"
+Install file: "build/data/graphite.yaml" as "build/python/cantera/data/graphite.yaml"
+Install file: "build/data/gri30.cti" as "build/python/cantera/data/gri30.cti"
+Install file: "build/data/gri30.xml" as "build/python/cantera/data/gri30.xml"
+Install file: "build/data/gri30.yaml" as "build/python/cantera/data/gri30.yaml"
+Install file: "build/data/gri30_highT.cti" as "build/python/cantera/data/gri30_highT.cti"
+Install file: "build/data/gri30_highT.xml" as "build/python/cantera/data/gri30_highT.xml"
+Install file: "build/data/gri30_highT.yaml" as "build/python/cantera/data/gri30_highT.yaml"
+Install file: "build/data/gri30_ion.cti" as "build/python/cantera/data/gri30_ion.cti"
+Install file: "build/data/gri30_ion.xml" as "build/python/cantera/data/gri30_ion.xml"
+Install file: "build/data/gri30_ion.yaml" as "build/python/cantera/data/gri30_ion.yaml"
+Install file: "build/data/h2o2.cti" as "build/python/cantera/data/h2o2.cti"
+Install file: "build/data/h2o2.xml" as "build/python/cantera/data/h2o2.xml"
+Install file: "build/data/h2o2.yaml" as "build/python/cantera/data/h2o2.yaml"
+Install file: "build/data/liquidvapor.cti" as "build/python/cantera/data/liquidvapor.cti"
+Install file: "build/data/liquidvapor.xml" as "build/python/cantera/data/liquidvapor.xml"
+Install file: "build/data/liquidvapor.yaml" as "build/python/cantera/data/liquidvapor.yaml"
+Install file: "build/data/lithium_ion_battery.cti" as "build/python/cantera/data/lithium_ion_battery.cti"
+Install file: "build/data/lithium_ion_battery.xml" as "build/python/cantera/data/lithium_ion_battery.xml"
+Install file: "build/data/lithium_ion_battery.yaml" as "build/python/cantera/data/lithium_ion_battery.yaml"
+Install file: "build/data/methane_pox_on_pt.cti" as "build/python/cantera/data/methane_pox_on_pt.cti"
+Install file: "build/data/methane_pox_on_pt.xml" as "build/python/cantera/data/methane_pox_on_pt.xml"
+Install file: "build/data/methane_pox_on_pt.yaml" as "build/python/cantera/data/methane_pox_on_pt.yaml"
+Install file: "build/data/nDodecane_Reitz.cti" as "build/python/cantera/data/nDodecane_Reitz.cti"
+Install file: "build/data/nDodecane_Reitz.xml" as "build/python/cantera/data/nDodecane_Reitz.xml"
+Install file: "build/data/nDodecane_Reitz.yaml" as "build/python/cantera/data/nDodecane_Reitz.yaml"
+Install file: "build/data/nasa.cti" as "build/python/cantera/data/nasa.cti"
+Install file: "build/data/nasa.xml" as "build/python/cantera/data/nasa.xml"
+Install file: "build/data/nasa_condensed.cti" as "build/python/cantera/data/nasa_condensed.cti"
+Install file: "build/data/nasa_condensed.xml" as "build/python/cantera/data/nasa_condensed.xml"
+Install file: "build/data/nasa_condensed.yaml" as "build/python/cantera/data/nasa_condensed.yaml"
+Install file: "build/data/nasa_gas.cti" as "build/python/cantera/data/nasa_gas.cti"
+Install file: "build/data/nasa_gas.xml" as "build/python/cantera/data/nasa_gas.xml"
+Install file: "build/data/nasa_gas.yaml" as "build/python/cantera/data/nasa_gas.yaml"
+Install file: "build/data/ohn.cti" as "build/python/cantera/data/ohn.cti"
+Install file: "build/data/ohn.xml" as "build/python/cantera/data/ohn.xml"
+Install file: "build/data/ohn.yaml" as "build/python/cantera/data/ohn.yaml"
+Install file: "build/data/ptcombust.cti" as "build/python/cantera/data/ptcombust.cti"
+Install file: "build/data/ptcombust.xml" as "build/python/cantera/data/ptcombust.xml"
+Install file: "build/data/ptcombust.yaml" as "build/python/cantera/data/ptcombust.yaml"
+Install file: "build/data/silane.cti" as "build/python/cantera/data/silane.cti"
+Install file: "build/data/silane.xml" as "build/python/cantera/data/silane.xml"
+Install file: "build/data/silane.yaml" as "build/python/cantera/data/silane.yaml"
+Install file: "build/data/silicon.cti" as "build/python/cantera/data/silicon.cti"
+Install file: "build/data/silicon.xml" as "build/python/cantera/data/silicon.xml"
+Install file: "build/data/silicon.yaml" as "build/python/cantera/data/silicon.yaml"
+Install file: "build/data/silicon_carbide.cti" as "build/python/cantera/data/silicon_carbide.cti"
+Install file: "build/data/silicon_carbide.xml" as "build/python/cantera/data/silicon_carbide.xml"
+Install file: "build/data/silicon_carbide.yaml" as "build/python/cantera/data/silicon_carbide.yaml"
+Install file: "build/data/sofc.cti" as "build/python/cantera/data/sofc.cti"
+Install file: "build/data/sofc.xml" as "build/python/cantera/data/sofc.xml"
+Install file: "build/data/sofc.yaml" as "build/python/cantera/data/sofc.yaml"
+Install file: "build/data/water.cti" as "build/python/cantera/data/water.cti"
+Install file: "build/data/water.xml" as "build/python/cantera/data/water.xml"
+Install file: "build/data/water.yaml" as "build/python/cantera/data/water.yaml"
+Install file: "test/data/BinarySolutionTabulatedThermo.yaml" as "build/python/cantera/test/data/BinarySolutionTabulatedThermo.yaml"
+Install file: "test/data/CombustorTest-integrateWithAdvance.csv" as "build/python/cantera/test/data/CombustorTest-integrateWithAdvance.csv"
+Install file: "test/data/CounterflowPremixedFlame-h2-mix.csv" as "build/python/cantera/test/data/CounterflowPremixedFlame-h2-mix.csv"
+Install file: "test/data/DiffusionFlameTest-h2-auto.csv" as "build/python/cantera/test/data/DiffusionFlameTest-h2-auto.csv"
+Install file: "test/data/DiffusionFlameTest-h2-mix-rad.csv" as "build/python/cantera/test/data/DiffusionFlameTest-h2-mix-rad.csv"
+Install file: "test/data/DiffusionFlameTest-h2-mix.csv" as "build/python/cantera/test/data/DiffusionFlameTest-h2-mix.csv"
+Install file: "test/data/ET_test.yaml" as "build/python/cantera/test/data/ET_test.yaml"
+Install file: "test/data/HMW_NaCl.yaml" as "build/python/cantera/test/data/HMW_NaCl.yaml"
+Install file: "test/data/HMW_NaCl_sp1977_alt.xml" as "build/python/cantera/test/data/HMW_NaCl_sp1977_alt.xml"
+Install file: "test/data/HMW_NaCl_sp1977_alt.yaml" as "build/python/cantera/test/data/HMW_NaCl_sp1977_alt.yaml"
+Install file: "test/data/IdealMolalSolnPhaseExample.xml" as "build/python/cantera/test/data/IdealMolalSolnPhaseExample.xml"
+Install file: "test/data/IdealMolalSolnPhaseExample.yaml" as "build/python/cantera/test/data/IdealMolalSolnPhaseExample.yaml"
+Install file: "test/data/IdealSolidSolnPhaseExample.xml" as "build/python/cantera/test/data/IdealSolidSolnPhaseExample.xml"
+Install file: "test/data/IdealSolidSolnPhaseExample.yaml" as "build/python/cantera/test/data/IdealSolidSolnPhaseExample.yaml"
+Install file: "test/data/Li7Si3_ls.xml" as "build/python/cantera/test/data/Li7Si3_ls.xml"
+Install file: "test/data/Li7Si3_ls.yaml" as "build/python/cantera/test/data/Li7Si3_ls.yaml"
+Install file: "test/data/LiKCl_liquid.xml" as "build/python/cantera/test/data/LiKCl_liquid.xml"
+Install file: "test/data/LiKCl_liquid.yaml" as "build/python/cantera/test/data/LiKCl_liquid.yaml"
+Install file: "test/data/Li_Liquid.xml" as "build/python/cantera/test/data/Li_Liquid.xml"
+Install file: "test/data/Li_Liquid.yaml" as "build/python/cantera/test/data/Li_Liquid.yaml"
+Install file: "test/data/MaskellSolidSolnPhase_nohmix.yaml" as "build/python/cantera/test/data/MaskellSolidSolnPhase_nohmix.yaml"
+Install file: "test/data/MaskellSolidSolnPhase_valid.xml" as "build/python/cantera/test/data/MaskellSolidSolnPhase_valid.xml"
+Install file: "test/data/MaskellSolidSolnPhase_valid.yaml" as "build/python/cantera/test/data/MaskellSolidSolnPhase_valid.yaml"
+Install file: "test/data/NaCl_Solid.xml" as "build/python/cantera/test/data/NaCl_Solid.xml"
+Install file: "test/data/NaCl_Solid.yaml" as "build/python/cantera/test/data/NaCl_Solid.yaml"
+Install file: "test/data/RedlichKisterVPSSTP_valid.xml" as "build/python/cantera/test/data/RedlichKisterVPSSTP_valid.xml"
+Install file: "test/data/RedlichKisterVPSSTP_valid.yaml" as "build/python/cantera/test/data/RedlichKisterVPSSTP_valid.yaml"
+Install file: "test/data/WallKinetics-coverages-regression1.csv" as "build/python/cantera/test/data/WallKinetics-coverages-regression1.csv"
+Install file: "test/data/WallKinetics-coverages-regression2.csv" as "build/python/cantera/test/data/WallKinetics-coverages-regression2.csv"
+Install file: "test/data/WallTest-integrateWithAdvance.csv" as "build/python/cantera/test/data/WallTest-integrateWithAdvance.csv"
+Install file: "test/data/addReactions_err_test.yaml" as "build/python/cantera/test/data/addReactions_err_test.yaml"
+Install file: "test/data/air-no-reactions.cti" as "build/python/cantera/test/data/air-no-reactions.cti"
+Install file: "test/data/air-no-reactions.xml" as "build/python/cantera/test/data/air-no-reactions.xml"
+Install file: "test/data/air-no-reactions.yaml" as "build/python/cantera/test/data/air-no-reactions.yaml"
+Install file: "test/data/bad-troe.inp" as "build/python/cantera/test/data/bad-troe.inp"
+Install file: "test/data/big_element_num_err.inp" as "build/python/cantera/test/data/big_element_num_err.inp"
+Install file: "test/data/blank_line_in_header.inp" as "build/python/cantera/test/data/blank_line_in_header.inp"
+Install file: "test/data/blowers-masel.yaml" as "build/python/cantera/test/data/blowers-masel.yaml"
+Install file: "test/data/ch4_ion.cti" as "build/python/cantera/test/data/ch4_ion.cti"
+Install file: "test/data/ch4_ion.xml" as "build/python/cantera/test/data/ch4_ion.xml"
+Install file: "test/data/ch4_ion.yaml" as "build/python/cantera/test/data/ch4_ion.yaml"
+Install file: "test/data/chemically-activated-reaction.inp" as "build/python/cantera/test/data/chemically-activated-reaction.inp"
+Install file: "test/data/chemically-activated-reaction.xml" as "build/python/cantera/test/data/chemically-activated-reaction.xml"
+Install file: "test/data/chemically-activated-reaction.yaml" as "build/python/cantera/test/data/chemically-activated-reaction.yaml"
+Install file: "test/data/co2_PR_example.yaml" as "build/python/cantera/test/data/co2_PR_example.yaml"
+Install file: "test/data/co2_RK_example.cti" as "build/python/cantera/test/data/co2_RK_example.cti"
+Install file: "test/data/co2_RK_example.xml" as "build/python/cantera/test/data/co2_RK_example.xml"
+Install file: "test/data/co2_RK_example.yaml" as "build/python/cantera/test/data/co2_RK_example.yaml"
+Install file: "test/data/co2_RK_lookup.yaml" as "build/python/cantera/test/data/co2_RK_lookup.yaml"
+Install file: "test/data/custom-elements.inp" as "build/python/cantera/test/data/custom-elements.inp"
+Install file: "test/data/debye-huckel-all.xml" as "build/python/cantera/test/data/debye-huckel-all.xml"
+Install file: "test/data/debye-huckel-all.yaml" as "build/python/cantera/test/data/debye-huckel-all.yaml"
+Install file: "test/data/diamond_cvd.csv" as "build/python/cantera/test/data/diamond_cvd.csv"
+Install file: "test/data/dummy-thermo.dat" as "build/python/cantera/test/data/dummy-thermo.dat"
+Install file: "test/data/duplicate-reactionData-ids.xml" as "build/python/cantera/test/data/duplicate-reactionData-ids.xml"
+Install file: "test/data/duplicate-reactions.yaml" as "build/python/cantera/test/data/duplicate-reactions.yaml"
+Install file: "test/data/duplicate-species.inp" as "build/python/cantera/test/data/duplicate-species.inp"
+Install file: "test/data/duplicate-speciesData-ids.xml" as "build/python/cantera/test/data/duplicate-speciesData-ids.xml"
+Install file: "test/data/duplicate-thermo.inp" as "build/python/cantera/test/data/duplicate-thermo.inp"
+Install file: "test/data/equilibrium.yaml" as "build/python/cantera/test/data/equilibrium.yaml"
+Install file: "test/data/explicit-forward-order.inp" as "build/python/cantera/test/data/explicit-forward-order.inp"
+Install file: "test/data/explicit-forward-order.xml" as "build/python/cantera/test/data/explicit-forward-order.xml"
+Install file: "test/data/explicit-forward-order.yaml" as "build/python/cantera/test/data/explicit-forward-order.yaml"
+Install file: "test/data/explicit-reverse-rate.inp" as "build/python/cantera/test/data/explicit-reverse-rate.inp"
+Install file: "test/data/explicit-reverse-rate.xml" as "build/python/cantera/test/data/explicit-reverse-rate.xml"
+Install file: "test/data/explicit-reverse-rate.yaml" as "build/python/cantera/test/data/explicit-reverse-rate.yaml"
+Install file: "test/data/explicit-third-bodies.inp" as "build/python/cantera/test/data/explicit-third-bodies.inp"
+Install file: "test/data/explicit-third-bodies.xml" as "build/python/cantera/test/data/explicit-third-bodies.xml"
+Install file: "test/data/explicit-third-bodies.yaml" as "build/python/cantera/test/data/explicit-third-bodies.yaml"
+Install file: "test/data/extra.yaml" as "build/python/cantera/test/data/extra.yaml"
+Install file: "test/data/float-stoich.inp" as "build/python/cantera/test/data/float-stoich.inp"
+Install file: "test/data/frac.cti" as "build/python/cantera/test/data/frac.cti"
+Install file: "test/data/frac.xml" as "build/python/cantera/test/data/frac.xml"
+Install file: "test/data/frac.yaml" as "build/python/cantera/test/data/frac.yaml"
+Install file: "test/data/gas-carbon-equil.csv" as "build/python/cantera/test/data/gas-carbon-equil.csv"
+Install file: "test/data/gasNASA9.yaml" as "build/python/cantera/test/data/gasNASA9.yaml"
+Install file: "test/data/gri30.inp" as "build/python/cantera/test/data/gri30.inp"
+Install file: "test/data/gri30_thermo.dat" as "build/python/cantera/test/data/gri30_thermo.dat"
+Install file: "test/data/gri30_tran.dat" as "build/python/cantera/test/data/gri30_tran.dat"
+Install file: "test/data/h2o2-bad-geometry-tran.dat" as "build/python/cantera/test/data/h2o2-bad-geometry-tran.dat"
+Install file: "test/data/h2o2-duplicate-species-tran.dat" as "build/python/cantera/test/data/h2o2-duplicate-species-tran.dat"
+Install file: "test/data/h2o2-extra-column-entries-tran.dat" as "build/python/cantera/test/data/h2o2-extra-column-entries-tran.dat"
+Install file: "test/data/h2o2-float-geometry-tran.dat" as "build/python/cantera/test/data/h2o2-float-geometry-tran.dat"
+Install file: "test/data/h2o2-missing-species-tran.dat" as "build/python/cantera/test/data/h2o2-missing-species-tran.dat"
+Install file: "test/data/h2o2-plus.yaml" as "build/python/cantera/test/data/h2o2-plus.yaml"
+Install file: "test/data/h2o2.inp" as "build/python/cantera/test/data/h2o2.inp"
+Install file: "test/data/h2o2_emptyReactions.inp" as "build/python/cantera/test/data/h2o2_emptyReactions.inp"
+Install file: "test/data/h2o2_missingElement.inp" as "build/python/cantera/test/data/h2o2_missingElement.inp"
+Install file: "test/data/h2o2_missingThermo.inp" as "build/python/cantera/test/data/h2o2_missingThermo.inp"
+Install file: "test/data/h2o2_unbalancedReaction.xml" as "build/python/cantera/test/data/h2o2_unbalancedReaction.xml"
+Install file: "test/data/haca2.cti" as "build/python/cantera/test/data/haca2.cti"
+Install file: "test/data/haca2.yaml" as "build/python/cantera/test/data/haca2.yaml"
+Install file: "test/data/ideal-gas.yaml" as "build/python/cantera/test/data/ideal-gas.yaml"
+Install file: "test/data/invalid-equation.inp" as "build/python/cantera/test/data/invalid-equation.inp"
+Install file: "test/data/invalid.cti" as "build/python/cantera/test/data/invalid.cti"
+Install file: "test/data/jacobian-tests.yaml" as "build/python/cantera/test/data/jacobian-tests.yaml"
+Install file: "test/data/kineticsfromscratch.yaml" as "build/python/cantera/test/data/kineticsfromscratch.yaml"
+Install file: "test/data/koh-equil-HP.csv" as "build/python/cantera/test/data/koh-equil-HP.csv"
+Install file: "test/data/koh-equil-TP.csv" as "build/python/cantera/test/data/koh-equil-TP.csv"
+Install file: "test/data/liquid-water.xml" as "build/python/cantera/test/data/liquid-water.xml"
+Install file: "test/data/liquid-water.yaml" as "build/python/cantera/test/data/liquid-water.yaml"
+Install file: "test/data/lithium-ion-battery-test.csv" as "build/python/cantera/test/data/lithium-ion-battery-test.csv"
+Install file: "test/data/mock_ion.xml" as "build/python/cantera/test/data/mock_ion.xml"
+Install file: "test/data/mock_ion.yaml" as "build/python/cantera/test/data/mock_ion.yaml"
+Install file: "test/data/nasa9-test-subset.inp" as "build/python/cantera/test/data/nasa9-test-subset.inp"
+Install file: "test/data/nasa9-test-subset.xml" as "build/python/cantera/test/data/nasa9-test-subset.xml"
+Install file: "test/data/nasa9-test-subset.yaml" as "build/python/cantera/test/data/nasa9-test-subset.yaml"
+Install file: "test/data/nasa9-test-therm.dat" as "build/python/cantera/test/data/nasa9-test-therm.dat"
+Install file: "test/data/nasa9-test.inp" as "build/python/cantera/test/data/nasa9-test.inp"
+Install file: "test/data/nasa9-test.xml" as "build/python/cantera/test/data/nasa9-test.xml"
+Install file: "test/data/nasa9-test.yaml" as "build/python/cantera/test/data/nasa9-test.yaml"
+Install file: "test/data/negative-order.inp" as "build/python/cantera/test/data/negative-order.inp"
+Install file: "test/data/negative-order.yaml" as "build/python/cantera/test/data/negative-order.yaml"
+Install file: "test/data/negative-rate.inp" as "build/python/cantera/test/data/negative-rate.inp"
+Install file: "test/data/noninteger-atomicity.cti" as "build/python/cantera/test/data/noninteger-atomicity.cti"
+Install file: "test/data/noxNeg.cti" as "build/python/cantera/test/data/noxNeg.cti"
+Install file: "test/data/noxNeg.xml" as "build/python/cantera/test/data/noxNeg.xml"
+Install file: "test/data/noxNeg.yaml" as "build/python/cantera/test/data/noxNeg.yaml"
+Install file: "test/data/oxygen-plasma.yaml" as "build/python/cantera/test/data/oxygen-plasma.yaml"
+Install file: "test/data/pdep-test.cti" as "build/python/cantera/test/data/pdep-test.cti"
+Install file: "test/data/pdep-test.inp" as "build/python/cantera/test/data/pdep-test.inp"
+Install file: "test/data/pdep-test.xml" as "build/python/cantera/test/data/pdep-test.xml"
+Install file: "test/data/pdep-test.yaml" as "build/python/cantera/test/data/pdep-test.yaml"
+Install file: "test/data/pdss_hkft.xml" as "build/python/cantera/test/data/pdss_hkft.xml"
+Install file: "test/data/pdss_hkft.yaml" as "build/python/cantera/test/data/pdss_hkft.yaml"
+Install file: "test/data/phase-reaction-spec1.yaml" as "build/python/cantera/test/data/phase-reaction-spec1.yaml"
+Install file: "test/data/phase-reaction-spec2.yaml" as "build/python/cantera/test/data/phase-reaction-spec2.yaml"
+Install file: "test/data/photo-reaction.inp" as "build/python/cantera/test/data/photo-reaction.inp"
+Install file: "test/data/photo-reaction.yaml" as "build/python/cantera/test/data/photo-reaction.yaml"
+Install file: "test/data/ptcombust-motzwise.cti" as "build/python/cantera/test/data/ptcombust-motzwise.cti"
+Install file: "test/data/ptcombust-motzwise.xml" as "build/python/cantera/test/data/ptcombust-motzwise.xml"
+Install file: "test/data/ptcombust-motzwise.yaml" as "build/python/cantera/test/data/ptcombust-motzwise.yaml"
+Install file: "test/data/ptcombust-simple.yaml" as "build/python/cantera/test/data/ptcombust-simple.yaml"
+Install file: "test/data/reaction-orders.cti" as "build/python/cantera/test/data/reaction-orders.cti"
+Install file: "test/data/reaction-orders.xml" as "build/python/cantera/test/data/reaction-orders.xml"
+Install file: "test/data/reaction-orders.yaml" as "build/python/cantera/test/data/reaction-orders.yaml"
+Install file: "test/data/simplephases.yaml" as "build/python/cantera/test/data/simplephases.yaml"
+Install file: "test/data/sofc-test.csv" as "build/python/cantera/test/data/sofc-test.csv"
+Install file: "test/data/sofc2.yaml" as "build/python/cantera/test/data/sofc2.yaml"
+Install file: "test/data/soot-therm.dat" as "build/python/cantera/test/data/soot-therm.dat"
+Install file: "test/data/soot.inp" as "build/python/cantera/test/data/soot.inp"
+Install file: "test/data/soot.yaml" as "build/python/cantera/test/data/soot.yaml"
+Install file: "test/data/species-names.inp" as "build/python/cantera/test/data/species-names.inp"
+Install file: "test/data/species-names.xml" as "build/python/cantera/test/data/species-names.xml"
+Install file: "test/data/species-names.yaml" as "build/python/cantera/test/data/species-names.yaml"
+Install file: "test/data/sri-falloff.inp" as "build/python/cantera/test/data/sri-falloff.inp"
+Install file: "test/data/sri-falloff.xml" as "build/python/cantera/test/data/sri-falloff.xml"
+Install file: "test/data/sri-falloff.yaml" as "build/python/cantera/test/data/sri-falloff.yaml"
+Install file: "test/data/sri_convert_test.txt" as "build/python/cantera/test/data/sri_convert_test.txt"
+Install file: "test/data/steam-reforming.yaml" as "build/python/cantera/test/data/steam-reforming.yaml"
+Install file: "test/data/sticking_coeff_check.yaml" as "build/python/cantera/test/data/sticking_coeff_check.yaml"
+Install file: "test/data/surface-phases.yaml" as "build/python/cantera/test/data/surface-phases.yaml"
+Install file: "test/data/surface1-gas-noreac.inp" as "build/python/cantera/test/data/surface1-gas-noreac.inp"
+Install file: "test/data/surface1-gas.inp" as "build/python/cantera/test/data/surface1-gas.inp"
+Install file: "test/data/surface1.inp" as "build/python/cantera/test/data/surface1.inp"
+Install file: "test/data/test_subdir/species-elements.yaml" as "build/python/cantera/test/data/test_subdir/species-elements.yaml"
+Install file: "test/data/thermo-models.yaml" as "build/python/cantera/test/data/thermo-models.yaml"
+Install file: "test/data/thermo_single_Tint.dat" as "build/python/cantera/test/data/thermo_single_Tint.dat"
+Install file: "test/data/third_body_plus_falloff_reaction.inp" as "build/python/cantera/test/data/third_body_plus_falloff_reaction.inp"
+Install file: "test/data/transport_models_test.xml" as "build/python/cantera/test/data/transport_models_test.xml"
+Install file: "test/data/transport_models_test.yaml" as "build/python/cantera/test/data/transport_models_test.yaml"
+Install file: "test/data/tsang-falloff.yaml" as "build/python/cantera/test/data/tsang-falloff.yaml"
+Install file: "test/data/undeclared-duplicate-reactions.inp" as "build/python/cantera/test/data/undeclared-duplicate-reactions.inp"
+Install file: "test/data/units-custom.inp" as "build/python/cantera/test/data/units-custom.inp"
+Install file: "test/data/units-default.inp" as "build/python/cantera/test/data/units-default.inp"
+Install file: "test/data/unrecognized-section.inp" as "build/python/cantera/test/data/unrecognized-section.inp"
+Install file: "test/data/unterminated-sections.inp" as "build/python/cantera/test/data/unterminated-sections.inp"
+Install file: "test/data/unterminated-sections2.inp" as "build/python/cantera/test/data/unterminated-sections2.inp"
+Install file: "test/data/with-transport.inp" as "build/python/cantera/test/data/with-transport.inp"
+Substituting vars from build/python/setup.cfg.in to build/python/setup.cfg
+/data/data/com.termux/files/usr/bin/python3.9 -c "import Cython.Build; Cython.Build.cythonize('build/python/cantera/_cantera.pyx')"
+Compiling build/python/cantera/_cantera.pyx because it changed.
+[1/1] Cythonizing build/python/cantera/_cantera.pyx
+g++ -o build/temp-py/_cantera.os -c -std=c++11 -pthread -O3 -Wno-inline -g -fPIC -DNDEBUG -Iinclude -I/data/data/com.termux/files/usr/include/python3.9 -I/data/data/com.termux/files/usr/lib/python3.9/site-packages/numpy-1.20.3-py3.9-linux-aarch64.egg/numpy/core/include build/python/cantera/_cantera.cpp
+In file included from build/python/cantera/_cantera.cpp:660:
+In file included from /data/data/com.termux/files/usr/lib/python3.9/site-packages/numpy-1.20.3-py3.9-linux-aarch64.egg/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /data/data/com.termux/files/usr/lib/python3.9/site-packages/numpy-1.20.3-py3.9-linux-aarch64.egg/numpy/core/include/numpy/ndarrayobject.h:12:
+In file included from /data/data/com.termux/files/usr/lib/python3.9/site-packages/numpy-1.20.3-py3.9-linux-aarch64.egg/numpy/core/include/numpy/ndarraytypes.h:1944:
+/data/data/com.termux/files/usr/lib/python3.9/site-packages/numpy-1.20.3-py3.9-linux-aarch64.egg/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+#warning "Using deprecated NumPy API, disable it with " \
+ ^
+1 warning generated.
+g++ -o build/python/cantera/_cantera.cpython-39.so -pthread -shared build/temp-py/_cantera.os -Lbuild/lib -lcantera -lsundials_cvodes -lsundials_ida -lsundials_nvecserial -lfmt -lyaml-cpp -lomp
+Copy("build/python/README.rst", "README.rst")
+Copy("build/python/LICENSE.txt", "build/ext/LICENSE.txt")
+"/data/data/com.termux/files/usr/bin/python3.9" -m pip wheel -v --no-build-isolation --no-deps --wheel-dir=build/python/dist build/python
+Processing ./build/python
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info
+  writing /data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info/PKG-INFO
+  writing dependency_links to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info/dependency_links.txt
+  writing entry points to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info/entry_points.txt
+  writing requirements to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info/requires.txt
+  writing top-level names to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info/top_level.txt
+  writing manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info/SOURCES.txt'
+  reading manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info/SOURCES.txt'
+  adding license file 'LICENSE.txt'
+  writing manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.egg-info/SOURCES.txt'
+  creating '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-lk1cg81_/Cantera.dist-info'
+  adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: Cantera
+  Building wheel for Cantera (pyproject.toml): started
+  Running command Building wheel for Cantera (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/cantera
+  copying cantera/__init__.py -> build/lib/cantera
+  copying cantera/ck2cti.py -> build/lib/cantera
+  copying cantera/ck2yaml.py -> build/lib/cantera
+  copying cantera/composite.py -> build/lib/cantera
+  copying cantera/cti2yaml.py -> build/lib/cantera
+  copying cantera/ctml2yaml.py -> build/lib/cantera
+  copying cantera/ctml_writer.py -> build/lib/cantera
+  copying cantera/interrupts.py -> build/lib/cantera
+  copying cantera/liquidvapor.py -> build/lib/cantera
+  copying cantera/onedim.py -> build/lib/cantera
+  copying cantera/utils.py -> build/lib/cantera
+  creating build/lib/cantera/data
+  copying cantera/data/__init__.py -> build/lib/cantera/data
+  creating build/lib/cantera/test
+  copying cantera/test/__init__.py -> build/lib/cantera/test
+  copying cantera/test/test_composite.py -> build/lib/cantera/test
+  copying cantera/test/test_convert.py -> build/lib/cantera/test
+  copying cantera/test/test_equilibrium.py -> build/lib/cantera/test
+  copying cantera/test/test_func1.py -> build/lib/cantera/test
+  copying cantera/test/test_jacobian.py -> build/lib/cantera/test
+  copying cantera/test/test_kinetics.py -> build/lib/cantera/test
+  copying cantera/test/test_mixture.py -> build/lib/cantera/test
+  copying cantera/test/test_onedim.py -> build/lib/cantera/test
+  copying cantera/test/test_purefluid.py -> build/lib/cantera/test
+  copying cantera/test/test_reaction.py -> build/lib/cantera/test
+  copying cantera/test/test_reactor.py -> build/lib/cantera/test
+  copying cantera/test/test_thermo.py -> build/lib/cantera/test
+  copying cantera/test/test_transport.py -> build/lib/cantera/test
+  copying cantera/test/test_utils.py -> build/lib/cantera/test
+  copying cantera/test/utilities.py -> build/lib/cantera/test
+  creating build/lib/cantera/test/data
+  copying cantera/test/data/__init__.py -> build/lib/cantera/test/data
+  creating build/lib/cantera/examples
+  copying cantera/examples/__init__.py -> build/lib/cantera/examples
+  running egg_info
+  creating Cantera.egg-info
+  writing Cantera.egg-info/PKG-INFO
+  writing dependency_links to Cantera.egg-info/dependency_links.txt
+  writing entry points to Cantera.egg-info/entry_points.txt
+  writing requirements to Cantera.egg-info/requires.txt
+  writing top-level names to Cantera.egg-info/top_level.txt
+  writing manifest file 'Cantera.egg-info/SOURCES.txt'
+  reading manifest file 'Cantera.egg-info/SOURCES.txt'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'Cantera.egg-info/SOURCES.txt'
+  copying cantera/__init__.pxd -> build/lib/cantera
+  copying cantera/_cantera.pxd -> build/lib/cantera
+  copying cantera/_cantera.cpython-39.so -> build/lib/cantera
+  copying cantera/data/KOH.cti -> build/lib/cantera/data
+  copying cantera/data/KOH.xml -> build/lib/cantera/data
+  copying cantera/data/KOH.yaml -> build/lib/cantera/data
+  copying cantera/data/air.cti -> build/lib/cantera/data
+  copying cantera/data/air.xml -> build/lib/cantera/data
+  copying cantera/data/air.yaml -> build/lib/cantera/data
+  copying cantera/data/airNASA9.cti -> build/lib/cantera/data
+  copying cantera/data/airNASA9.xml -> build/lib/cantera/data
+  copying cantera/data/airNASA9.yaml -> build/lib/cantera/data
+  copying cantera/data/argon.cti -> build/lib/cantera/data
+  copying cantera/data/argon.xml -> build/lib/cantera/data
+  copying cantera/data/critical-properties.yaml -> build/lib/cantera/data
+  copying cantera/data/diamond.cti -> build/lib/cantera/data
+  copying cantera/data/diamond.xml -> build/lib/cantera/data
+  copying cantera/data/diamond.yaml -> build/lib/cantera/data
+  copying cantera/data/element-standard-entropies.yaml -> build/lib/cantera/data
+  copying cantera/data/elements.xml -> build/lib/cantera/data
+  copying cantera/data/graphite.cti -> build/lib/cantera/data
+  copying cantera/data/graphite.xml -> build/lib/cantera/data
+  copying cantera/data/graphite.yaml -> build/lib/cantera/data
+  copying cantera/data/gri30.cti -> build/lib/cantera/data
+  copying cantera/data/gri30.xml -> build/lib/cantera/data
+  copying cantera/data/gri30.yaml -> build/lib/cantera/data
+  copying cantera/data/gri30_highT.cti -> build/lib/cantera/data
+  copying cantera/data/gri30_highT.xml -> build/lib/cantera/data
+  copying cantera/data/gri30_highT.yaml -> build/lib/cantera/data
+  copying cantera/data/gri30_ion.cti -> build/lib/cantera/data
+  copying cantera/data/gri30_ion.xml -> build/lib/cantera/data
+  copying cantera/data/gri30_ion.yaml -> build/lib/cantera/data
+  copying cantera/data/h2o2.cti -> build/lib/cantera/data
+  copying cantera/data/h2o2.xml -> build/lib/cantera/data
+  copying cantera/data/h2o2.yaml -> build/lib/cantera/data
+  copying cantera/data/liquidvapor.cti -> build/lib/cantera/data
+  copying cantera/data/liquidvapor.xml -> build/lib/cantera/data
+  copying cantera/data/liquidvapor.yaml -> build/lib/cantera/data
+  copying cantera/data/lithium_ion_battery.cti -> build/lib/cantera/data
+  copying cantera/data/lithium_ion_battery.xml -> build/lib/cantera/data
+  copying cantera/data/lithium_ion_battery.yaml -> build/lib/cantera/data
+  copying cantera/data/methane_pox_on_pt.cti -> build/lib/cantera/data
+  copying cantera/data/methane_pox_on_pt.xml -> build/lib/cantera/data
+  copying cantera/data/methane_pox_on_pt.yaml -> build/lib/cantera/data
+  copying cantera/data/nDodecane_Reitz.cti -> build/lib/cantera/data
+  copying cantera/data/nDodecane_Reitz.xml -> build/lib/cantera/data
+  copying cantera/data/nDodecane_Reitz.yaml -> build/lib/cantera/data
+  copying cantera/data/nasa.cti -> build/lib/cantera/data
+  copying cantera/data/nasa.xml -> build/lib/cantera/data
+  copying cantera/data/nasa_condensed.cti -> build/lib/cantera/data
+  copying cantera/data/nasa_condensed.xml -> build/lib/cantera/data
+  copying cantera/data/nasa_condensed.yaml -> build/lib/cantera/data
+  copying cantera/data/nasa_gas.cti -> build/lib/cantera/data
+  copying cantera/data/nasa_gas.xml -> build/lib/cantera/data
+  copying cantera/data/nasa_gas.yaml -> build/lib/cantera/data
+  copying cantera/data/ohn.cti -> build/lib/cantera/data
+  copying cantera/data/ohn.xml -> build/lib/cantera/data
+  copying cantera/data/ohn.yaml -> build/lib/cantera/data
+  copying cantera/data/ptcombust.cti -> build/lib/cantera/data
+  copying cantera/data/ptcombust.xml -> build/lib/cantera/data
+  copying cantera/data/ptcombust.yaml -> build/lib/cantera/data
+  copying cantera/data/silane.cti -> build/lib/cantera/data
+  copying cantera/data/silane.xml -> build/lib/cantera/data
+  copying cantera/data/silane.yaml -> build/lib/cantera/data
+  copying cantera/data/silicon.cti -> build/lib/cantera/data
+  copying cantera/data/silicon.xml -> build/lib/cantera/data
+  copying cantera/data/silicon.yaml -> build/lib/cantera/data
+  copying cantera/data/silicon_carbide.cti -> build/lib/cantera/data
+  copying cantera/data/silicon_carbide.xml -> build/lib/cantera/data
+  copying cantera/data/silicon_carbide.yaml -> build/lib/cantera/data
+  copying cantera/data/sofc.cti -> build/lib/cantera/data
+  copying cantera/data/sofc.xml -> build/lib/cantera/data
+  copying cantera/data/sofc.yaml -> build/lib/cantera/data
+  copying cantera/data/water.cti -> build/lib/cantera/data
+  copying cantera/data/water.xml -> build/lib/cantera/data
+  copying cantera/data/water.yaml -> build/lib/cantera/data
+  copying cantera/test/data/BinarySolutionTabulatedThermo.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/CombustorTest-integrateWithAdvance.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/CounterflowPremixedFlame-h2-mix.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/DiffusionFlameTest-h2-auto.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/DiffusionFlameTest-h2-mix-rad.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/DiffusionFlameTest-h2-mix.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/ET_test.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/HMW_NaCl.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/HMW_NaCl_sp1977_alt.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/HMW_NaCl_sp1977_alt.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/IdealMolalSolnPhaseExample.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/IdealMolalSolnPhaseExample.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/IdealSolidSolnPhaseExample.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/IdealSolidSolnPhaseExample.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/Li7Si3_ls.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/Li7Si3_ls.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/LiKCl_liquid.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/LiKCl_liquid.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/Li_Liquid.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/Li_Liquid.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/MaskellSolidSolnPhase_nohmix.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/MaskellSolidSolnPhase_valid.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/MaskellSolidSolnPhase_valid.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/NaCl_Solid.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/NaCl_Solid.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/RedlichKisterVPSSTP_valid.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/RedlichKisterVPSSTP_valid.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/WallKinetics-coverages-regression1.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/WallKinetics-coverages-regression2.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/WallTest-integrateWithAdvance.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/addReactions_err_test.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/air-no-reactions.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/air-no-reactions.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/air-no-reactions.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/bad-troe.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/big_element_num_err.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/blank_line_in_header.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/blowers-masel.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/ch4_ion.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/ch4_ion.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/ch4_ion.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/chemically-activated-reaction.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/chemically-activated-reaction.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/chemically-activated-reaction.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/co2_PR_example.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/co2_RK_example.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/co2_RK_example.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/co2_RK_example.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/co2_RK_lookup.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/custom-elements.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/debye-huckel-all.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/debye-huckel-all.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/diamond_cvd.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/dummy-thermo.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/duplicate-reactionData-ids.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/duplicate-reactions.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/duplicate-species.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/duplicate-speciesData-ids.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/duplicate-thermo.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/equilibrium.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-forward-order.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-forward-order.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-forward-order.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-reverse-rate.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-reverse-rate.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-reverse-rate.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-third-bodies.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-third-bodies.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/explicit-third-bodies.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/extra.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/float-stoich.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/frac.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/frac.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/frac.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/gas-carbon-equil.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/gasNASA9.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/gri30.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/gri30_thermo.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/gri30_tran.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2-bad-geometry-tran.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2-duplicate-species-tran.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2-extra-column-entries-tran.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2-float-geometry-tran.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2-missing-species-tran.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2-plus.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2_emptyReactions.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2_missingElement.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2_missingThermo.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/h2o2_unbalancedReaction.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/haca2.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/haca2.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/ideal-gas.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/invalid-equation.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/invalid.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/jacobian-tests.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/kineticsfromscratch.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/koh-equil-HP.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/koh-equil-TP.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/liquid-water.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/liquid-water.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/lithium-ion-battery-test.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/mock_ion.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/mock_ion.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/nasa9-test-subset.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/nasa9-test-subset.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/nasa9-test-subset.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/nasa9-test-therm.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/nasa9-test.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/nasa9-test.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/nasa9-test.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/negative-order.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/negative-order.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/negative-rate.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/noninteger-atomicity.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/noxNeg.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/noxNeg.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/noxNeg.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/oxygen-plasma.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/pdep-test.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/pdep-test.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/pdep-test.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/pdep-test.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/pdss_hkft.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/pdss_hkft.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/phase-reaction-spec1.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/phase-reaction-spec2.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/photo-reaction.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/photo-reaction.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/ptcombust-motzwise.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/ptcombust-motzwise.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/ptcombust-motzwise.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/ptcombust-simple.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/reaction-orders.cti -> build/lib/cantera/test/data
+  copying cantera/test/data/reaction-orders.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/reaction-orders.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/simplephases.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/sofc-test.csv -> build/lib/cantera/test/data
+  copying cantera/test/data/sofc2.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/soot-therm.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/soot.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/soot.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/species-names.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/species-names.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/sri-falloff.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/surface1-gas.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/surface1.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/thermo-models.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/thermo_single_Tint.dat -> build/lib/cantera/test/data
+  copying cantera/test/data/third_body_plus_falloff_reaction.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/transport_models_test.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/transport_models_test.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/tsang-falloff.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/units-custom.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/units-default.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/unterminated-sections.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/with-transport.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/species-names.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/sri-falloff.xml -> build/lib/cantera/test/data
+  copying cantera/test/data/sri-falloff.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/sri_convert_test.txt -> build/lib/cantera/test/data
+  copying cantera/test/data/steam-reforming.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/sticking_coeff_check.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/surface-phases.yaml -> build/lib/cantera/test/data
+  copying cantera/test/data/surface1-gas-noreac.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/undeclared-duplicate-reactions.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/unrecognized-section.inp -> build/lib/cantera/test/data
+  copying cantera/test/data/unterminated-sections2.inp -> build/lib/cantera/test/data
+  creating build/lib/cantera/test/data/test_subdir
+  copying cantera/test/data/test_subdir/species-elements.yaml -> build/lib/cantera/test/data/test_subdir
+  creating build/lib/cantera/examples/kinetics
+  copying cantera/examples/kinetics/blowers_masel.py -> build/lib/cantera/examples/kinetics
+  copying cantera/examples/kinetics/custom_reactions.py -> build/lib/cantera/examples/kinetics
+  copying cantera/examples/kinetics/extract_submechanism.py -> build/lib/cantera/examples/kinetics
+  copying cantera/examples/kinetics/mechanism_reduction.py -> build/lib/cantera/examples/kinetics
+  copying cantera/examples/kinetics/reaction_path.py -> build/lib/cantera/examples/kinetics
+  creating build/lib/cantera/examples/multiphase
+  copying cantera/examples/multiphase/adiabatic.py -> build/lib/cantera/examples/multiphase
+  copying cantera/examples/multiphase/plasma_equilibrium.py -> build/lib/cantera/examples/multiphase
+  creating build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/adiabatic_flame.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/burner_flame.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/diffusion_flame.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/diffusion_flame_batch.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/diffusion_flame_extinction.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/flame_fixed_T.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/flamespeed_sensitivity.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/ion_burner_flame.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/ion_free_flame.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/premixed_counterflow_flame.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/premixed_counterflow_twin_flame.py -> build/lib/cantera/examples/onedim
+  copying cantera/examples/onedim/stagnation_flame.py -> build/lib/cantera/examples/onedim
+  creating build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/NonIdealShockTube.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/combustor.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/custom.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/custom2.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/fuel_injection.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/ic_engine.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/mix1.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/periodic_cstr.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/pfr.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/piston.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/reactor1.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/reactor2.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/sensitivity1.py -> build/lib/cantera/examples/reactors
+  copying cantera/examples/reactors/surf_pfr.py -> build/lib/cantera/examples/reactors
+  creating build/lib/cantera/examples/surface_chemistry
+  copying cantera/examples/surface_chemistry/catalytic_combustion.py -> build/lib/cantera/examples/surface_chemistry
+  copying cantera/examples/surface_chemistry/diamond_cvd.py -> build/lib/cantera/examples/surface_chemistry
+  copying cantera/examples/surface_chemistry/lithium_ion_battery.py -> build/lib/cantera/examples/surface_chemistry
+  copying cantera/examples/surface_chemistry/sofc.py -> build/lib/cantera/examples/surface_chemistry
+  creating build/lib/cantera/examples/thermo
+  copying cantera/examples/thermo/critical_properties.py -> build/lib/cantera/examples/thermo
+  copying cantera/examples/thermo/equivalenceRatio.py -> build/lib/cantera/examples/thermo
+  copying cantera/examples/thermo/isentropic.py -> build/lib/cantera/examples/thermo
+  copying cantera/examples/thermo/mixing.py -> build/lib/cantera/examples/thermo
+  copying cantera/examples/thermo/rankine.py -> build/lib/cantera/examples/thermo
+  copying cantera/examples/thermo/sound_speed.py -> build/lib/cantera/examples/thermo
+  copying cantera/examples/thermo/vapordome.py -> build/lib/cantera/examples/thermo
+  creating build/lib/cantera/examples/transport
+  copying cantera/examples/transport/dusty_gas.py -> build/lib/cantera/examples/transport
+  copying cantera/examples/transport/multiprocessing_viscosity.py -> build/lib/cantera/examples/transport
+  running build_ext
+  installing to build/bdist.linux-aarch64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-aarch64
+  creating build/bdist.linux-aarch64/wheel
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/ck2cti.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/ck2yaml.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/composite.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/cti2yaml.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/ctml2yaml.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/ctml_writer.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/interrupts.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/liquidvapor.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/onedim.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/utils.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/KOH.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/KOH.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/KOH.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/air.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/air.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/air.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/airNASA9.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/airNASA9.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/airNASA9.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/argon.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/argon.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/critical-properties.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/diamond.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/diamond.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/diamond.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/element-standard-entropies.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/elements.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/graphite.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/graphite.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/graphite.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_highT.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_highT.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_highT.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_ion.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_ion.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/gri30_ion.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/h2o2.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/h2o2.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/h2o2.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/liquidvapor.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/liquidvapor.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/liquidvapor.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/lithium_ion_battery.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/lithium_ion_battery.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/lithium_ion_battery.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/methane_pox_on_pt.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/methane_pox_on_pt.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/methane_pox_on_pt.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nDodecane_Reitz.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nDodecane_Reitz.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nDodecane_Reitz.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_condensed.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_condensed.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_condensed.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_gas.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_gas.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/nasa_gas.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ohn.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ohn.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ohn.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ptcombust.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ptcombust.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/ptcombust.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silane.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silane.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silane.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon_carbide.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon_carbide.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/silicon_carbide.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/sofc.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/sofc.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/sofc.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/water.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/water.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  copying build/lib/cantera/data/water.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/data
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_composite.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_convert.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_equilibrium.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_func1.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_jacobian.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_kinetics.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_mixture.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_onedim.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_purefluid.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_reaction.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_reactor.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_thermo.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_transport.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/test_utils.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  copying build/lib/cantera/test/utilities.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/BinarySolutionTabulatedThermo.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/CombustorTest-integrateWithAdvance.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/CounterflowPremixedFlame-h2-mix.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/DiffusionFlameTest-h2-auto.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/DiffusionFlameTest-h2-mix-rad.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/DiffusionFlameTest-h2-mix.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ET_test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/HMW_NaCl.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/HMW_NaCl_sp1977_alt.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/HMW_NaCl_sp1977_alt.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/IdealMolalSolnPhaseExample.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/IdealMolalSolnPhaseExample.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/IdealSolidSolnPhaseExample.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/IdealSolidSolnPhaseExample.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/Li7Si3_ls.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/Li7Si3_ls.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/LiKCl_liquid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/LiKCl_liquid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/Li_Liquid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/Li_Liquid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/MaskellSolidSolnPhase_nohmix.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/MaskellSolidSolnPhase_valid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/MaskellSolidSolnPhase_valid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/NaCl_Solid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/NaCl_Solid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/RedlichKisterVPSSTP_valid.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/RedlichKisterVPSSTP_valid.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/WallKinetics-coverages-regression1.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/WallKinetics-coverages-regression2.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/WallTest-integrateWithAdvance.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/addReactions_err_test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/air-no-reactions.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/air-no-reactions.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/air-no-reactions.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/bad-troe.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/big_element_num_err.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/blank_line_in_header.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/blowers-masel.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ch4_ion.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ch4_ion.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ch4_ion.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/chemically-activated-reaction.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/chemically-activated-reaction.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/chemically-activated-reaction.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_PR_example.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_RK_example.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_RK_example.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_RK_example.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/co2_RK_lookup.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/custom-elements.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/debye-huckel-all.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/debye-huckel-all.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/diamond_cvd.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/dummy-thermo.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-reactionData-ids.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-reactions.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-species.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-speciesData-ids.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/duplicate-thermo.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/equilibrium.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-forward-order.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-forward-order.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/extra.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-forward-order.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-reverse-rate.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-reverse-rate.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-reverse-rate.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-third-bodies.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-third-bodies.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/explicit-third-bodies.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/float-stoich.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/frac.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/frac.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/frac.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gas-carbon-equil.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gasNASA9.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gri30.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gri30_thermo.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/gri30_tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-bad-geometry-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-duplicate-species-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-extra-column-entries-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-float-geometry-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-missing-species-tran.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2-plus.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2_emptyReactions.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2_missingElement.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2_missingThermo.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/h2o2_unbalancedReaction.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/haca2.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/haca2.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ideal-gas.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/invalid-equation.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/invalid.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/jacobian-tests.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/kineticsfromscratch.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/koh-equil-HP.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/koh-equil-TP.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/liquid-water.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/liquid-water.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/lithium-ion-battery-test.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/mock_ion.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/mock_ion.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test-subset.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test-subset.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test-subset.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test-therm.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/nasa9-test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/negative-order.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/negative-order.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/negative-rate.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/noninteger-atomicity.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/noxNeg.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/noxNeg.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/noxNeg.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/oxygen-plasma.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdep-test.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdep-test.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdep-test.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdep-test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdss_hkft.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/pdss_hkft.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/phase-reaction-spec1.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/phase-reaction-spec2.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/photo-reaction.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/photo-reaction.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ptcombust-motzwise.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ptcombust-motzwise.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ptcombust-motzwise.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/ptcombust-simple.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/reaction-orders.cti -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/reaction-orders.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/reaction-orders.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/simplephases.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sofc-test.csv -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sofc2.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/soot-therm.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/soot.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/soot.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/species-names.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/surface1-gas.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/surface1.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/thermo-models.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/thermo_single_Tint.dat -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/third_body_plus_falloff_reaction.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/unterminated-sections.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/with-transport.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/species-names.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/surface-phases.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/surface1-gas-noreac.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/undeclared-duplicate-reactions.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/unrecognized-section.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/species-names.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sri-falloff.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/transport_models_test.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/transport_models_test.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/tsang-falloff.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/units-custom.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/units-default.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sri-falloff.xml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sri-falloff.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sri_convert_test.txt -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/steam-reforming.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/sticking_coeff_check.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  copying build/lib/cantera/test/data/unterminated-sections2.inp -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data/test_subdir
+  copying build/lib/cantera/test/data/test_subdir/species-elements.yaml -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/test/data/test_subdir
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples
+  copying build/lib/cantera/examples/__init__.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/blowers_masel.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/custom_reactions.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/extract_submechanism.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/mechanism_reduction.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  copying build/lib/cantera/examples/kinetics/reaction_path.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/kinetics
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/multiphase
+  copying build/lib/cantera/examples/multiphase/adiabatic.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/multiphase
+  copying build/lib/cantera/examples/multiphase/plasma_equilibrium.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/multiphase
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/adiabatic_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/burner_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/diffusion_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/diffusion_flame_batch.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/diffusion_flame_extinction.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/flame_fixed_T.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/flamespeed_sensitivity.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/ion_burner_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/ion_free_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/premixed_counterflow_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/premixed_counterflow_twin_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  copying build/lib/cantera/examples/onedim/stagnation_flame.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/onedim
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/NonIdealShockTube.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/combustor.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/custom.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/custom2.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/fuel_injection.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/ic_engine.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/mix1.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/periodic_cstr.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/pfr.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/piston.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/reactor1.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/reactor2.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/sensitivity1.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  copying build/lib/cantera/examples/reactors/surf_pfr.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/reactors
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  copying build/lib/cantera/examples/surface_chemistry/catalytic_combustion.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  copying build/lib/cantera/examples/surface_chemistry/diamond_cvd.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  copying build/lib/cantera/examples/surface_chemistry/lithium_ion_battery.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  copying build/lib/cantera/examples/surface_chemistry/sofc.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/critical_properties.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/equivalenceRatio.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/isentropic.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/mixing.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/rankine.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/sound_speed.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  copying build/lib/cantera/examples/thermo/vapordome.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/thermo
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/transport
+  copying build/lib/cantera/examples/transport/dusty_gas.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/transport
+  copying build/lib/cantera/examples/transport/multiprocessing_viscosity.py -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera/examples/transport
+  copying build/lib/cantera/__init__.pxd -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/_cantera.pxd -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  copying build/lib/cantera/_cantera.cpython-39.so -> build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/cantera
+  running install_egg_info
+  Copying Cantera.egg-info to build/bdist.linux-aarch64/wheel/Cantera-2.6.0.data/purelib/Cantera-2.6.0-py3.9.egg-info
+  running install_scripts
+  adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.dist-info/WHEEL
+  creating '/data/data/com.termux/files/usr/tmp/pip-wheel-f_lb61_5/tmphcr30dbm/Cantera-2.6.0-cp39-cp39-linux_aarch64.whl' and adding 'build/bdist.linux-aarch64/wheel' to it
+  adding 'Cantera-2.6.0.data/purelib/cantera/__init__.pxd'
+  adding 'Cantera-2.6.0.data/purelib/cantera/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/_cantera.cpython-39.so'
+  adding 'Cantera-2.6.0.data/purelib/cantera/_cantera.pxd'
+  adding 'Cantera-2.6.0.data/purelib/cantera/ck2cti.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/ck2yaml.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/composite.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/cti2yaml.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/ctml2yaml.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/ctml_writer.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/interrupts.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/liquidvapor.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/onedim.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/utils.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/KOH.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/KOH.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/KOH.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/air.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/air.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/air.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/airNASA9.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/airNASA9.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/airNASA9.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/argon.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/argon.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/critical-properties.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/diamond.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/diamond.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/diamond.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/element-standard-entropies.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/elements.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/graphite.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/graphite.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/graphite.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_highT.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_highT.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_highT.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_ion.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_ion.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/gri30_ion.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/h2o2.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/h2o2.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/h2o2.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/liquidvapor.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/liquidvapor.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/liquidvapor.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/lithium_ion_battery.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/lithium_ion_battery.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/lithium_ion_battery.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/methane_pox_on_pt.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/methane_pox_on_pt.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/methane_pox_on_pt.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nDodecane_Reitz.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nDodecane_Reitz.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nDodecane_Reitz.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_condensed.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_condensed.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_condensed.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_gas.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_gas.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/nasa_gas.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ohn.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ohn.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ohn.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ptcombust.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ptcombust.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/ptcombust.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silane.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silane.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silane.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon_carbide.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon_carbide.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/silicon_carbide.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/sofc.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/sofc.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/sofc.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/water.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/water.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/data/water.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/blowers_masel.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/custom_reactions.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/extract_submechanism.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/mechanism_reduction.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/kinetics/reaction_path.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/multiphase/adiabatic.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/multiphase/plasma_equilibrium.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/adiabatic_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/burner_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/diffusion_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/diffusion_flame_batch.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/diffusion_flame_extinction.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/flame_fixed_T.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/flamespeed_sensitivity.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/ion_burner_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/ion_free_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/premixed_counterflow_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/premixed_counterflow_twin_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/onedim/stagnation_flame.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/NonIdealShockTube.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/combustor.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/custom.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/custom2.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/fuel_injection.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/ic_engine.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/mix1.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/periodic_cstr.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/pfr.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/piston.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/reactor1.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/reactor2.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/sensitivity1.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/reactors/surf_pfr.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry/catalytic_combustion.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry/diamond_cvd.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry/lithium_ion_battery.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/surface_chemistry/sofc.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/critical_properties.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/equivalenceRatio.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/isentropic.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/mixing.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/rankine.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/sound_speed.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/thermo/vapordome.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/transport/dusty_gas.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/examples/transport/multiprocessing_viscosity.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_composite.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_convert.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_equilibrium.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_func1.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_jacobian.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_kinetics.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_mixture.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_onedim.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_purefluid.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_reaction.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_reactor.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_thermo.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_transport.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/test_utils.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/utilities.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/BinarySolutionTabulatedThermo.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/CombustorTest-integrateWithAdvance.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/CounterflowPremixedFlame-h2-mix.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/DiffusionFlameTest-h2-auto.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/DiffusionFlameTest-h2-mix-rad.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/DiffusionFlameTest-h2-mix.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ET_test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/HMW_NaCl.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/HMW_NaCl_sp1977_alt.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/HMW_NaCl_sp1977_alt.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/IdealMolalSolnPhaseExample.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/IdealMolalSolnPhaseExample.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/IdealSolidSolnPhaseExample.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/IdealSolidSolnPhaseExample.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/Li7Si3_ls.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/Li7Si3_ls.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/LiKCl_liquid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/LiKCl_liquid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/Li_Liquid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/Li_Liquid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/MaskellSolidSolnPhase_nohmix.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/MaskellSolidSolnPhase_valid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/MaskellSolidSolnPhase_valid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/NaCl_Solid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/NaCl_Solid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/RedlichKisterVPSSTP_valid.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/RedlichKisterVPSSTP_valid.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/WallKinetics-coverages-regression1.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/WallKinetics-coverages-regression2.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/WallTest-integrateWithAdvance.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/__init__.py'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/addReactions_err_test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/air-no-reactions.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/air-no-reactions.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/air-no-reactions.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/bad-troe.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/big_element_num_err.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/blank_line_in_header.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/blowers-masel.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ch4_ion.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ch4_ion.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ch4_ion.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/chemically-activated-reaction.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/chemically-activated-reaction.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/chemically-activated-reaction.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_PR_example.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_RK_example.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_RK_example.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_RK_example.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/co2_RK_lookup.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/custom-elements.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/debye-huckel-all.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/debye-huckel-all.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/diamond_cvd.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/dummy-thermo.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-reactionData-ids.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-reactions.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-species.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-speciesData-ids.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/duplicate-thermo.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/equilibrium.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-forward-order.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-forward-order.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-forward-order.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-reverse-rate.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-reverse-rate.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-reverse-rate.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-third-bodies.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-third-bodies.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/explicit-third-bodies.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/extra.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/float-stoich.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/frac.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/frac.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/frac.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gas-carbon-equil.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gasNASA9.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gri30.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gri30_thermo.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/gri30_tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-bad-geometry-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-duplicate-species-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-extra-column-entries-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-float-geometry-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-missing-species-tran.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2-plus.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2_emptyReactions.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2_missingElement.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2_missingThermo.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/h2o2_unbalancedReaction.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/haca2.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/haca2.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ideal-gas.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/invalid-equation.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/invalid.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/jacobian-tests.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/kineticsfromscratch.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/koh-equil-HP.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/koh-equil-TP.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/liquid-water.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/liquid-water.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/lithium-ion-battery-test.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/mock_ion.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/mock_ion.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test-subset.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test-subset.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test-subset.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test-therm.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/nasa9-test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/negative-order.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/negative-order.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/negative-rate.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/noninteger-atomicity.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/noxNeg.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/noxNeg.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/noxNeg.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/oxygen-plasma.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdep-test.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdep-test.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdep-test.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdep-test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdss_hkft.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/pdss_hkft.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/phase-reaction-spec1.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/phase-reaction-spec2.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/photo-reaction.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/photo-reaction.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ptcombust-motzwise.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ptcombust-motzwise.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ptcombust-motzwise.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/ptcombust-simple.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/reaction-orders.cti'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/reaction-orders.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/reaction-orders.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/simplephases.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sofc-test.csv'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sofc2.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/soot-therm.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/soot.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/soot.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/species-names.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/species-names.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/species-names.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sri-falloff.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sri-falloff.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sri-falloff.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sri_convert_test.txt'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/steam-reforming.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/sticking_coeff_check.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/surface-phases.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/surface1-gas-noreac.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/surface1-gas.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/surface1.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/thermo-models.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/thermo_single_Tint.dat'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/third_body_plus_falloff_reaction.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/transport_models_test.xml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/transport_models_test.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/tsang-falloff.yaml'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/undeclared-duplicate-reactions.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/units-custom.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/units-default.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/unrecognized-section.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/unterminated-sections.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/unterminated-sections2.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/with-transport.inp'
+  adding 'Cantera-2.6.0.data/purelib/cantera/test/data/test_subdir/species-elements.yaml'
+  adding 'Cantera-2.6.0.dist-info/LICENSE.txt'
+  adding 'Cantera-2.6.0.dist-info/METADATA'
+  adding 'Cantera-2.6.0.dist-info/WHEEL'
+  adding 'Cantera-2.6.0.dist-info/entry_points.txt'
+  adding 'Cantera-2.6.0.dist-info/top_level.txt'
+  adding 'Cantera-2.6.0.dist-info/RECORD'
+  removing build/bdist.linux-aarch64/wheel
+  Building wheel for Cantera (pyproject.toml): finished with status 'done'
+  Created wheel for Cantera: filename=Cantera-2.6.0-cp39-cp39-linux_aarch64.whl size=26770961 sha256=a057975c1242d7736d40567c80d11847e19cd1ce60596a66dd7a9158baa9d005
+  Stored in directory: /data/data/com.termux/files/usr/tmp/pip-ephem-wheel-cache-meehgor4/wheels/14/96/bb/67d233589c1c44529c7112b06fd070ff72c0f89c280c44aa71
+Successfully built Cantera
+Substituting vars from platform/posix/Cantera.mak.in to build/platform/Cantera.mak
+Substituting vars from platform/posix/cantera.pc.in to build/platform/cantera.pc
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/combustor/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/custom/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/demo/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/flamespeed/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/kinetics1/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/jacobian/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/gas_transport/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/rankine/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/LiC6_electrode/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/openmp_ignition/Makefile
+Substituting vars from samples/cxx/Makefile.in to build/samples/cxx/bvp/Makefile
+postBuildMessage(["finish_build"], [])
+*******************************************************
+Compilation completed successfully.
+
+- To run the test suite, type 'scons test'.
+- To list available tests, type 'scons test-help'.
+- To install, type 'scons install'.
+*******************************************************
+scons: done building targets.
