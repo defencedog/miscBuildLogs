@@ -1,0 +1,1218 @@
+Using pip 22.2.2 from /data/data/com.termux/files/usr/lib/python3.9/site-packages/pip (python 3.9)
+Processing /data/data/com.termux/files/home/Cantera-2.6.0
+  Installing build dependencies: started
+  Running command pip subprocess to install build dependencies
+  Collecting setuptools>=43.0.0
+    Using cached setuptools-65.3.0-py3-none-any.whl (1.2 MB)
+  Collecting wheel
+    Using cached wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+  Collecting oldest-supported-numpy
+    Using cached oldest_supported_numpy-2022.8.16-py3-none-any.whl (3.9 kB)
+  Collecting Cython>=0.29.12
+    Using cached Cython-0.29.32-py2.py3-none-any.whl (986 kB)
+  Collecting numpy==1.19.3
+    Using cached numpy-1.19.3-cp39-cp39-linux_aarch64.whl
+  Installing collected packages: wheel, setuptools, numpy, Cython, oldest-supported-numpy
+  Successfully installed Cython-0.29.32 numpy-1.19.3 oldest-supported-numpy-2022.8.16 setuptools-65.3.0 wheel-0.37.1
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  running egg_info
+  writing Cantera.egg-info/PKG-INFO
+  writing dependency_links to Cantera.egg-info/dependency_links.txt
+  writing entry points to Cantera.egg-info/entry_points.txt
+  writing requirements to Cantera.egg-info/requires.txt
+  writing top-level names to Cantera.egg-info/top_level.txt
+  reading manifest file 'Cantera.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'Cantera.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info
+  writing /data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info/PKG-INFO
+  writing dependency_links to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info/dependency_links.txt
+  writing entry points to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info/entry_points.txt
+  writing requirements to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info/requires.txt
+  writing top-level names to /data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info/top_level.txt
+  writing manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info/SOURCES.txt'
+  reading manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera.egg-info/SOURCES.txt'
+  creating '/data/data/com.termux/files/usr/tmp/pip-modern-metadata-_rzozszd/Cantera-2.6.0.dist-info'
+  adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: ruamel.yaml>=0.15.34 in /data/data/com.termux/files/usr/lib/python3.9/site-packages (from Cantera==2.6.0) (0.17.21)
+Requirement already satisfied: numpy>=1.12.0 in /data/data/com.termux/files/usr/lib/python3.9/site-packages/numpy-1.20.3-py3.9-linux-aarch64.egg (from Cantera==2.6.0) (1.20.3)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.6 in /data/data/com.termux/files/usr/lib/python3.9/site-packages (from ruamel.yaml>=0.15.34->Cantera==2.6.0) (0.2.6)
+Building wheels for collected packages: Cantera
+  Building wheel for Cantera (pyproject.toml): started
+  Running command Building wheel for Cantera (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  running egg_info
+  writing Cantera.egg-info/PKG-INFO
+  writing dependency_links to Cantera.egg-info/dependency_links.txt
+  writing entry points to Cantera.egg-info/entry_points.txt
+  writing requirements to Cantera.egg-info/requires.txt
+  writing top-level names to Cantera.egg-info/top_level.txt
+  reading manifest file 'Cantera.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'Cantera.egg-info/SOURCES.txt'
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'cantera.examples.kinetics' as data is deprecated, please list it in `packages`.
+      !!
+
+
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'cantera.examples.kinetics' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+
+      'cantera.examples.kinetics' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+
+      Please make sure that 'cantera.examples.kinetics' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+
+
+  !!
+
+    check.warn(importable)
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'cantera.examples.multiphase' as data is deprecated, please list it in `packages`.
+      !!
+
+
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'cantera.examples.multiphase' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+
+      'cantera.examples.multiphase' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+
+      Please make sure that 'cantera.examples.multiphase' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+
+
+  !!
+
+    check.warn(importable)
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'cantera.examples.onedim' as data is deprecated, please list it in `packages`.
+      !!
+
+
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'cantera.examples.onedim' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+
+      'cantera.examples.onedim' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+
+      Please make sure that 'cantera.examples.onedim' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+
+
+  !!
+
+    check.warn(importable)
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'cantera.examples.reactors' as data is deprecated, please list it in `packages`.
+      !!
+
+
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'cantera.examples.reactors' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+
+      'cantera.examples.reactors' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+
+      Please make sure that 'cantera.examples.reactors' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+
+
+  !!
+
+    check.warn(importable)
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'cantera.examples.surface_chemistry' as data is deprecated, please list it in `packages`.
+      !!
+
+
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'cantera.examples.surface_chemistry' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+
+      'cantera.examples.surface_chemistry' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+
+      Please make sure that 'cantera.examples.surface_chemistry' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+
+
+  !!
+
+    check.warn(importable)
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'cantera.examples.thermo' as data is deprecated, please list it in `packages`.
+      !!
+
+
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'cantera.examples.thermo' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+
+      'cantera.examples.thermo' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+
+      Please make sure that 'cantera.examples.thermo' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+
+
+  !!
+
+    check.warn(importable)
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'cantera.examples.transport' as data is deprecated, please list it in `packages`.
+      !!
+
+
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'cantera.examples.transport' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+
+      'cantera.examples.transport' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+
+      Please make sure that 'cantera.examples.transport' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+
+
+  !!
+
+    check.warn(importable)
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/setuptools/command/build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'cantera.test.data.test_subdir' as data is deprecated, please list it in `packages`.
+      !!
+
+
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'cantera.test.data.test_subdir' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+
+      'cantera.test.data.test_subdir' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+
+      Please make sure that 'cantera.test.data.test_subdir' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+
+
+  !!
+
+    check.warn(importable)
+  running build_clib
+  building 'sundials' library
+  building 'yaml-cpp' library
+  building 'fmtlib' library
+  building 'libexecstream' library
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -c ext/libexecstream/exec-stream.cpp -o build/temp.linux-aarch64-cpython-39/ext/libexecstream/exec-stream.o
+  llvm-ar rcs build/temp.linux-aarch64-cpython-39/liblibexecstream.a build/temp.linux-aarch64-cpython-39/ext/libexecstream/exec-stream.o
+  running build_ext
+  building 'cantera._cantera' extension
+  creating build/temp.linux-aarch64-cpython-39/cantera
+  creating build/temp.linux-aarch64-cpython-39/src
+  creating build/temp.linux-aarch64-cpython-39/src/base
+  creating build/temp.linux-aarch64-cpython-39/src/equil
+  creating build/temp.linux-aarch64-cpython-39/src/kinetics
+  creating build/temp.linux-aarch64-cpython-39/src/numerics
+  creating build/temp.linux-aarch64-cpython-39/src/oneD
+  creating build/temp.linux-aarch64-cpython-39/src/pch
+  creating build/temp.linux-aarch64-cpython-39/src/thermo
+  creating build/temp.linux-aarch64-cpython-39/src/tpx
+  creating build/temp.linux-aarch64-cpython-39/src/transport
+  creating build/temp.linux-aarch64-cpython-39/src/zeroD
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c cantera/_cantera.cpp -o build/temp.linux-aarch64-cpython-39/cantera/_cantera.o -std=c++11 -g0
+  In file included from cantera/_cantera.cpp:951:
+  In file included from /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include/numpy/arrayobject.h:4:
+  In file included from /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include/numpy/ndarrayobject.h:12:
+  In file included from /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include/numpy/ndarraytypes.h:1822:
+  /data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+  #warning "Using deprecated NumPy API, disable it with " \
+   ^
+  In file included from cantera/_cantera.cpp:1005:
+  include/cantera/cython/wrappers.h:112:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'Eigen::Index' (aka 'long') [-Wsign-compare]
+      for (size_t i = 0; i < mat.nonZeros(); ++i) {
+                         ~ ^ ~~~~~~~~~~~~~~
+  include/cantera/cython/wrappers.h:118:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+      for (size_t i = 0; i < mat.outerSize() + 1; ++i) {
+                         ~ ^ ~~~~~~~~~~~~~~~~~~~
+  cantera/_cantera.cpp:96416:19: warning: comparison of integers of different signs: 'long' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+    if (((__pyx_t_1 > __pyx_t_2) != 0)) {
+          ~~~~~~~~~ ^ ~~~~~~~~~
+  cantera/_cantera.cpp:214865:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                      CYTHON_FALLTHROUGH;
+                      ^
+  cantera/_cantera.cpp:502:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+        #define CYTHON_FALLTHROUGH [[fallthrough]]
+                                   ^
+  cantera/_cantera.cpp:214876:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                      CYTHON_FALLTHROUGH;
+                      ^
+  cantera/_cantera.cpp:502:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+        #define CYTHON_FALLTHROUGH [[fallthrough]]
+                                   ^
+  cantera/_cantera.cpp:217539:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                      CYTHON_FALLTHROUGH;
+                      ^
+  cantera/_cantera.cpp:502:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+        #define CYTHON_FALLTHROUGH [[fallthrough]]
+                                   ^
+  cantera/_cantera.cpp:217550:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                      CYTHON_FALLTHROUGH;
+                      ^
+  cantera/_cantera.cpp:502:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+        #define CYTHON_FALLTHROUGH [[fallthrough]]
+                                   ^
+  cantera/_cantera.cpp:217657:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                      CYTHON_FALLTHROUGH;
+                      ^
+  cantera/_cantera.cpp:502:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+        #define CYTHON_FALLTHROUGH [[fallthrough]]
+                                   ^
+  cantera/_cantera.cpp:217668:21: warning: fallthrough annotation in unreachable code [-Wunreachable-code-fallthrough]
+                      CYTHON_FALLTHROUGH;
+                      ^
+  cantera/_cantera.cpp:502:34: note: expanded from macro 'CYTHON_FALLTHROUGH'
+        #define CYTHON_FALLTHROUGH [[fallthrough]]
+                                   ^
+  10 warnings generated.
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/AnyMap.cpp -o build/temp.linux-aarch64-cpython-39/src/base/AnyMap.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/Array.cpp -o build/temp.linux-aarch64-cpython-39/src/base/Array.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/Interface.cpp -o build/temp.linux-aarch64-cpython-39/src/base/Interface.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/Solution.cpp -o build/temp.linux-aarch64-cpython-39/src/base/Solution.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/Units.cpp -o build/temp.linux-aarch64-cpython-39/src/base/Units.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/ValueCache.cpp -o build/temp.linux-aarch64-cpython-39/src/base/ValueCache.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/YamlWriter.cpp -o build/temp.linux-aarch64-cpython-39/src/base/YamlWriter.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/application.cpp -o build/temp.linux-aarch64-cpython-39/src/base/application.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/checkFinite.cpp -o build/temp.linux-aarch64-cpython-39/src/base/checkFinite.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/clockWC.cpp -o build/temp.linux-aarch64-cpython-39/src/base/clockWC.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/ct2ctml.cpp -o build/temp.linux-aarch64-cpython-39/src/base/ct2ctml.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/ctexceptions.cpp -o build/temp.linux-aarch64-cpython-39/src/base/ctexceptions.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/ctml.cpp -o build/temp.linux-aarch64-cpython-39/src/base/ctml.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/global.cpp -o build/temp.linux-aarch64-cpython-39/src/base/global.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/plots.cpp -o build/temp.linux-aarch64-cpython-39/src/base/plots.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/stringUtils.cpp -o build/temp.linux-aarch64-cpython-39/src/base/stringUtils.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/base/xml.cpp -o build/temp.linux-aarch64-cpython-39/src/base/xml.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/BasisOptimize.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/BasisOptimize.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/ChemEquil.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/ChemEquil.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/MultiPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/MultiPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/MultiPhaseEquil.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/MultiPhaseEquil.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/vcs_MultiPhaseEquil.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/vcs_MultiPhaseEquil.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/vcs_VolPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/vcs_VolPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/vcs_solve.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/vcs_solve.o -std=c++11 -g0
+  src/equil/vcs_solve.cpp:1329:20: warning: variable 'sumADel' set but not used [-Wunused-but-set-variable]
+              double sumADel = 0.0;
+                     ^
+  1 warning generated.
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/vcs_solve_TP.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/vcs_solve_TP.o -std=c++11 -g0
+  src/equil/vcs_solve_TP.cpp:2965:12: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+      double sum = 0.0;
+             ^
+  1 warning generated.
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/equil/vcs_util.cpp -o build/temp.linux-aarch64-cpython-39/src/equil/vcs_util.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/Arrhenius.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/Arrhenius.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/BlowersMaselRate.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/BlowersMaselRate.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/BulkKinetics.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/BulkKinetics.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/ChebyshevRate.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/ChebyshevRate.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/Custom.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/Custom.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/Falloff.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/Falloff.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/FalloffFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/FalloffFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/GasKinetics.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/GasKinetics.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/Group.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/Group.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/ImplicitSurfChem.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/ImplicitSurfChem.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/InterfaceKinetics.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/InterfaceKinetics.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/InterfaceRate.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/InterfaceRate.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/Kinetics.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/Kinetics.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/KineticsFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/KineticsFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/PlogRate.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/PlogRate.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/Reaction.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/Reaction.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/ReactionFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/ReactionFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/ReactionPath.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/ReactionPath.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/ReactionRateFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/ReactionRateFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/RxnRates.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/RxnRates.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/TwoTempPlasmaRate.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/TwoTempPlasmaRate.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/importKinetics.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/importKinetics.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/kinetics/solveSP.cpp -o build/temp.linux-aarch64-cpython-39/src/kinetics/solveSP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/BandMatrix.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/BandMatrix.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/CVodesIntegrator.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/CVodesIntegrator.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/DAE_solvers.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/DAE_solvers.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/DenseMatrix.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/DenseMatrix.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/Func1.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/Func1.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/FuncEval.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/FuncEval.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/IDA_Solver.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/IDA_Solver.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/ODE_integrators.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/ODE_integrators.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/ResidJacEval.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/ResidJacEval.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/funcs.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/funcs.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/numerics/polyfit.cpp -o build/temp.linux-aarch64-cpython-39/src/numerics/polyfit.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/Boundary1D.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/Boundary1D.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/Domain1D.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/Domain1D.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/IonFlow.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/IonFlow.o -std=c++11 -g0
+  src/oneD/IonFlow.cpp:137:16: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+          double sum = 0.0;
+                 ^
+  1 warning generated.
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/MultiJac.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/MultiJac.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/MultiNewton.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/MultiNewton.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/OneDim.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/OneDim.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/Sim1D.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/Sim1D.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/StFlow.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/StFlow.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/oneD/refine.cpp -o build/temp.linux-aarch64-cpython-39/src/oneD/refine.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/pch/system.cpp -o build/temp.linux-aarch64-cpython-39/src/pch/system.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/BinarySolutionTabulatedThermo.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/BinarySolutionTabulatedThermo.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/ConstCpPoly.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/ConstCpPoly.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/DebyeHuckel.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/DebyeHuckel.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/Elements.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/Elements.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/GibbsExcessVPSSTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/GibbsExcessVPSSTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/HMWSoln.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/HMWSoln.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/IdealGasPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/IdealGasPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/IdealMolalSoln.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/IdealMolalSoln.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/IdealSolidSolnPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/IdealSolidSolnPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/IdealSolnGasVPSS.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/IdealSolnGasVPSS.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/IonsFromNeutralVPSSTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/IonsFromNeutralVPSSTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/LatticePhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/LatticePhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/LatticeSolidPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/LatticeSolidPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/MargulesVPSSTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/MargulesVPSSTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/MaskellSolidSolnPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/MaskellSolidSolnPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/MixtureFugacityTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/MixtureFugacityTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/MolalityVPSSTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/MolalityVPSSTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/Mu0Poly.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/Mu0Poly.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/MultiSpeciesThermo.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/MultiSpeciesThermo.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/Nasa9Poly1.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/Nasa9Poly1.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/Nasa9PolyMultiTempRegion.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/Nasa9PolyMultiTempRegion.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/NasaPoly2.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/NasaPoly2.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PDSS.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PDSSFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PDSSFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PDSS_ConstVol.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_ConstVol.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PDSS_HKFT.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_HKFT.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PDSS_IdealGas.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_IdealGas.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PDSS_IonsFromNeutral.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_IonsFromNeutral.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PDSS_SSVol.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_SSVol.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PDSS_Water.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_Water.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PengRobinson.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PengRobinson.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/Phase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/Phase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PlasmaPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PlasmaPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/PureFluidPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/PureFluidPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/RedlichKisterVPSSTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/RedlichKisterVPSSTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/RedlichKwongMFTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/RedlichKwongMFTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/SingleSpeciesTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/SingleSpeciesTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/Species.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/Species.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/SpeciesThermoFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/SpeciesThermoFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/SpeciesThermoInterpType.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/SpeciesThermoInterpType.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/StoichSubstance.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/StoichSubstance.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/SurfPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/SurfPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/ThermoFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/ThermoFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/ThermoPhase.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/ThermoPhase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/VPStandardStateTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/VPStandardStateTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/WaterProps.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/WaterProps.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/WaterPropsIAPWS.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/WaterPropsIAPWS.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/WaterPropsIAPWSphi.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/WaterPropsIAPWSphi.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/thermo/WaterSSTP.cpp -o build/temp.linux-aarch64-cpython-39/src/thermo/WaterSSTP.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/CarbonDioxide.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/CarbonDioxide.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/HFC134a.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/HFC134a.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/Heptane.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/Heptane.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/Hydrogen.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/Hydrogen.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/Methane.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/Methane.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/Nitrogen.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/Nitrogen.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/Oxygen.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/Oxygen.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/Sub.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/Sub.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/Water.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/Water.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/tpx/utils.cpp -o build/temp.linux-aarch64-cpython-39/src/tpx/utils.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/DustyGasTransport.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/DustyGasTransport.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/GasTransport.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/GasTransport.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/HighPressureGasTransport.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/HighPressureGasTransport.o -std=c++11 -g0
+  src/transport/HighPressureGasTransport.cpp:201:5: warning: code will never be executed [-Wunreachable-code]
+      update_C();
+      ^~~~~~~~
+  1 warning generated.
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/IonGasTransport.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/IonGasTransport.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/MMCollisionInt.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/MMCollisionInt.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/MixTransport.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/MixTransport.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/MultiTransport.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/MultiTransport.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/TransportBase.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/TransportBase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/TransportData.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/TransportData.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/TransportFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/TransportFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/transport/WaterTransport.cpp -o build/temp.linux-aarch64-cpython-39/src/transport/WaterTransport.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/ConstPressureReactor.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/ConstPressureReactor.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/FlowDevice.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/FlowDevice.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/FlowDeviceFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/FlowDeviceFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/FlowReactor.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/FlowReactor.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/IdealGasConstPressureReactor.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/IdealGasConstPressureReactor.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/IdealGasReactor.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/IdealGasReactor.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/Reactor.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/Reactor.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/ReactorBase.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/ReactorBase.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/ReactorFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/ReactorFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/ReactorNet.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/ReactorNet.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/ReactorSurface.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/ReactorSurface.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/Wall.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/Wall.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/WallFactory.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/WallFactory.o -std=c++11 -g0
+  aarch64-linux-android-clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fstack-protector-strong -O3 -fstack-protector-strong -O3 -fPIC -Iinclude -Iinclude/cantera/ext -Isrc -I/data/data/com.termux/files/usr/tmp/pip-build-env-zuyv_1am/overlay/lib/python3.9/site-packages/numpy/core/include -I/data/data/com.termux/files/usr/include/ -I/data/data/com.termux/files/usr/include/python3.9 -c src/zeroD/flowControllers.cpp -o build/temp.linux-aarch64-cpython-39/src/zeroD/flowControllers.o -std=c++11 -g0
+  aarch64-linux-android-clang++ -shared -L/data/data/com.termux/files/usr/lib -Wl,-rpath=/data/data/com.termux/files/usr/lib -fopenmp -static-openmp -Wl,--enable-new-dtags -Wl,--as-needed -Wl,-z,relro,-z,now -Wl,--no-as-needed,-landroid-support,--as-needed -L/home/builder/.termux-build/_cache/android-r23c-api-24-v0/sysroot/usr/lib -L/data/data/com.termux/files/usr/lib -Wl,-rpath=/data/data/com.termux/files/usr/lib -fopenmp -static-openmp -Wl,--enable-new-dtags -Wl,--as-needed -Wl,-z,relro,-z,now -Wl,--no-as-needed,-landroid-support,--as-needed -L/home/builder/.termux-build/_cache/android-r23c-api-24-v0/sysroot/usr/lib build/temp.linux-aarch64-cpython-39/cantera/_cantera.o build/temp.linux-aarch64-cpython-39/src/base/AnyMap.o build/temp.linux-aarch64-cpython-39/src/base/Array.o build/temp.linux-aarch64-cpython-39/src/base/Interface.o build/temp.linux-aarch64-cpython-39/src/base/Solution.o build/temp.linux-aarch64-cpython-39/src/base/Units.o build/temp.linux-aarch64-cpython-39/src/base/ValueCache.o build/temp.linux-aarch64-cpython-39/src/base/YamlWriter.o build/temp.linux-aarch64-cpython-39/src/base/application.o build/temp.linux-aarch64-cpython-39/src/base/checkFinite.o build/temp.linux-aarch64-cpython-39/src/base/clockWC.o build/temp.linux-aarch64-cpython-39/src/base/ct2ctml.o build/temp.linux-aarch64-cpython-39/src/base/ctexceptions.o build/temp.linux-aarch64-cpython-39/src/base/ctml.o build/temp.linux-aarch64-cpython-39/src/base/global.o build/temp.linux-aarch64-cpython-39/src/base/plots.o build/temp.linux-aarch64-cpython-39/src/base/stringUtils.o build/temp.linux-aarch64-cpython-39/src/base/xml.o build/temp.linux-aarch64-cpython-39/src/equil/BasisOptimize.o build/temp.linux-aarch64-cpython-39/src/equil/ChemEquil.o build/temp.linux-aarch64-cpython-39/src/equil/MultiPhase.o build/temp.linux-aarch64-cpython-39/src/equil/MultiPhaseEquil.o build/temp.linux-aarch64-cpython-39/src/equil/vcs_MultiPhaseEquil.o build/temp.linux-aarch64-cpython-39/src/equil/vcs_VolPhase.o build/temp.linux-aarch64-cpython-39/src/equil/vcs_solve.o build/temp.linux-aarch64-cpython-39/src/equil/vcs_solve_TP.o build/temp.linux-aarch64-cpython-39/src/equil/vcs_util.o build/temp.linux-aarch64-cpython-39/src/kinetics/Arrhenius.o build/temp.linux-aarch64-cpython-39/src/kinetics/BlowersMaselRate.o build/temp.linux-aarch64-cpython-39/src/kinetics/BulkKinetics.o build/temp.linux-aarch64-cpython-39/src/kinetics/ChebyshevRate.o build/temp.linux-aarch64-cpython-39/src/kinetics/Custom.o build/temp.linux-aarch64-cpython-39/src/kinetics/Falloff.o build/temp.linux-aarch64-cpython-39/src/kinetics/FalloffFactory.o build/temp.linux-aarch64-cpython-39/src/kinetics/GasKinetics.o build/temp.linux-aarch64-cpython-39/src/kinetics/Group.o build/temp.linux-aarch64-cpython-39/src/kinetics/ImplicitSurfChem.o build/temp.linux-aarch64-cpython-39/src/kinetics/InterfaceKinetics.o build/temp.linux-aarch64-cpython-39/src/kinetics/InterfaceRate.o build/temp.linux-aarch64-cpython-39/src/kinetics/Kinetics.o build/temp.linux-aarch64-cpython-39/src/kinetics/KineticsFactory.o build/temp.linux-aarch64-cpython-39/src/kinetics/PlogRate.o build/temp.linux-aarch64-cpython-39/src/kinetics/Reaction.o build/temp.linux-aarch64-cpython-39/src/kinetics/ReactionFactory.o build/temp.linux-aarch64-cpython-39/src/kinetics/ReactionPath.o build/temp.linux-aarch64-cpython-39/src/kinetics/ReactionRateFactory.o build/temp.linux-aarch64-cpython-39/src/kinetics/RxnRates.o build/temp.linux-aarch64-cpython-39/src/kinetics/TwoTempPlasmaRate.o build/temp.linux-aarch64-cpython-39/src/kinetics/importKinetics.o build/temp.linux-aarch64-cpython-39/src/kinetics/solveSP.o build/temp.linux-aarch64-cpython-39/src/numerics/BandMatrix.o build/temp.linux-aarch64-cpython-39/src/numerics/CVodesIntegrator.o build/temp.linux-aarch64-cpython-39/src/numerics/DAE_solvers.o build/temp.linux-aarch64-cpython-39/src/numerics/DenseMatrix.o build/temp.linux-aarch64-cpython-39/src/numerics/Func1.o build/temp.linux-aarch64-cpython-39/src/numerics/FuncEval.o build/temp.linux-aarch64-cpython-39/src/numerics/IDA_Solver.o build/temp.linux-aarch64-cpython-39/src/numerics/ODE_integrators.o build/temp.linux-aarch64-cpython-39/src/numerics/ResidJacEval.o build/temp.linux-aarch64-cpython-39/src/numerics/funcs.o build/temp.linux-aarch64-cpython-39/src/numerics/polyfit.o build/temp.linux-aarch64-cpython-39/src/oneD/Boundary1D.o build/temp.linux-aarch64-cpython-39/src/oneD/Domain1D.o build/temp.linux-aarch64-cpython-39/src/oneD/IonFlow.o build/temp.linux-aarch64-cpython-39/src/oneD/MultiJac.o build/temp.linux-aarch64-cpython-39/src/oneD/MultiNewton.o build/temp.linux-aarch64-cpython-39/src/oneD/OneDim.o build/temp.linux-aarch64-cpython-39/src/oneD/Sim1D.o build/temp.linux-aarch64-cpython-39/src/oneD/StFlow.o build/temp.linux-aarch64-cpython-39/src/oneD/refine.o build/temp.linux-aarch64-cpython-39/src/pch/system.o build/temp.linux-aarch64-cpython-39/src/thermo/BinarySolutionTabulatedThermo.o build/temp.linux-aarch64-cpython-39/src/thermo/ConstCpPoly.o build/temp.linux-aarch64-cpython-39/src/thermo/DebyeHuckel.o build/temp.linux-aarch64-cpython-39/src/thermo/Elements.o build/temp.linux-aarch64-cpython-39/src/thermo/GibbsExcessVPSSTP.o build/temp.linux-aarch64-cpython-39/src/thermo/HMWSoln.o build/temp.linux-aarch64-cpython-39/src/thermo/IdealGasPhase.o build/temp.linux-aarch64-cpython-39/src/thermo/IdealMolalSoln.o build/temp.linux-aarch64-cpython-39/src/thermo/IdealSolidSolnPhase.o build/temp.linux-aarch64-cpython-39/src/thermo/IdealSolnGasVPSS.o build/temp.linux-aarch64-cpython-39/src/thermo/IonsFromNeutralVPSSTP.o build/temp.linux-aarch64-cpython-39/src/thermo/LatticePhase.o build/temp.linux-aarch64-cpython-39/src/thermo/LatticeSolidPhase.o build/temp.linux-aarch64-cpython-39/src/thermo/MargulesVPSSTP.o build/temp.linux-aarch64-cpython-39/src/thermo/MaskellSolidSolnPhase.o build/temp.linux-aarch64-cpython-39/src/thermo/MixtureFugacityTP.o build/temp.linux-aarch64-cpython-39/src/thermo/MolalityVPSSTP.o build/temp.linux-aarch64-cpython-39/src/thermo/Mu0Poly.o build/temp.linux-aarch64-cpython-39/src/thermo/MultiSpeciesThermo.o build/temp.linux-aarch64-cpython-39/src/thermo/Nasa9Poly1.o build/temp.linux-aarch64-cpython-39/src/thermo/Nasa9PolyMultiTempRegion.o build/temp.linux-aarch64-cpython-39/src/thermo/NasaPoly2.o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS.o build/temp.linux-aarch64-cpython-39/src/thermo/PDSSFactory.o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_ConstVol.o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_HKFT.o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_IdealGas.o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_IonsFromNeutral.o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_SSVol.o build/temp.linux-aarch64-cpython-39/src/thermo/PDSS_Water.o build/temp.linux-aarch64-cpython-39/src/thermo/PengRobinson.o build/temp.linux-aarch64-cpython-39/src/thermo/Phase.o build/temp.linux-aarch64-cpython-39/src/thermo/PlasmaPhase.o build/temp.linux-aarch64-cpython-39/src/thermo/PureFluidPhase.o build/temp.linux-aarch64-cpython-39/src/thermo/RedlichKisterVPSSTP.o build/temp.linux-aarch64-cpython-39/src/thermo/RedlichKwongMFTP.o build/temp.linux-aarch64-cpython-39/src/thermo/SingleSpeciesTP.o build/temp.linux-aarch64-cpython-39/src/thermo/Species.o build/temp.linux-aarch64-cpython-39/src/thermo/SpeciesThermoFactory.o build/temp.linux-aarch64-cpython-39/src/thermo/SpeciesThermoInterpType.o build/temp.linux-aarch64-cpython-39/src/thermo/StoichSubstance.o build/temp.linux-aarch64-cpython-39/src/thermo/SurfPhase.o build/temp.linux-aarch64-cpython-39/src/thermo/ThermoFactory.o build/temp.linux-aarch64-cpython-39/src/thermo/ThermoPhase.o build/temp.linux-aarch64-cpython-39/src/thermo/VPStandardStateTP.o build/temp.linux-aarch64-cpython-39/src/thermo/WaterProps.o build/temp.linux-aarch64-cpython-39/src/thermo/WaterPropsIAPWS.o build/temp.linux-aarch64-cpython-39/src/thermo/WaterPropsIAPWSphi.o build/temp.linux-aarch64-cpython-39/src/thermo/WaterSSTP.o build/temp.linux-aarch64-cpython-39/src/tpx/CarbonDioxide.o build/temp.linux-aarch64-cpython-39/src/tpx/HFC134a.o build/temp.linux-aarch64-cpython-39/src/tpx/Heptane.o build/temp.linux-aarch64-cpython-39/src/tpx/Hydrogen.o build/temp.linux-aarch64-cpython-39/src/tpx/Methane.o build/temp.linux-aarch64-cpython-39/src/tpx/Nitrogen.o build/temp.linux-aarch64-cpython-39/src/tpx/Oxygen.o build/temp.linux-aarch64-cpython-39/src/tpx/Sub.o build/temp.linux-aarch64-cpython-39/src/tpx/Water.o build/temp.linux-aarch64-cpython-39/src/tpx/utils.o build/temp.linux-aarch64-cpython-39/src/transport/DustyGasTransport.o build/temp.linux-aarch64-cpython-39/src/transport/GasTransport.o build/temp.linux-aarch64-cpython-39/src/transport/HighPressureGasTransport.o build/temp.linux-aarch64-cpython-39/src/transport/IonGasTransport.o build/temp.linux-aarch64-cpython-39/src/transport/MMCollisionInt.o build/temp.linux-aarch64-cpython-39/src/transport/MixTransport.o build/temp.linux-aarch64-cpython-39/src/transport/MultiTransport.o build/temp.linux-aarch64-cpython-39/src/transport/TransportBase.o build/temp.linux-aarch64-cpython-39/src/transport/TransportData.o build/temp.linux-aarch64-cpython-39/src/transport/TransportFactory.o build/temp.linux-aarch64-cpython-39/src/transport/WaterTransport.o build/temp.linux-aarch64-cpython-39/src/zeroD/ConstPressureReactor.o build/temp.linux-aarch64-cpython-39/src/zeroD/FlowDevice.o build/temp.linux-aarch64-cpython-39/src/zeroD/FlowDeviceFactory.o build/temp.linux-aarch64-cpython-39/src/zeroD/FlowReactor.o build/temp.linux-aarch64-cpython-39/src/zeroD/IdealGasConstPressureReactor.o build/temp.linux-aarch64-cpython-39/src/zeroD/IdealGasReactor.o build/temp.linux-aarch64-cpython-39/src/zeroD/Reactor.o build/temp.linux-aarch64-cpython-39/src/zeroD/ReactorBase.o build/temp.linux-aarch64-cpython-39/src/zeroD/ReactorFactory.o build/temp.linux-aarch64-cpython-39/src/zeroD/ReactorNet.o build/temp.linux-aarch64-cpython-39/src/zeroD/ReactorSurface.o build/temp.linux-aarch64-cpython-39/src/zeroD/Wall.o build/temp.linux-aarch64-cpython-39/src/zeroD/WallFactory.o build/temp.linux-aarch64-cpython-39/src/zeroD/flowControllers.o -L/data/data/com.termux/files/usr/lib -Lbuild/temp.linux-aarch64-cpython-39 -lpython3.9 -lsundials -lyaml-cpp -lfmtlib -llibexecstream -o build/lib.linux-aarch64-cpython-39/cantera/_cantera.cpython-39.so
+  installing to build/bdist.linux-aarch64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-aarch64
+  creating build/bdist.linux-aarch64/wheel
+  creating build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/__init__.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/ck2cti.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/ck2yaml.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/composite.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/cti2yaml.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/ctml2yaml.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/ctml_writer.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/interrupts.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/liquidvapor.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/onedim.py -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/utils.py -> build/bdist.linux-aarch64/wheel/cantera
+  creating build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/__init__.py -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/KOH.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/KOH.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/KOH.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/air.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/air.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/air.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/airNASA9.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/airNASA9.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/airNASA9.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/argon.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/argon.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/critical-properties.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/diamond.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/diamond.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/diamond.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/element-standard-entropies.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/elements.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/graphite.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/graphite.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/graphite.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30_highT.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30_highT.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30_highT.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30_ion.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30_ion.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/gri30_ion.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/h2o2.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/h2o2.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/h2o2.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/liquidvapor.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/liquidvapor.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/liquidvapor.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/lithium_ion_battery.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/lithium_ion_battery.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/lithium_ion_battery.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/methane_pox_on_pt.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/methane_pox_on_pt.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/methane_pox_on_pt.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nDodecane_Reitz.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nDodecane_Reitz.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nDodecane_Reitz.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nasa.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nasa.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nasa_condensed.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nasa_condensed.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nasa_condensed.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nasa_gas.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nasa_gas.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/nasa_gas.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/ohn.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/ohn.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/ohn.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/ptcombust.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/ptcombust.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/ptcombust.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silane.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silane.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silane.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silicon.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silicon.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silicon.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silicon_carbide.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silicon_carbide.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/silicon_carbide.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/sofc.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/sofc.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/sofc.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/water.cti -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/water.xml -> build/bdist.linux-aarch64/wheel/cantera/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/data/water.yaml -> build/bdist.linux-aarch64/wheel/cantera/data
+  creating build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/__init__.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_composite.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_convert.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_equilibrium.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_func1.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_jacobian.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_kinetics.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_mixture.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_onedim.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_purefluid.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_reaction.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_reactor.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_thermo.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_transport.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/test_utils.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/utilities.py -> build/bdist.linux-aarch64/wheel/cantera/test
+  creating build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/__init__.py -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/BinarySolutionTabulatedThermo.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/CombustorTest-integrateWithAdvance.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/CounterflowPremixedFlame-h2-mix.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/DiffusionFlameTest-h2-auto.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/DiffusionFlameTest-h2-mix-rad.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/DiffusionFlameTest-h2-mix.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ET_test.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/HMW_NaCl.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/HMW_NaCl_sp1977_alt.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/HMW_NaCl_sp1977_alt.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/IdealMolalSolnPhaseExample.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/IdealMolalSolnPhaseExample.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/IdealSolidSolnPhaseExample.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/IdealSolidSolnPhaseExample.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/Li7Si3_ls.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/Li7Si3_ls.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/LiKCl_liquid.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/LiKCl_liquid.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/Li_Liquid.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/Li_Liquid.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/MaskellSolidSolnPhase_nohmix.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/MaskellSolidSolnPhase_valid.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/MaskellSolidSolnPhase_valid.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/NaCl_Solid.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/NaCl_Solid.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/RedlichKisterVPSSTP_valid.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/RedlichKisterVPSSTP_valid.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/WallKinetics-coverages-regression1.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/WallKinetics-coverages-regression2.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/WallTest-integrateWithAdvance.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/addReactions_err_test.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/air-no-reactions.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/air-no-reactions.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/air-no-reactions.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/bad-troe.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/big_element_num_err.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/blank_line_in_header.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/blowers-masel.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ch4_ion.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ch4_ion.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ch4_ion.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/chemically-activated-reaction.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/chemically-activated-reaction.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/chemically-activated-reaction.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/co2_PR_example.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/co2_RK_example.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/co2_RK_example.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/co2_RK_example.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/co2_RK_lookup.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/custom-elements.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/debye-huckel-all.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/debye-huckel-all.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/diamond_cvd.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/dummy-thermo.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/duplicate-reactionData-ids.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/duplicate-reactions.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/duplicate-species.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/duplicate-speciesData-ids.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/duplicate-thermo.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/equilibrium.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-forward-order.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-forward-order.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/extra.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-forward-order.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-reverse-rate.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-reverse-rate.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-reverse-rate.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-third-bodies.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-third-bodies.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/explicit-third-bodies.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/float-stoich.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/frac.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/frac.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/frac.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/gas-carbon-equil.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/gasNASA9.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/gri30.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/gri30_thermo.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/gri30_tran.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2-bad-geometry-tran.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2-duplicate-species-tran.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2-extra-column-entries-tran.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2-float-geometry-tran.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2-missing-species-tran.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2-plus.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2_emptyReactions.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2_missingElement.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2_missingThermo.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/h2o2_unbalancedReaction.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/haca2.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/haca2.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ideal-gas.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/invalid-equation.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/invalid.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/jacobian-tests.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/kineticsfromscratch.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/koh-equil-HP.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/koh-equil-TP.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/liquid-water.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/liquid-water.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/lithium-ion-battery-test.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/mock_ion.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/mock_ion.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/nasa9-test-subset.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/nasa9-test-subset.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/nasa9-test-subset.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/nasa9-test-therm.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/nasa9-test.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/nasa9-test.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/nasa9-test.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/negative-order.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/negative-order.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/negative-rate.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/noninteger-atomicity.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/noxNeg.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/noxNeg.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/noxNeg.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/oxygen-plasma.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/pdep-test.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/pdep-test.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/pdep-test.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/pdep-test.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/pdss_hkft.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/pdss_hkft.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/phase-reaction-spec1.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/phase-reaction-spec2.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/photo-reaction.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/photo-reaction.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ptcombust-motzwise.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ptcombust-motzwise.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ptcombust-motzwise.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/ptcombust-simple.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/reaction-orders.cti -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/reaction-orders.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/reaction-orders.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/simplephases.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/sofc-test.csv -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/sofc2.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/soot-therm.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/species-names.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/sri-falloff.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/sri-falloff.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/sticking_coeff_check.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/surface-phases.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/surface1-gas.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/surface1.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/thermo-models.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/third_body_plus_falloff_reaction.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/transport_models_test.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/tsang-falloff.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/unrecognized-section.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/unterminated-sections2.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/soot.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/soot.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/species-names.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/species-names.xml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/sri-falloff.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/sri_convert_test.txt -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/steam-reforming.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/surface1-gas-noreac.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/thermo_single_Tint.dat -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/transport_models_test.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/undeclared-duplicate-reactions.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/units-custom.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/units-default.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/unterminated-sections.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/with-transport.inp -> build/bdist.linux-aarch64/wheel/cantera/test/data
+  creating build/bdist.linux-aarch64/wheel/cantera/test/data/test_subdir
+  copying build/lib.linux-aarch64-cpython-39/cantera/test/data/test_subdir/species-elements.yaml -> build/bdist.linux-aarch64/wheel/cantera/test/data/test_subdir
+  creating build/bdist.linux-aarch64/wheel/cantera/examples
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/__init__.py -> build/bdist.linux-aarch64/wheel/cantera/examples
+  creating build/bdist.linux-aarch64/wheel/cantera/examples/kinetics
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/kinetics/blowers_masel.py -> build/bdist.linux-aarch64/wheel/cantera/examples/kinetics
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/kinetics/custom_reactions.py -> build/bdist.linux-aarch64/wheel/cantera/examples/kinetics
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/kinetics/extract_submechanism.py -> build/bdist.linux-aarch64/wheel/cantera/examples/kinetics
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/kinetics/mechanism_reduction.py -> build/bdist.linux-aarch64/wheel/cantera/examples/kinetics
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/kinetics/reaction_path.py -> build/bdist.linux-aarch64/wheel/cantera/examples/kinetics
+  creating build/bdist.linux-aarch64/wheel/cantera/examples/multiphase
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/multiphase/adiabatic.py -> build/bdist.linux-aarch64/wheel/cantera/examples/multiphase
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/multiphase/plasma_equilibrium.py -> build/bdist.linux-aarch64/wheel/cantera/examples/multiphase
+  creating build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/adiabatic_flame.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/burner_flame.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/diffusion_flame.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/diffusion_flame_batch.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/diffusion_flame_extinction.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/flame_fixed_T.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/flamespeed_sensitivity.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/ion_burner_flame.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/ion_free_flame.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/premixed_counterflow_flame.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/premixed_counterflow_twin_flame.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/stagnation_flame.py -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/onedim/tdata.dat -> build/bdist.linux-aarch64/wheel/cantera/examples/onedim
+  creating build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/NonIdealShockTube.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/combustor.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/custom.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/custom2.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/fuel_injection.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/ic_engine.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/mix1.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/periodic_cstr.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/pfr.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/piston.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/reactor1.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/reactor2.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/sensitivity1.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/reactors/surf_pfr.py -> build/bdist.linux-aarch64/wheel/cantera/examples/reactors
+  creating build/bdist.linux-aarch64/wheel/cantera/examples/surface_chemistry
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/surface_chemistry/catalytic_combustion.py -> build/bdist.linux-aarch64/wheel/cantera/examples/surface_chemistry
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/surface_chemistry/diamond_cvd.py -> build/bdist.linux-aarch64/wheel/cantera/examples/surface_chemistry
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/surface_chemistry/lithium_ion_battery.py -> build/bdist.linux-aarch64/wheel/cantera/examples/surface_chemistry
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/surface_chemistry/sofc.py -> build/bdist.linux-aarch64/wheel/cantera/examples/surface_chemistry
+  creating build/bdist.linux-aarch64/wheel/cantera/examples/thermo
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/thermo/critical_properties.py -> build/bdist.linux-aarch64/wheel/cantera/examples/thermo
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/thermo/equivalenceRatio.py -> build/bdist.linux-aarch64/wheel/cantera/examples/thermo
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/thermo/isentropic.py -> build/bdist.linux-aarch64/wheel/cantera/examples/thermo
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/thermo/mixing.py -> build/bdist.linux-aarch64/wheel/cantera/examples/thermo
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/thermo/rankine.py -> build/bdist.linux-aarch64/wheel/cantera/examples/thermo
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/thermo/sound_speed.py -> build/bdist.linux-aarch64/wheel/cantera/examples/thermo
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/thermo/vapordome.py -> build/bdist.linux-aarch64/wheel/cantera/examples/thermo
+  creating build/bdist.linux-aarch64/wheel/cantera/examples/transport
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/transport/dusty_gas.py -> build/bdist.linux-aarch64/wheel/cantera/examples/transport
+  copying build/lib.linux-aarch64-cpython-39/cantera/examples/transport/multiprocessing_viscosity.py -> build/bdist.linux-aarch64/wheel/cantera/examples/transport
+  copying build/lib.linux-aarch64-cpython-39/cantera/__init__.pxd -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/_cantera.pxd -> build/bdist.linux-aarch64/wheel/cantera
+  copying build/lib.linux-aarch64-cpython-39/cantera/_cantera.cpython-39.so -> build/bdist.linux-aarch64/wheel/cantera
+  running install_egg_info
+  Copying Cantera.egg-info to build/bdist.linux-aarch64/wheel/Cantera-2.6.0-py3.9.egg-info
+  running install_scripts
+  adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+  creating build/bdist.linux-aarch64/wheel/Cantera-2.6.0.dist-info/WHEEL
+  creating '/data/data/com.termux/files/usr/tmp/pip-wheel-9lexxofv/tmpf68e2hf6/Cantera-2.6.0-cp39-cp39-linux_aarch64.whl' and adding 'build/bdist.linux-aarch64/wheel' to it
+  adding 'cantera/__init__.pxd'
+  adding 'cantera/__init__.py'
+  adding 'cantera/_cantera.cpython-39.so'
+  adding 'cantera/_cantera.pxd'
+  adding 'cantera/ck2cti.py'
+  adding 'cantera/ck2yaml.py'
+  adding 'cantera/composite.py'
+  adding 'cantera/cti2yaml.py'
+  adding 'cantera/ctml2yaml.py'
+  adding 'cantera/ctml_writer.py'
+  adding 'cantera/interrupts.py'
+  adding 'cantera/liquidvapor.py'
+  adding 'cantera/onedim.py'
+  adding 'cantera/utils.py'
+  adding 'cantera/data/KOH.cti'
+  adding 'cantera/data/KOH.xml'
+  adding 'cantera/data/KOH.yaml'
+  adding 'cantera/data/__init__.py'
+  adding 'cantera/data/air.cti'
+  adding 'cantera/data/air.xml'
+  adding 'cantera/data/air.yaml'
+  adding 'cantera/data/airNASA9.cti'
+  adding 'cantera/data/airNASA9.xml'
+  adding 'cantera/data/airNASA9.yaml'
+  adding 'cantera/data/argon.cti'
+  adding 'cantera/data/argon.xml'
+  adding 'cantera/data/critical-properties.yaml'
+  adding 'cantera/data/diamond.cti'
+  adding 'cantera/data/diamond.xml'
+  adding 'cantera/data/diamond.yaml'
+  adding 'cantera/data/element-standard-entropies.yaml'
+  adding 'cantera/data/elements.xml'
+  adding 'cantera/data/graphite.cti'
+  adding 'cantera/data/graphite.xml'
+  adding 'cantera/data/graphite.yaml'
+  adding 'cantera/data/gri30.cti'
+  adding 'cantera/data/gri30.xml'
+  adding 'cantera/data/gri30.yaml'
+  adding 'cantera/data/gri30_highT.cti'
+  adding 'cantera/data/gri30_highT.xml'
+  adding 'cantera/data/gri30_highT.yaml'
+  adding 'cantera/data/gri30_ion.cti'
+  adding 'cantera/data/gri30_ion.xml'
+  adding 'cantera/data/gri30_ion.yaml'
+  adding 'cantera/data/h2o2.cti'
+  adding 'cantera/data/h2o2.xml'
+  adding 'cantera/data/h2o2.yaml'
+  adding 'cantera/data/liquidvapor.cti'
+  adding 'cantera/data/liquidvapor.xml'
+  adding 'cantera/data/liquidvapor.yaml'
+  adding 'cantera/data/lithium_ion_battery.cti'
+  adding 'cantera/data/lithium_ion_battery.xml'
+  adding 'cantera/data/lithium_ion_battery.yaml'
+  adding 'cantera/data/methane_pox_on_pt.cti'
+  adding 'cantera/data/methane_pox_on_pt.xml'
+  adding 'cantera/data/methane_pox_on_pt.yaml'
+  adding 'cantera/data/nDodecane_Reitz.cti'
+  adding 'cantera/data/nDodecane_Reitz.xml'
+  adding 'cantera/data/nDodecane_Reitz.yaml'
+  adding 'cantera/data/nasa.cti'
+  adding 'cantera/data/nasa.xml'
+  adding 'cantera/data/nasa_condensed.cti'
+  adding 'cantera/data/nasa_condensed.xml'
+  adding 'cantera/data/nasa_condensed.yaml'
+  adding 'cantera/data/nasa_gas.cti'
+  adding 'cantera/data/nasa_gas.xml'
+  adding 'cantera/data/nasa_gas.yaml'
+  adding 'cantera/data/ohn.cti'
+  adding 'cantera/data/ohn.xml'
+  adding 'cantera/data/ohn.yaml'
+  adding 'cantera/data/ptcombust.cti'
+  adding 'cantera/data/ptcombust.xml'
+  adding 'cantera/data/ptcombust.yaml'
+  adding 'cantera/data/silane.cti'
+  adding 'cantera/data/silane.xml'
+  adding 'cantera/data/silane.yaml'
+  adding 'cantera/data/silicon.cti'
+  adding 'cantera/data/silicon.xml'
+  adding 'cantera/data/silicon.yaml'
+  adding 'cantera/data/silicon_carbide.cti'
+  adding 'cantera/data/silicon_carbide.xml'
+  adding 'cantera/data/silicon_carbide.yaml'
+  adding 'cantera/data/sofc.cti'
+  adding 'cantera/data/sofc.xml'
+  adding 'cantera/data/sofc.yaml'
+  adding 'cantera/data/water.cti'
+  adding 'cantera/data/water.xml'
+  adding 'cantera/data/water.yaml'
+  adding 'cantera/examples/__init__.py'
+  adding 'cantera/examples/kinetics/blowers_masel.py'
+  adding 'cantera/examples/kinetics/custom_reactions.py'
+  adding 'cantera/examples/kinetics/extract_submechanism.py'
+  adding 'cantera/examples/kinetics/mechanism_reduction.py'
+  adding 'cantera/examples/kinetics/reaction_path.py'
+  adding 'cantera/examples/multiphase/adiabatic.py'
+  adding 'cantera/examples/multiphase/plasma_equilibrium.py'
+  adding 'cantera/examples/onedim/adiabatic_flame.py'
+  adding 'cantera/examples/onedim/burner_flame.py'
+  adding 'cantera/examples/onedim/diffusion_flame.py'
+  adding 'cantera/examples/onedim/diffusion_flame_batch.py'
+  adding 'cantera/examples/onedim/diffusion_flame_extinction.py'
+  adding 'cantera/examples/onedim/flame_fixed_T.py'
+  adding 'cantera/examples/onedim/flamespeed_sensitivity.py'
+  adding 'cantera/examples/onedim/ion_burner_flame.py'
+  adding 'cantera/examples/onedim/ion_free_flame.py'
+  adding 'cantera/examples/onedim/premixed_counterflow_flame.py'
+  adding 'cantera/examples/onedim/premixed_counterflow_twin_flame.py'
+  adding 'cantera/examples/onedim/stagnation_flame.py'
+  adding 'cantera/examples/onedim/tdata.dat'
+  adding 'cantera/examples/reactors/NonIdealShockTube.py'
+  adding 'cantera/examples/reactors/combustor.py'
+  adding 'cantera/examples/reactors/custom.py'
+  adding 'cantera/examples/reactors/custom2.py'
+  adding 'cantera/examples/reactors/fuel_injection.py'
+  adding 'cantera/examples/reactors/ic_engine.py'
+  adding 'cantera/examples/reactors/mix1.py'
+  adding 'cantera/examples/reactors/periodic_cstr.py'
+  adding 'cantera/examples/reactors/pfr.py'
+  adding 'cantera/examples/reactors/piston.py'
+  adding 'cantera/examples/reactors/reactor1.py'
+  adding 'cantera/examples/reactors/reactor2.py'
+  adding 'cantera/examples/reactors/sensitivity1.py'
+  adding 'cantera/examples/reactors/surf_pfr.py'
+  adding 'cantera/examples/surface_chemistry/catalytic_combustion.py'
+  adding 'cantera/examples/surface_chemistry/diamond_cvd.py'
+  adding 'cantera/examples/surface_chemistry/lithium_ion_battery.py'
+  adding 'cantera/examples/surface_chemistry/sofc.py'
+  adding 'cantera/examples/thermo/critical_properties.py'
+  adding 'cantera/examples/thermo/equivalenceRatio.py'
+  adding 'cantera/examples/thermo/isentropic.py'
+  adding 'cantera/examples/thermo/mixing.py'
+  adding 'cantera/examples/thermo/rankine.py'
+  adding 'cantera/examples/thermo/sound_speed.py'
+  adding 'cantera/examples/thermo/vapordome.py'
+  adding 'cantera/examples/transport/dusty_gas.py'
+  adding 'cantera/examples/transport/multiprocessing_viscosity.py'
+  adding 'cantera/test/__init__.py'
+  adding 'cantera/test/test_composite.py'
+  adding 'cantera/test/test_convert.py'
+  adding 'cantera/test/test_equilibrium.py'
+  adding 'cantera/test/test_func1.py'
+  adding 'cantera/test/test_jacobian.py'
+  adding 'cantera/test/test_kinetics.py'
+  adding 'cantera/test/test_mixture.py'
+  adding 'cantera/test/test_onedim.py'
+  adding 'cantera/test/test_purefluid.py'
+  adding 'cantera/test/test_reaction.py'
+  adding 'cantera/test/test_reactor.py'
+  adding 'cantera/test/test_thermo.py'
+  adding 'cantera/test/test_transport.py'
+  adding 'cantera/test/test_utils.py'
+  adding 'cantera/test/utilities.py'
+  adding 'cantera/test/data/BinarySolutionTabulatedThermo.yaml'
+  adding 'cantera/test/data/CombustorTest-integrateWithAdvance.csv'
+  adding 'cantera/test/data/CounterflowPremixedFlame-h2-mix.csv'
+  adding 'cantera/test/data/DiffusionFlameTest-h2-auto.csv'
+  adding 'cantera/test/data/DiffusionFlameTest-h2-mix-rad.csv'
+  adding 'cantera/test/data/DiffusionFlameTest-h2-mix.csv'
+  adding 'cantera/test/data/ET_test.yaml'
+  adding 'cantera/test/data/HMW_NaCl.yaml'
+  adding 'cantera/test/data/HMW_NaCl_sp1977_alt.xml'
+  adding 'cantera/test/data/HMW_NaCl_sp1977_alt.yaml'
+  adding 'cantera/test/data/IdealMolalSolnPhaseExample.xml'
+  adding 'cantera/test/data/IdealMolalSolnPhaseExample.yaml'
+  adding 'cantera/test/data/IdealSolidSolnPhaseExample.xml'
+  adding 'cantera/test/data/IdealSolidSolnPhaseExample.yaml'
+  adding 'cantera/test/data/Li7Si3_ls.xml'
+  adding 'cantera/test/data/Li7Si3_ls.yaml'
+  adding 'cantera/test/data/LiKCl_liquid.xml'
+  adding 'cantera/test/data/LiKCl_liquid.yaml'
+  adding 'cantera/test/data/Li_Liquid.xml'
+  adding 'cantera/test/data/Li_Liquid.yaml'
+  adding 'cantera/test/data/MaskellSolidSolnPhase_nohmix.yaml'
+  adding 'cantera/test/data/MaskellSolidSolnPhase_valid.xml'
+  adding 'cantera/test/data/MaskellSolidSolnPhase_valid.yaml'
+  adding 'cantera/test/data/NaCl_Solid.xml'
+  adding 'cantera/test/data/NaCl_Solid.yaml'
+  adding 'cantera/test/data/RedlichKisterVPSSTP_valid.xml'
+  adding 'cantera/test/data/RedlichKisterVPSSTP_valid.yaml'
+  adding 'cantera/test/data/WallKinetics-coverages-regression1.csv'
+  adding 'cantera/test/data/WallKinetics-coverages-regression2.csv'
+  adding 'cantera/test/data/WallTest-integrateWithAdvance.csv'
+  adding 'cantera/test/data/__init__.py'
+  adding 'cantera/test/data/addReactions_err_test.yaml'
+  adding 'cantera/test/data/air-no-reactions.cti'
+  adding 'cantera/test/data/air-no-reactions.xml'
+  adding 'cantera/test/data/air-no-reactions.yaml'
+  adding 'cantera/test/data/bad-troe.inp'
+  adding 'cantera/test/data/big_element_num_err.inp'
+  adding 'cantera/test/data/blank_line_in_header.inp'
+  adding 'cantera/test/data/blowers-masel.yaml'
+  adding 'cantera/test/data/ch4_ion.cti'
+  adding 'cantera/test/data/ch4_ion.xml'
+  adding 'cantera/test/data/ch4_ion.yaml'
+  adding 'cantera/test/data/chemically-activated-reaction.inp'
+  adding 'cantera/test/data/chemically-activated-reaction.xml'
+  adding 'cantera/test/data/chemically-activated-reaction.yaml'
+  adding 'cantera/test/data/co2_PR_example.yaml'
+  adding 'cantera/test/data/co2_RK_example.cti'
+  adding 'cantera/test/data/co2_RK_example.xml'
+  adding 'cantera/test/data/co2_RK_example.yaml'
+  adding 'cantera/test/data/co2_RK_lookup.yaml'
+  adding 'cantera/test/data/custom-elements.inp'
+  adding 'cantera/test/data/debye-huckel-all.xml'
+  adding 'cantera/test/data/debye-huckel-all.yaml'
+  adding 'cantera/test/data/diamond_cvd.csv'
+  adding 'cantera/test/data/dummy-thermo.dat'
+  adding 'cantera/test/data/duplicate-reactionData-ids.xml'
+  adding 'cantera/test/data/duplicate-reactions.yaml'
+  adding 'cantera/test/data/duplicate-species.inp'
+  adding 'cantera/test/data/duplicate-speciesData-ids.xml'
+  adding 'cantera/test/data/duplicate-thermo.inp'
+  adding 'cantera/test/data/equilibrium.yaml'
+  adding 'cantera/test/data/explicit-forward-order.inp'
+  adding 'cantera/test/data/explicit-forward-order.xml'
+  adding 'cantera/test/data/explicit-forward-order.yaml'
+  adding 'cantera/test/data/explicit-reverse-rate.inp'
+  adding 'cantera/test/data/explicit-reverse-rate.xml'
+  adding 'cantera/test/data/explicit-reverse-rate.yaml'
+  adding 'cantera/test/data/explicit-third-bodies.inp'
+  adding 'cantera/test/data/explicit-third-bodies.xml'
+  adding 'cantera/test/data/explicit-third-bodies.yaml'
+  adding 'cantera/test/data/extra.yaml'
+  adding 'cantera/test/data/float-stoich.inp'
+  adding 'cantera/test/data/frac.cti'
+  adding 'cantera/test/data/frac.xml'
+  adding 'cantera/test/data/frac.yaml'
+  adding 'cantera/test/data/gas-carbon-equil.csv'
+  adding 'cantera/test/data/gasNASA9.yaml'
+  adding 'cantera/test/data/gri30.inp'
+  adding 'cantera/test/data/gri30_thermo.dat'
+  adding 'cantera/test/data/gri30_tran.dat'
+  adding 'cantera/test/data/h2o2-bad-geometry-tran.dat'
+  adding 'cantera/test/data/h2o2-duplicate-species-tran.dat'
+  adding 'cantera/test/data/h2o2-extra-column-entries-tran.dat'
+  adding 'cantera/test/data/h2o2-float-geometry-tran.dat'
+  adding 'cantera/test/data/h2o2-missing-species-tran.dat'
+  adding 'cantera/test/data/h2o2-plus.yaml'
+  adding 'cantera/test/data/h2o2.inp'
+  adding 'cantera/test/data/h2o2_emptyReactions.inp'
+  adding 'cantera/test/data/h2o2_missingElement.inp'
+  adding 'cantera/test/data/h2o2_missingThermo.inp'
+  adding 'cantera/test/data/h2o2_unbalancedReaction.xml'
+  adding 'cantera/test/data/haca2.cti'
+  adding 'cantera/test/data/haca2.yaml'
+  adding 'cantera/test/data/ideal-gas.yaml'
+  adding 'cantera/test/data/invalid-equation.inp'
+  adding 'cantera/test/data/invalid.cti'
+  adding 'cantera/test/data/jacobian-tests.yaml'
+  adding 'cantera/test/data/kineticsfromscratch.yaml'
+  adding 'cantera/test/data/koh-equil-HP.csv'
+  adding 'cantera/test/data/koh-equil-TP.csv'
+  adding 'cantera/test/data/liquid-water.xml'
+  adding 'cantera/test/data/liquid-water.yaml'
+  adding 'cantera/test/data/lithium-ion-battery-test.csv'
+  adding 'cantera/test/data/mock_ion.xml'
+  adding 'cantera/test/data/mock_ion.yaml'
+  adding 'cantera/test/data/nasa9-test-subset.inp'
+  adding 'cantera/test/data/nasa9-test-subset.xml'
+  adding 'cantera/test/data/nasa9-test-subset.yaml'
+  adding 'cantera/test/data/nasa9-test-therm.dat'
+  adding 'cantera/test/data/nasa9-test.inp'
+  adding 'cantera/test/data/nasa9-test.xml'
+  adding 'cantera/test/data/nasa9-test.yaml'
+  adding 'cantera/test/data/negative-order.inp'
+  adding 'cantera/test/data/negative-order.yaml'
+  adding 'cantera/test/data/negative-rate.inp'
+  adding 'cantera/test/data/noninteger-atomicity.cti'
+  adding 'cantera/test/data/noxNeg.cti'
+  adding 'cantera/test/data/noxNeg.xml'
+  adding 'cantera/test/data/noxNeg.yaml'
+  adding 'cantera/test/data/oxygen-plasma.yaml'
+  adding 'cantera/test/data/pdep-test.cti'
+  adding 'cantera/test/data/pdep-test.inp'
+  adding 'cantera/test/data/pdep-test.xml'
+  adding 'cantera/test/data/pdep-test.yaml'
+  adding 'cantera/test/data/pdss_hkft.xml'
+  adding 'cantera/test/data/pdss_hkft.yaml'
+  adding 'cantera/test/data/phase-reaction-spec1.yaml'
+  adding 'cantera/test/data/phase-reaction-spec2.yaml'
+  adding 'cantera/test/data/photo-reaction.inp'
+  adding 'cantera/test/data/photo-reaction.yaml'
+  adding 'cantera/test/data/ptcombust-motzwise.cti'
+  adding 'cantera/test/data/ptcombust-motzwise.xml'
+  adding 'cantera/test/data/ptcombust-motzwise.yaml'
+  adding 'cantera/test/data/ptcombust-simple.yaml'
+  adding 'cantera/test/data/reaction-orders.cti'
+  adding 'cantera/test/data/reaction-orders.xml'
+  adding 'cantera/test/data/reaction-orders.yaml'
+  adding 'cantera/test/data/simplephases.yaml'
+  adding 'cantera/test/data/sofc-test.csv'
+  adding 'cantera/test/data/sofc2.yaml'
+  adding 'cantera/test/data/soot-therm.dat'
+  adding 'cantera/test/data/soot.inp'
+  adding 'cantera/test/data/soot.yaml'
+  adding 'cantera/test/data/species-names.inp'
+  adding 'cantera/test/data/species-names.xml'
+  adding 'cantera/test/data/species-names.yaml'
+  adding 'cantera/test/data/sri-falloff.inp'
+  adding 'cantera/test/data/sri-falloff.xml'
+  adding 'cantera/test/data/sri-falloff.yaml'
+  adding 'cantera/test/data/sri_convert_test.txt'
+  adding 'cantera/test/data/steam-reforming.yaml'
+  adding 'cantera/test/data/sticking_coeff_check.yaml'
+  adding 'cantera/test/data/surface-phases.yaml'
+  adding 'cantera/test/data/surface1-gas-noreac.inp'
+  adding 'cantera/test/data/surface1-gas.inp'
+  adding 'cantera/test/data/surface1.inp'
+  adding 'cantera/test/data/thermo-models.yaml'
+  adding 'cantera/test/data/thermo_single_Tint.dat'
+  adding 'cantera/test/data/third_body_plus_falloff_reaction.inp'
+  adding 'cantera/test/data/transport_models_test.xml'
+  adding 'cantera/test/data/transport_models_test.yaml'
+  adding 'cantera/test/data/tsang-falloff.yaml'
+  adding 'cantera/test/data/undeclared-duplicate-reactions.inp'
+  adding 'cantera/test/data/units-custom.inp'
+  adding 'cantera/test/data/units-default.inp'
+  adding 'cantera/test/data/unrecognized-section.inp'
+  adding 'cantera/test/data/unterminated-sections.inp'
+  adding 'cantera/test/data/unterminated-sections2.inp'
+  adding 'cantera/test/data/with-transport.inp'
+  adding 'cantera/test/data/test_subdir/species-elements.yaml'
+  adding 'Cantera-2.6.0.dist-info/LICENSE.txt'
+  adding 'Cantera-2.6.0.dist-info/METADATA'
+  adding 'Cantera-2.6.0.dist-info/WHEEL'
+  adding 'Cantera-2.6.0.dist-info/entry_points.txt'
+  adding 'Cantera-2.6.0.dist-info/top_level.txt'
+  adding 'Cantera-2.6.0.dist-info/RECORD'
+  removing build/bdist.linux-aarch64/wheel
+  Building wheel for Cantera (pyproject.toml): finished with status 'done'
+  Created wheel for Cantera: filename=Cantera-2.6.0-cp39-cp39-linux_aarch64.whl size=5206760 sha256=aacd89737d3628eb27f4b47ced1ff530d3a07e9485e67ea03aa5147509f58bac
+  Stored in directory: /data/data/com.termux/files/home/.cache/pip/wheels/65/e8/79/f48d3524a084a8a430c898d2c65a75bea94990905261d4c4a6
+Successfully built Cantera
+Installing collected packages: Cantera
+  Attempting uninstall: Cantera
+    Found existing installation: Cantera 2.6.0
+    Uninstalling Cantera-2.6.0:
+      Removing file or directory /data/data/com.termux/files/usr/bin/ck2cti
+      Removing file or directory /data/data/com.termux/files/usr/bin/ck2yaml
+      Removing file or directory /data/data/com.termux/files/usr/bin/cti2yaml
+      Removing file or directory /data/data/com.termux/files/usr/bin/ctml2yaml
+      Removing file or directory /data/data/com.termux/files/usr/bin/ctml_writer
+      Removing file or directory /data/data/com.termux/files/usr/lib/python3.9/site-packages/Cantera-2.6.0.dist-info/
+      Removing file or directory /data/data/com.termux/files/usr/lib/python3.9/site-packages/cantera/
+      Successfully uninstalled Cantera-2.6.0
+  changing mode of /data/data/com.termux/files/usr/bin/ck2cti to 755
+  changing mode of /data/data/com.termux/files/usr/bin/ck2yaml to 755
+  changing mode of /data/data/com.termux/files/usr/bin/cti2yaml to 755
+  changing mode of /data/data/com.termux/files/usr/bin/ctml2yaml to 755
+  changing mode of /data/data/com.termux/files/usr/bin/ctml_writer to 755
+Successfully installed Cantera-2.6.0
