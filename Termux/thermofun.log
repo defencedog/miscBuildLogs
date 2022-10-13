@@ -1,0 +1,199 @@
+cmake .. -DPYTHON_EXECUTABLE=/data/data/com.termux/files/usr/bin/python3.9 -DCMAKE_INSTALL_PREFIX=/data/data/com.termux/files/usr
+-- CCache: Could not find ccache. Install it to speed up similar build operations.
+-- The CXX compiler identification is Clang 14.0.6
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /data/data/com.termux/files/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /data/data/com.termux/files/usr/bin/python3.9 (found suitable version "3.9.13", minimum required is "3.6")
+-- Found PythonLibs: /data/data/com.termux/files/usr/lib/libpython3.9.so
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Performing Test HAS_FLTO_THIN
+-- Performing Test HAS_FLTO_THIN - Success
+-- Found pybind11: /data/data/com.termux/files/usr/include (found version "2.10.0")
+-- Found pybind11 v2.10.0: /data/data/com.termux/files/usr/include;/data/data/com.termux/files/usr/include/python3.9
+-- Found nlohmann_json: /data/data/com.termux/files/usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.2")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /data/data/com.termux/files/home/thermofun/build
+
+[  1%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Batch/OutputBatch.cpp.o
+[  4%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Common/Exception.cpp.o
+[  4%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Batch/ThermoBatch.cpp.o
+[  5%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Common/ParseJsonToData.cpp.o
+[  7%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Common/ThermoOmp.cpp.o
+[  8%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Common/Units.cpp.o
+[ 10%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Common/OutputToCSV.cpp.o
+[ 11%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Common/OutputWaterSteamConventionProp.cpp.o
+[ 13%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Database.cpp.o
+[ 14%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/ElectroModelsSolvent.cpp.o
+[ 16%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Element.cpp.o
+[ 17%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/GlobalFunctions.cpp.o
+[ 19%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Reaction.cpp.o
+[ 20%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Reactions/DolejsManning2010.cpp.o
+[ 22%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Reactions/FrantzMarshall.cpp.o
+[ 23%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Reactions/LogK_function_of_T.cpp.o
+[ 25%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Reactions/RyzhenkoBryzgalyn.cpp.o
+[ 26%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Reactions/Volume_function_of_T.cpp.o
+[ 27%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substance.cpp.o
+[ 29%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/EmpiricalCpIntegration.cpp.o
+[ 30%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Gases/GasCGF.cpp.o
+[ 32%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Gases/GasCORK.cpp.o
+[ 33%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Gases/GasPR78.cpp.o
+[ 35%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Gases/GasPRSV.cpp.o
+[ 36%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Gases/GasSRK.cpp.o
+[ 38%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Gases/GasSTP.cpp.o
+[ 39%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Gases/s_solmod2_.cpp.o
+[ 41%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Gases/s_solmod_.cpp.o
+[ 42%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solids/SolidBMGottschalk.cpp.o
+[ 44%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solids/SolidBerman88.cpp.o
+[ 45%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solids/SolidHPLandau.cpp.o
+[ 47%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solids/SolidMurnaghanHP98.cpp.o
+[ 48%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solute/SoluteADgems.cpp.o
+[ 50%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solute/SoluteAnderson91.cpp.o
+[ 51%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solute/SoluteHKFgems.cpp.o
+[ 52%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solute/SoluteHKFreaktoro.cpp.o
+[ 54%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solute/SoluteHollandPowell98.cpp.o
+[ 55%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/Reaktoro/WaterElectroStateJohnsonNorton.cpp.o
+[ 57%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/Reaktoro/WaterHelmholtzStateHGK.cpp.o
+[ 58%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/Reaktoro/WaterHelmholtzStateWagnerPruss.cpp.o
+[ 60%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/Reaktoro/WaterThermoStateUtils.cpp.o
+[ 61%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/Reaktoro/WaterUtils.cpp.o
+[ 63%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/WaterElectroFernandez1997.cpp.o
+[ 64%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/WaterElectroSverjensky2014.cpp.o
+[ 66%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/WaterHGK-JNgems.cpp.o
+[ 67%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/WaterHGKreaktoro.cpp.o
+[ 69%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/WaterIdealGasWolley.cpp.o
+[ 70%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/WaterJN91reaktoro.cpp.o
+[ 72%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/WaterWP95reaktoro.cpp.o
+[ 73%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/Solvent/WaterZhangDuan2005.cpp.o
+[ 75%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/Substances/StandardEntropyCpIntegration.cpp.o
+[ 76%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/ThermoEngine.cpp.o
+[ 77%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/ThermoModelsReaction.cpp.o
+[ 79%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/ThermoModelsSolvent.cpp.o
+[ 80%] Building CXX object ThermoFun/CMakeFiles/ThermoFun.dir/ThermoModelsSubstance.cpp.o
+[ 82%] Linking CXX shared library libThermoFun.so
+[ 82%] Built target ThermoFun
+[ 83%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/Batch/pyOutputBatch.cpp.o
+[ 85%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/PyThermoFun.cpp.o
+[ 88%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/pyDatabase.cpp.o
+[ 86%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/Batch/pyThermoBatch.cpp.o
+[ 89%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/pySubstance.cpp.o
+[ 91%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/Common/pyThermoScalar.cpp.o
+[ 92%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/pyElement.cpp.o
+[ 94%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/pyReaction.cpp.o
+[ 95%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/pyThermoEngine.cpp.o
+[ 97%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/pyThermoParameters.cpp.o
+[ 98%] Building CXX object python/pyThermoFun/CMakeFiles/PyThermoFun.dir/pyThermoProperties.cpp.o
+[100%] Linking CXX shared module PyThermoFun.cpython-39.so
+[100%] Built target PyThermoFun
+[100%] Built target thermofun
+
+Consolidate compiler generated dependencies of target ThermoFun
+[ 82%] Built target ThermoFun
+Consolidate compiler generated dependencies of target PyThermoFun
+[100%] Built target PyThermoFun
+[100%] Built target thermofun
+Install the project...
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /data/data/com.termux/files/usr/lib/cmake/ThermoFun/ThermoFunTargets.cmake
+-- Installing: /data/data/com.termux/files/usr/lib/cmake/ThermoFun/ThermoFunTargets-relwithdebinfo.cmake
+-- Installing: /data/data/com.termux/files/usr/lib/cmake/ThermoFun/ThermoFunConfig.cmake
+-- Installing: /data/data/com.termux/files/usr/lib/cmake/ThermoFun/ThermoFunConfigVersion.cmake
+-- Installing: /data/data/com.termux/files/usr/lib/libThermoFun.so
+-- Set runtime path of "/data/data/com.termux/files/usr/lib/libThermoFun.so" to ""
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Batch
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Batch/OutputBatch.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Batch/ThermoBatch.h
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Common
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Common/Exception.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Common/OutputToCSV.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Common/OutputWaterSteamConventionProp.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Common/ParseJsonToData.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Common/ScalarTypes.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Common/ThermoOmp.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Common/ThermoScalar.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Common/Units.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Database.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/ElectroModelsSolvent.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Element.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/GlobalVariables.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/OptimizationUtils.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Reaction.h
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Reactions
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Reactions/DolejsManning2010.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Reactions/FrantzMarshall.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Reactions/LogK_function_of_T.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Reactions/RyzhenkoBryzgalyn.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Reactions/Volume_function_of_T.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substance.h
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Substances
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/EmpiricalCpIntegration.h
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases/GasCGF.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases/GasCORK.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases/GasPR78.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases/GasPRSV.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases/GasSRK.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases/GasSTP.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases/s_solmod_.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Gases/verror.h
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solids
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solids/SolidBMGottschalk.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solids/SolidBerman88.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solids/SolidHPLandau.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solids/SolidMurnaghanHP98.h
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solute
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solute/SoluteADgems.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solute/SoluteAnderson91.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solute/SoluteHKFgems.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solute/SoluteHKFreaktoro.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solute/SoluteHollandPowell98.h
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent
+-- Up-to-date: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterConstants.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterElectroState.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterElectroStateJohnsonNorton.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterHelmholtzState.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterHelmholtzStateHGK.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterHelmholtzStateWagnerPruss.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterThermoState.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterThermoStateUtils.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/Reaktoro/WaterUtils.hpp
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/WaterElectroFernandez1997.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/WaterElectroSverjensky2014.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/WaterHGK-JNgems.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/WaterHGKreaktoro.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/WaterIdealGasWolley.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/WaterJN91reaktoro.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/WaterWP95reaktoro.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/Solvent/WaterZhangDuan2005.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/Substances/StandardEntropyCpIntegration.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/ThermoEngine.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/ThermoFun.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/ThermoModelsReaction.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/ThermoModelsSolvent.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/ThermoModelsSubstance.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/ThermoParameters.h
+-- Installing: /data/data/com.termux/files/usr/include/ThermoFun/ThermoProperties.h
+
+running install
+running build
+running build_py
+running install_lib
+copying build/lib/thermofun/__init__.py -> /data/data/com.termux/files/usr/lib/python3.9/site-packages/thermofun
+copying build/lib/thermofun/PyThermoFun.cpython-39.so -> /data/data/com.termux/files/usr/lib/python3.9/site-packages/thermofun
+byte-compiling /data/data/com.termux/files/usr/lib/python3.9/site-packages/thermofun/__init__.py to __init__.cpython-39.pyc
+running install_egg_info
+Removing /data/data/com.termux/files/usr/lib/python3.9/site-packages/thermofun-0.4.0-py3.9.egg-info
+Writing /data/data/com.termux/files/usr/lib/python3.9/site-packages/thermofun-0.4.0-py3.9.egg-info
